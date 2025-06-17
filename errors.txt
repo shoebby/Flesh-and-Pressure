@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/0_intro.rpy", line 32: expected '=' not found.
+    image speaker girl horny1 at portrait onlayer ontop
+                              ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Wed Jun 18 01:00:48 2025

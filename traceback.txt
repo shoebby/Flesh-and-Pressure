@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/0_intro.rpy", line 32, in script
+    show speaker girl horny1 ontop at portrait
+Exception: Image 'speaker girl horny1' does not accept attributes 'ontop'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/0_intro.rpy", line 32, in script
+    show speaker girl horny1 ontop at portrait
+  File "E:\Renpy\renpy\ast.py", line 1124, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "E:\Renpy\renpy\ast.py", line 1087, in show_imspec
+    renpy.config.show(name,
+  File "E:\Renpy\renpy\exports\displayexports.py", line 477, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "E:\Renpy\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "E:\Renpy\renpy\display\displayable.py", line 249, in _duplicate
+    args.extraneous()
+  File "E:\Renpy\renpy\display\displayable.py", line 109, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'speaker girl horny1' does not accept attributes 'ontop'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.7.25031702
+Flesh and Pressure You_Must_Be_Hungry
+Wed Jun 18 00:50:53 2025
