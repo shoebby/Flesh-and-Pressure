@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/0_intro.rpy", line 32: expected '=' not found.
-    image speaker girl horny1 at portrait onlayer ontop
-                              ^
+File "game/script.rpy", line 201: choice expects a non-empty block.
+    choice:
+           ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed Jun 18 01:00:48 2025
+Wed Jun 18 23:56:41 2025

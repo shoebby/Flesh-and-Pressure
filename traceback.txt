@@ -1,30 +1,56 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/0_intro.rpy", line 32, in script
-    show speaker girl horny1 ontop at portrait
-Exception: Image 'speaker girl horny1' does not accept attributes 'ontop'.
+  File "game/script.rpy", line 128, in script
+    layeredimage bg:
+  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
+    rai.execute()
+  File "renpy/common/00layeredimage.rpy", line 803, in execute
+    l.extend(i.execute())
+  File "renpy/common/00layeredimage.rpy", line 292, in execute
+    rv.extend(i.execute(group=group, group_properties=properties))
+  File "renpy/common/00layeredimage.rpy", line 262, in execute
+    properties.update({ k : eval(v) for k, v in self.properties.items() })
+  File "renpy/common/00layeredimage.rpy", line 262, in <lambda>
+    properties.update({ k : eval(v) for k, v in self.properties.items() })
+  File "renpy/common/00layeredimage.rpy", line 262, in <dictcomp>
+    properties.update({ k : eval(v) for k, v in self.properties.items() })
+  File "game/script.rpy", line 150, in <module>
+    at scroll_scanlines
+NameError: name 'scroll_scanlines' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/0_intro.rpy", line 32, in script
-    show speaker girl horny1 ontop at portrait
-  File "E:\Renpy\renpy\ast.py", line 1124, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "E:\Renpy\renpy\ast.py", line 1087, in show_imspec
-    renpy.config.show(name,
-  File "E:\Renpy\renpy\exports\displayexports.py", line 477, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "E:\Renpy\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "E:\Renpy\renpy\display\displayable.py", line 249, in _duplicate
-    args.extraneous()
-  File "E:\Renpy\renpy\display\displayable.py", line 109, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'speaker girl horny1' does not accept attributes 'ontop'.
+  File "game/script.rpy", line 128, in script
+    layeredimage bg:
+  File "E:\Renpy\renpy\ast.py", line 1987, in execute
+    self.call("execute")
+  File "E:\Renpy\renpy\ast.py", line 1966, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "E:\Renpy\renpy\statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
+    rai.execute()
+  File "renpy/common/00layeredimage.rpy", line 803, in execute
+    l.extend(i.execute())
+  File "renpy/common/00layeredimage.rpy", line 292, in execute
+    rv.extend(i.execute(group=group, group_properties=properties))
+  File "renpy/common/00layeredimage.rpy", line 262, in execute
+    properties.update({ k : eval(v) for k, v in self.properties.items() })
+  File "renpy/common/00layeredimage.rpy", line 262, in <lambda>
+    properties.update({ k : eval(v) for k, v in self.properties.items() })
+  File "renpy/common/00layeredimage.rpy", line 262, in <dictcomp>
+    properties.update({ k : eval(v) for k, v in self.properties.items() })
+  File "E:\Renpy\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\Renpy\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 150, in <module>
+    at scroll_scanlines
+NameError: name 'scroll_scanlines' is not defined
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Flesh and Pressure You_Must_Be_Hungry
-Wed Jun 18 00:50:53 2025
+Wed Jun 18 19:01:51 2025

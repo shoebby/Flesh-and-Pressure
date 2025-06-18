@@ -5,29 +5,50 @@ label interview1:
     play music "hydrangeaBreath.mp3"
     scene office
     
-    show speaker girl std at portrait
+    show itske tank at portrait
 
     f_t "Her office is nice, albeit a bit cramped, and full of -stuff-."
     f_t "Pictures from work parties, toys, little trinkets..."
     f_t "A Groot Funko Pop? Yeugh..."
+
+    nvl clear
+
     f_t "I'm not sure if it's specifically her office or an office shared by multiple managers, but it definitely -feels- hers with how comfortable she is, reclining in her office chair like that..."
+    show itske stressed at portrait
     f_t "This rickety folding chair she pulled out for me makes me so small compared to herself, I have to look up at her."
     f_t "Thankfully she has a nice mole above her eyebrow for me to focus on instead of her eyes, otherwise my nerves would be through the roof."
+
+    nvl clear
+
     f_t "It's sweltering, she's wearing this nice baby blue blouse that suits her perfectly."
+    show itske nervous at portrait  
     f_t "I notice It fits her a bit too well..."
     f_t "Why did she have to unbutton the three top buttons..."
+    show itske edge at portrait
     f_t "Guhhh, stop drooling, I need to keep my mind straight."
+
+    nvl clear
+    show itske -edge at portrait
     f_t "This is business."
+
+    nvl clear
+
     f_t "Engaging Itske business mode."
+
+    nvl clear
+    
     f_t "I might be insanely stressed, and I might want to get the hell out of here as soon as possible, but oh my god if I don't get this job..."
-    f_t "Don't do something embarrassing, don't blow your chances, else I'm going to miss rent and I'll get kicked out and then I'll be homeless and someone will k-"
+
+    nvl clear
+    show itske stressed at portrait
+    f_t "Don't do something embarrassing, don't blow your chances, else I'm going to miss rent and I'll get kicked out and then I'll be homeless and someone will k-{nw}"
 
     nvl clear
 
     show speaker manager at portrait
     j "So! tell me [[EXPLETIVE], why did you choose to apply here?"
-    
-    show speaker girl std at portrait
+    hide speaker
+    show itske stressed at portrait
     f "A-ah! Yeah, well..."
     
     show speaker girl listening at portrait
@@ -81,8 +102,14 @@ label interview1:
             show speaker girl std at portrait
             f_t "Normal."
             f_t "Answer."
-            f_t "This is an interv-"
-            f "Well there's this indie comedy parody movie called The People's Joker and I guess it's technically not from this year but I did watch it this year I actually pre-ordered the Blu-ray and it was a story I really resonated with you see-"
+            f_t "This is an interv-{nw}"
+
+            nvl clear
+
+            f "Well there's this indie comedy parody movie called The People's Joker and I guess it's technically not from this year but I did watch it this year I actually pre-ordered the Blu-ray and it was a story I really resonated with you see-{nw}"
+
+            nvl clear
+
             f_t "Stop talking."
             f_t "Wrap it up."
             f_t "WRAP IT UP."

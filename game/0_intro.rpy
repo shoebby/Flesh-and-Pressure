@@ -1,8 +1,8 @@
 label start:
-    scene lift
+    scene bg
     play music "introthump.mp3" loop
     f_t "I hate my job."
-    f_t "It's boring, pays horribly, but atleast my coworkers are sweet."
+    f_t "It's boring, pays horribly, but at least my coworkers are sweet."
     f_t "They don't misgender me... intentionally... and usually get it right aside from a few unfortunate moments."
     f_t "It's probably the first job I've ever worked where I feel like I am 'part of the team'."
     f_t "Regardless of their kindness, however, I still feel out of place."
@@ -29,62 +29,62 @@ label start:
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "The crunching, cracking, and popping trash bags..."
-    show speaker girl horny1 at portrait
+    show itske flustered at portrait with dissolve
     f "..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "Familiar sounds, nights spent with heavy-handed people."
-    show speaker girl horny2 at portrait
+    show itske nervous at portrait
     f "W-what if..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "I get close to her body and push my groin up against her, feeling her machinal purr resonate through me."
     play sound2 "heavybreathing.mp3" loop
-    show speaker girl horny3 at portrait
+    show itske exerted at portrait
     f "So warm..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "It's a good task, my coworkers are thankful for my effort, I can never tell them how much she makes me feel."
-    show speaker girl horny1 at portrait
+    show itske flustered at portrait
     f "I n-need this..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "I imagine myself inside of this trash bin. Her disc looming over me, stuck, helpless, morbidly curious."
-    show speaker girl horny3 at portrait
+    show itske exerted at portrait
     f "P-please..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "An unknown pair of hands would take hold of her, and she'd start moving towards me; horror and lust sloshing around in my mind."
-    show speaker girl horny4 at portrait
+    show itske edge at portrait
     f "Hgnn..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "I would feel her cold metal touch press down on my spine, slowly taking away my breath."
-    show speaker girl horny3 at portrait
+    show itske exerted at portrait
     f "Haahh... F-fuck..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "My bones would strain, bend, creak, but inevitably prove unable to resist her."
-    show speaker girl horny2 at portrait
+    show itske nervous at portrait
     f "Goddd... Why is this so hot..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     #BONE-CRACK sfx
     play audio "ribscrush.mp3" volume 0.5
-    show speaker girl horny4 at portrait
+    show itske edge at portrait
     f_t "They would crack and splinter, driving themselves into my lungs, my heart, perforating my skin from the inside."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "I feel warm and cold, so much is happening while she just keeps moving. The pain would be unbearable if it wasn't for the adrenaline."
-    show speaker girl horny1 at portrait
+    show itske flustered at portrait
     f "I haven't felt this good in so long..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
-    show speaker girl horny3 at portrait
+    show itske exerted at portrait
     f_t "My body is broken, blood gushes from my mouth and nose, the pressure on my skull is rising."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
-    show speaker girl horny4 at portrait
+    show itske edge at portrait
     f_t "It hurts so much and feels so good, all she needs is a small extra push until..."
     #BONE-CRACK-WET sfx
     play audio "skullcrush.mp3" volume 0.5
@@ -93,12 +93,12 @@ label start:
     #HEAVY-BREATH and PRESSING sfx stops
     stop sound
     stop music
-    show speaker girl horny5 at portrait
+    show itske bust at portrait
     pause
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "I want her to crush me."
     stop sound2
-
+    show itske exerted at portrait
     f "Oh god my fucking pants-{nw}"
 
     nvl clear

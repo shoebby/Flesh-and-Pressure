@@ -6,3 +6,6 @@ https://taira-komori.jpn.org/playing01en.html
 
 Hydrangea Breath - Shimtone
 https://dova-s.jp/EN/bgm/play22244.html
+
+main body font :: Apple Garamond
+https://www.dafont.com/apple-garamond.font
