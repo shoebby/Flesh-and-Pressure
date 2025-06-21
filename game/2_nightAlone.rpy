@@ -220,4 +220,12 @@ label alone:
     f_t "Keeping the lights on, still shooting occasional glances at the door, eventually exhaustion overtakes me and I sleep a dreamless night."
 
     nvl clear
+    scene lock_ch2
+    play sound lock_lick1
+    scene lock_ch2_txt1 with Dissolve(1.0)
+    scene lock_ch2_txt2 with Dissolve(1.0)
+    scene lock_ch2_txt3 with Dissolve(1.5)
+    scene lock_ch2_txt4 with Dissolve(4.0)
+    pause
+    stop sound
     jump meeting

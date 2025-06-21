@@ -1,29 +1,25 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 128, in script
-    layeredimage bg:
+  File "game/script.rpy", line 874, in script
+    layeredimage bg office:
   File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
     rai.execute()
   File "renpy/common/00layeredimage.rpy", line 803, in execute
     l.extend(i.execute())
   File "renpy/common/00layeredimage.rpy", line 292, in execute
     rv.extend(i.execute(group=group, group_properties=properties))
-  File "renpy/common/00layeredimage.rpy", line 262, in execute
-    properties.update({ k : eval(v) for k, v in self.properties.items() })
-  File "renpy/common/00layeredimage.rpy", line 262, in <lambda>
-    properties.update({ k : eval(v) for k, v in self.properties.items() })
-  File "renpy/common/00layeredimage.rpy", line 262, in <dictcomp>
-    properties.update({ k : eval(v) for k, v in self.properties.items() })
-  File "game/script.rpy", line 150, in <module>
-    at scroll_scanlines
-NameError: name 'scroll_scanlines' is not defined
+  File "renpy/common/00layeredimage.rpy", line 256, in execute
+    image = eval(self.image)
+  File "game/script.rpy", line 887, in <module>
+    FlickerDown("office_g")
+NameError: name 'FlickerDown' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 128, in script
-    layeredimage bg:
+  File "game/script.rpy", line 874, in script
+    layeredimage bg office:
   File "E:\Renpy\renpy\ast.py", line 1987, in execute
     self.call("execute")
   File "E:\Renpy\renpy\ast.py", line 1966, in call
@@ -36,21 +32,17 @@ Full traceback:
     l.extend(i.execute())
   File "renpy/common/00layeredimage.rpy", line 292, in execute
     rv.extend(i.execute(group=group, group_properties=properties))
-  File "renpy/common/00layeredimage.rpy", line 262, in execute
-    properties.update({ k : eval(v) for k, v in self.properties.items() })
-  File "renpy/common/00layeredimage.rpy", line 262, in <lambda>
-    properties.update({ k : eval(v) for k, v in self.properties.items() })
-  File "renpy/common/00layeredimage.rpy", line 262, in <dictcomp>
-    properties.update({ k : eval(v) for k, v in self.properties.items() })
+  File "renpy/common/00layeredimage.rpy", line 256, in execute
+    image = eval(self.image)
   File "E:\Renpy\renpy\python.py", line 1218, in py_eval
     return py_eval_bytecode(code, globals, locals)
   File "E:\Renpy\renpy\python.py", line 1211, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 150, in <module>
-    at scroll_scanlines
-NameError: name 'scroll_scanlines' is not defined
+  File "game/script.rpy", line 887, in <module>
+    FlickerDown("office_g")
+NameError: name 'FlickerDown' is not defined
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Flesh and Pressure You_Must_Be_Hungry
-Wed Jun 18 19:01:51 2025
+Sat Jun 21 17:24:57 2025

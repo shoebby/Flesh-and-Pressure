@@ -200,7 +200,7 @@ label crushed:
 
     p "Is trash ready...?"
 
-    trash "T-trash is... is ready..."
+    f "T-trash is... is ready..."
 
     nvl clear
 

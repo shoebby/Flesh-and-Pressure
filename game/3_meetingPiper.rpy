@@ -122,9 +122,17 @@ label meeting:
 
     nvl clear
 
-    f_t "I shuffle away to the break room, her whirring and whining growing fainter with every set of doors I walk through."
+    f_t "I shuffle off back into the building, her whirring and whining growing fainter with every set of doors I pass through."
     f_t "I... Need to... think... about some stuff."
-    f_t "I'm glad there's no camera in the break room."
+    f_t "I'm glad there's no cameras in the break room."
 
     nvl clear
+    scene lock_ch3
+    play sound lock_lick1
+    scene lock_ch3_txt1 with Dissolve(1.0)
+    scene lock_ch3_txt4 with Dissolve(1.0)
+    scene lock_ch3_txt2 with Dissolve(1.5)
+    scene lock_ch3_txt3 with Dissolve(4.0)
+    pause
+    stop sound
     jump piss

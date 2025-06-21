@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 201: choice expects a non-empty block.
-    choice:
-           ^
+File "game/1_interview.rpy", line 6: expected '=' not found.
+    image bg office
+                   ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed Jun 18 23:56:41 2025
+Sat Jun 21 15:02:26 2025

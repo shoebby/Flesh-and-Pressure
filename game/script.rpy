@@ -1,124 +1,43 @@
-﻿define j = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #jenn
+﻿define j = Character("", kind=nvl, color="#ffffff", what_color="#dfff87", what_prefix="\"", what_suffix="\"") #jenn
 define f = Character("", kind=nvl, color="#ffffff", what_color="#ffb787", what_prefix="\"", what_suffix="\"") #Itske
 define f_t = Character("", kind=nvl, what_italic=True, what_color="#ff781f") #Itske mind-thoughts
-define p = Character("", kind=nvl, color="#ffffff", what_color="#1f88ff", what_prefix="\"", what_suffix="\"") #piper
-define m = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #mae
-define t = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #tom
-define c = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #cammy
-define d = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #date
-define d_t = Character("", kind=nvl, what_italic=True, what_color="#1fff97") #date mind-thoughts
-define mt = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #meat
-define piss = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #the pee on the floor
-define chud = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #chud customer
-define trash = Character("", kind=nvl, color="#ffffff", what_prefix="\"", what_suffix="\"") #trash
+define p = Character("", kind=nvl, color="#ffffff", what_color="#87a7ff", what_prefix="\"", what_suffix="\"") #piper
+define m = Character("", kind=nvl, color="#ffffff", what_color="#ff87d1", what_prefix="\"", what_suffix="\"") #mae
+define t = Character("", kind=nvl, color="#ffffff", what_color="#ff8787", what_prefix="\"", what_suffix="\"") #tom
+define c = Character("", kind=nvl, color="#ffffff", what_color="#c587ff", what_prefix="\"", what_suffix="\"") #cammy
+define d = Character("", kind=nvl, color="#ffffff", what_color="#87fbff", what_prefix="\"", what_suffix="\"") #date
+define d_t = Character("", kind=nvl, what_italic=True, what_color="#1ff8ff") #date mind-thoughts
+define mt = Character("", kind=nvl, color="#ffffff", what_color="#91ff87", what_prefix="\"", what_suffix="\"") #meat
+define piss = Character("", kind=nvl, color="#ffffff", what_color="#fff787", what_prefix="\"", what_suffix="\"") #the pee on the floor
+define chud = Character("", kind=nvl, color="#ffffff", what_color="#afafaf", what_prefix="\"", what_suffix="\"") #chud customer
 
-image speaker girl std = "girl/girl_standard.png"
-image speaker girl smile = "girl/girl_smile.png"
-image speaker girl listening = "girl/girl_listening.png"
-image speaker girl thinking = "girl/girl_thinking.png"
-image speaker girl horny1 = "girl/girl_flustered.png"
-image speaker girl horny2 = "girl/girl_excited.png"
-image speaker girl horny3 = "girl/girl_hotnbothered.png"
-image speaker girl horny4 = "girl/girl_edge.png"
-image speaker girl horny5 = "girl/girl_busted.png"
-
-image speaker manager = "others/manager.png"
-
-image f_nameplate:
-    'f_nameplate1'
+transform Nameplate(frame1, frame2, frame3, frame4):
+    frame1
     0.15
-    'f_nameplate2'
+    frame2
     0.15
     choice:
-        'f_nameplate3'
-        0.15
+        frame3
     choice:
-        'f_nameplate2'
-        0.15
-    choice:
-        'f_nameplate1'
-        0.15
-    choice:
-        'f_nameplate4'
-        0.15
-    'f_nameplate3'
+        frame1
     0.15
-    'f_nameplate4'
+    choice:
+        frame2
+    choice:
+        frame4
+    0.15
+    frame3
+    0.15
+    frame4
     0.15
     repeat
 
-image f_body_work:
-    'f_body_work1'
+transform Speaker(frame1, frame2, frame3):
+    frame1
     0.15
-    'f_body_work2'
+    frame2
     0.15
-    'f_body_work3'
-    0.15
-    repeat
-
-image f_body_tank:
-    'f_body_tank1'
-    0.15
-    'f_body_tank2'
-    0.15
-    'f_body_tank3'
-    0.15
-    repeat
-
-image f_exp_neutral:
-    'f_exp_neutral1'
-    0.15
-    'f_exp_neutral2'
-    0.15
-    'f_exp_neutral3'
-    0.15
-    repeat
-image f_exp_stressed:
-    'f_exp_stressed1'
-    0.15
-    'f_exp_stressed2'
-    0.15
-    'f_exp_stressed3'
-    0.15
-    repeat
-image f_exp_flustered:
-    'f_exp_flustered1'
-    0.15
-    'f_exp_flustered2'
-    0.15
-    'f_exp_flustered3'
-    0.15
-    repeat
-image f_exp_exerted:
-    'f_exp_exerted1'
-    0.15
-    'f_exp_exerted2'
-    0.15
-    'f_exp_exerted3'
-    0.15
-    repeat
-image f_exp_nervous:
-    'f_exp_nervous1'
-    0.15
-    'f_exp_nervous2'
-    0.15
-    'f_exp_nervous3'
-    0.15
-    repeat
-image f_exp_edge:
-    'f_exp_edge1'
-    0.15
-    'f_exp_edge2'
-    0.15
-    'f_exp_edge3'
-    0.15
-    repeat
-image f_exp_bust:
-    'f_exp_bust1'
-    0.15
-    'f_exp_bust2'
-    0.15
-    'f_exp_bust3'
+    frame3
     0.15
     repeat
 
@@ -128,25 +47,108 @@ transform portrait:
     xsize 150
     ysize 175
 
-transform scroll_scanlines:
-    ypos -1.5
+transform bgpos:
+    ypos 1.0
+
+#region Scanline Transforms
+
+transform scanlines_slight:
+    ypos 1.0
+    choice:
+        0.05
+    choice:
+        0.15
+    choice:
+        0.2
+    pause 0.05
+    choice:
+        ypos 0.95
+    choice:
+        ypos 0.96
+    choice:
+        ypos 0.97
+    choice:
+        ypos 1.0
+    choice:
+        ypos 0.8
+    choice:
+        0.05
+    choice:
+        0.15
+    choice:
+        0.2
+    pause 0.05
+    repeat
+
+transform scanlines_moderate:
+    ypos 1.0
     pause 0.1
     choice:
-        ypos -1.01
+        ypos 0.99
     choice:
-        ypos -1.05
+        ypos 0.95
     choice:
-        ypos -1.02
+        ypos 0.98
     choice:
-        ypos -1.98
+        ypos 0.5
+    choice:
+        ypos 0.35
+    choice:
+        ypos 0.6
     pause 0.1
     repeat
 
-transform flicker_left:
-    xpos 0.0
+transform scanlines_intense:
+    ypos 1.0
+    choice:
+        0.0
+    choice:
+        0.05
     choice:
         0.1
-        xpos -0.004
+    pause 0.1
+    choice:
+        ypos 0.1
+    choice:
+        ypos 0.2
+    choice:
+        ypos 0.3
+    choice:
+        ypos 0.4
+    choice:
+        ypos 0.5
+    choice:
+        ypos 0.6
+    choice:
+        ypos 0.7
+    choice:
+        ypos 0.8
+    choice:
+        ypos 0.9
+    choice:
+        ypos 0.95
+    choice:
+        ypos 1.0
+    pause 0.05
+    choice:
+        0.0
+    choice:
+        0.05
+    choice:
+        0.1
+    repeat
+
+#endregion
+
+#region Flicker Transforms
+
+transform FlickerRight(image):
+    ypos 1.0
+    image
+
+    choice:
+        0.1
+        xpos -0.003
     choice:
         0.2
         xpos -0.002
@@ -156,13 +158,62 @@ transform flicker_left:
     0.1
     choice:
         0.1
+        xpos -0.001
+    choice:
+        0.2
+        xpos -0.005
+    choice:
+        0.3
+        xpos -0.003
+    0.1
+    choice:
+        0.05
+        xpos -0.001
+    choice:
+        0.05
+        xpos -0.005
+    choice:
+        0.05
+        xpos -0.001
+    choice:
+        0.05
+        xpos -0.005
+    choice:
+        0.05
+        xpos 0.002
+    0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.05
+
+    repeat
+
+transform FlickerLeft(image):
+    ypos 1.0
+    image
+
+    choice:
+        0.1
+        xpos 0.003
+    choice:
+        0.2
+        xpos 0.002
+    choice:
+        0.3
+        xpos 0.001
+    0.1
+    choice:
+        0.1
         xpos 0.001
     choice:
         0.2
         xpos 0.005
     choice:
         0.3
-        xpos 0.02
+        xpos 0.003
     0.1
     choice:
         0.05
@@ -178,7 +229,7 @@ transform flicker_left:
         xpos 0.005
     choice:
         0.05
-        xpos 0.1
+        xpos 0.002
     0.1
     choice:
         0.1
@@ -186,10 +237,57 @@ transform flicker_left:
         0.1
     choice:
         0.05
+
     repeat
 
-transform flicker_up:
-    ypos 0.0
+transform FlickerUp_slight(image):
+    ypos 1.0
+    image
+
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.05
+    choice:
+        ypos 0.997
+        choice:
+            0.1
+        choice:
+            0.1
+        choice:
+            0.05
+    choice:
+        ypos 0.995
+        choice:
+            0.1
+        choice:
+            0.1
+        choice:
+            0.05
+    choice:
+        ypos 1.0
+        choice:
+            0.1
+        choice:
+            0.1
+        choice:
+            0.05
+    choice:
+        ypos 0.99
+        choice:
+            0.1
+        choice:
+            0.1
+        choice:
+            0.05
+    repeat
+
+transform FlickerUp_moderate(image):
+    ypos 1.0
+    image
+
     choice:
         0.4
     choice:
@@ -198,13 +296,13 @@ transform flicker_up:
         1.9
     0.1
     choice:
-        linear 6 ypos -0.2
+        linear 6 ypos 0.8
     choice:
-        ypos -0.03
+        ypos 0.97
     choice:
-        ypos 0.05
+        ypos 0.95
     0.2
-    ypos 0.0
+    ypos 1.0
     choice:
         0.4
     choice:
@@ -213,11 +311,11 @@ transform flicker_up:
         1.4
     0.1
     choice:
-        ypos -0.1
+        ypos 0.9
     choice:
-        ypos -0.05
+        ypos 0.95
     choice:
-        ypos 0.02
+        ypos 0.98
     0.1
     choice:
         0.4
@@ -227,141 +325,566 @@ transform flicker_up:
         1.4
     repeat
 
-transform flicker_down:
-    ypos 0.0
-    choice:
-        0.1
-    choice:
-        0.1
-    choice:
-        0.05
-    choice:
-        ypos -0.03
-        choice:
-            0.1
-        choice:
-            0.1
-        choice:
-            0.05
-    choice:
-        ypos -0.005
-        choice:
-            0.1
-        choice:
-            0.1
-        choice:
-            0.05
-    choice:
-        ypos 0.0
-        choice:
-            0.1
-        choice:
-            0.1
-        choice:
-            0.05
-    choice:
-        ypos -0.01
-        choice:
-            0.1
-        choice:
-            0.1
-        choice:
-            0.05
-    repeat
-
-image backyard_red:
-    "backyard_r"
-    flicker_left
-    
-image backyard_green:
-    "backyard_g"
-    flicker_down
-    
-image backyard_blue:
-    "backyard_b"
-    flicker_up
+#endregion
 
 image pulse_scanlines:
     "scanlines"
-    
-    alpha 1.0
+    alpha 0.6
     linear 3 alpha 0.2
-    linear 2  alpha 1.0
+    linear 2  alpha 0.6
 
     linear 0.05 alpha 0.1
     linear 0.05 alpha 1.0
 
     linear 0.2 alpha 0.1
-    linear 0.1 alpha 1.0
+    linear 0.1 alpha 0.6
 
     linear 3 alpha 0.2
-    linear 2  alpha 1.0
+    linear 2  alpha 0.6
 
     linear 3 alpha 0.2
-    linear 2  alpha 1.0
+    linear 2  alpha 0.6
     repeat
 
-image lift:
-    'lift1' with Dissolve(2.5)
-    3
-    'lift2' with Dissolve(2.5)
-    3
-    'lift3' with Dissolve(2.5)
-    3
+#region ITSKE
+
+image itske_showcase:
+    "f_exp_neutral1"
+    0.15
+    "f_exp_neutral2"
+    0.15
+    "f_exp_neutral3"
+    0.15
+
+    "f_exp_stressed1"
+    0.15
+    "f_exp_stressed2"
+    0.15
+    "f_exp_stressed3"
+    0.15
+
+    "f_exp_flustered1"
+    0.15
+    "f_exp_flustered2"
+    0.15
+    "f_exp_flustered3"
+    0.15
+
+    "f_exp_exerted1"
+    0.15
+    "f_exp_exerted2"
+    0.15
+    "f_exp_exerted3"
+    0.15
+
+    "f_exp_nervous1"
+    0.15
+    "f_exp_nervous2"
+    0.15
+    "f_exp_nervous3"
+    0.15
+
+    "f_exp_edge1"
+    0.15
+    "f_exp_edge2"
+    0.15
+    "f_exp_edge3"
+    0.15
+
+    "f_exp_bust1"
+    0.15
+    "f_exp_bust2"
+    0.15
+    "f_exp_bust3"
+    0.15
+
+    "f_exp_angry1"
+    0.15
+    "f_exp_angry2"
+    0.15
+    "f_exp_angry3"
+    0.15
+
+    "f_exp_enraged1"
+    0.15
+    "f_exp_enraged2"
+    0.15
+    "f_exp_enraged3"
+    0.15
+
+    "f_exp_yelling1"
+    0.15
+    "f_exp_yelling2"
+    0.15
+    "f_exp_yelling3"
+    0.15
+
+    "f_exp_annoyed1"
+    0.15
+    "f_exp_annoyed2"
+    0.15
+    "f_exp_annoyed3"
+    0.15
+
+    "f_exp_blehhh1"
+    0.15
+    "f_exp_blehhh2"
+    0.15
+    "f_exp_blehhh3"
+    0.15
+
+    "f_exp_heartbroken1"
+    0.15
+    "f_exp_heartbroken2"
+    0.15
+    "f_exp_heartbroken3"
+    0.15
+
+    "f_exp_sad1"
+    0.15
+    "f_exp_sad2"
+    0.15
+    "f_exp_sad3"
+    0.15
+
+    "f_exp_crying1"
+    0.15
+    "f_exp_crying2"
+    0.15
+    "f_exp_crying3"
+    0.15
+
+    "f_exp_bawling1"
+    0.15
+    "f_exp_bawling2"
+    0.15
+    "f_exp_bawling3"
+    0.15
+
+    "f_exp_disgust1"
+    0.15
+    "f_exp_disgust2"
+    0.15
+    "f_exp_disgust3"
+    0.15
+
+    "f_exp_tired1"
+    0.15
+    "f_exp_tired2"
+    0.15
+    "f_exp_tired3"
+    0.15
+
+    "f_exp_smug1"
+    0.15
+    "f_exp_smug2"
+    0.15
+    "f_exp_smug3"
+    0.15
+
+    "f_exp_smiling1"
+    0.15
+    "f_exp_smiling2"
+    0.15
+    "f_exp_smiling3"
+    0.15
+
+    "f_exp_forcedsmile1"
+    0.15
+    "f_exp_forcedsmile2"
+    0.15
+    "f_exp_forcedsmile3"
+    0.15
+
+    "f_exp_pouting1"
+    0.15
+    "f_exp_pouting2"
+    0.15
+    "f_exp_pouting3"
+    0.15
+
+    "f_exp_thinking1"
+    0.15
+    "f_exp_thinking2"
+    0.15
+    "f_exp_thinking3"
+    0.15
+
+    "f_exp_shock1"
+    0.15
+    "f_exp_shock2"
+    0.15
+    "f_exp_shock3"
+    0.15
+
+    "f_exp_scared1"
+    0.15
+    "f_exp_scared2"
+    0.15
+    "f_exp_scared3"
+    0.15
+
+    "f_exp_terrified1"
+    0.15
+    "f_exp_terrified2"
+    0.15
+    "f_exp_terrified3"
+    0.15
     repeat
 
-layeredimage itske:
+layeredimage speaker itske:
     group body:
         attribute work default:
-            "f_body_work"
+            Speaker("f_body_work1", "f_body_work2", "f_body_work3")
         attribute tank:
-            "f_body_tank"
+            Speaker("f_body_tank1", "f_body_tank2", "f_body_tank3")
+        attribute naked:
+            Speaker("f_body_naked1", "f_body_naked2", "f_body_naked3")
+        attribute drawn:
+            Speaker("f_body_drawn1", "f_body_drawn2", "f_body_drawn3")
+        attribute disheveled:
+            Speaker("f_body_disheveled1", "f_body_disheveled2", "f_body_disheveled3")
 
     group face:
         attribute neutral default:
-            "f_exp_neutral"
+            Speaker("f_exp_neutral1", "f_exp_neutral2", "f_exp_neutral3")
         attribute stressed:
-            "f_exp_stressed"
+            Speaker("f_exp_stressed1", "f_exp_stressed2", "f_exp_stressed3")
         attribute flustered:
-            "f_exp_flustered"
+            Speaker("f_exp_flustered1", "f_exp_flustered2", "f_exp_flustered3")
         attribute exerted:
-            "f_exp_exerted"
+            Speaker("f_exp_exerted1", "f_exp_exerted2", "f_exp_exerted3")
         attribute nervous:
-            "f_exp_nervous"
+            Speaker("f_exp_nervous1", "f_exp_nervous2", "f_exp_nervous3")
         attribute edge:
-            "f_exp_edge"
+            Speaker("f_exp_edge1", "f_exp_edge2", "f_exp_edge3")
         attribute bust:
-            "f_exp_bust"
+            Speaker("f_exp_bust1", "f_exp_bust2", "f_exp_bust3")
+        attribute angry:
+            Speaker("f_exp_angry1", "f_exp_angry2", "f_exp_angry3")
+        attribute enraged:
+            Speaker("f_exp_enraged1", "f_exp_enraged2", "f_exp_enraged3")
+        attribute yelling:
+            Speaker("f_exp_yelling1", "f_exp_yelling2", "f_exp_yelling3")
+        attribute annoyed:
+            Speaker("f_exp_annoyed1", "f_exp_annoyed2", "f_exp_annoyed3")
+        attribute blehhh:
+            Speaker("f_exp_blehhh1", "f_exp_blehhh2", "f_exp_blehhh3")
+        attribute heartbroken:
+            Speaker("f_exp_heartbroken1", "f_exp_heartbroken2", "f_exp_heartbroken3")
+        attribute sad:
+            Speaker("f_exp_sad1", "f_exp_sad2", "f_exp_sad3")
+        attribute crying:
+            Speaker("f_exp_crying1", "f_exp_crying2", "f_exp_crying3")
+        attribute bawling:
+            Speaker("f_exp_bawling1", "f_exp_bawling2", "f_exp_bawling3")
+        attribute disgust:
+            Speaker("f_exp_disgust1", "f_exp_disgust2", "f_exp_disgust3")
+        attribute tired:
+            Speaker("f_exp_tired1", "f_exp_tired2", "f_exp_tired3")
+        attribute smug:
+            Speaker("f_exp_smug1", "f_exp_smug2", "f_exp_smug3")
+        attribute smiling:
+            Speaker("f_exp_smiling1", "f_exp_smiling2", "f_exp_smiling3")
+        attribute forcedsmile:
+            Speaker("f_exp_forcedsmile1", "f_exp_forcedsmile2", "f_exp_forcedsmile3")
+        attribute pouting:
+            Speaker("f_exp_pouting1", "f_exp_pouting2", "f_exp_pouting3")
+        attribute thinking:
+            Speaker("f_exp_thinking1", "f_exp_thinking2", "f_exp_thinking3")
+        attribute shock:
+            Speaker("f_exp_shock1", "f_exp_shock2", "f_exp_shock3")
+        attribute scared:
+            Speaker("f_exp_scared1", "f_exp_scared2", "f_exp_scared3")
+        attribute terrified:
+            Speaker("f_exp_terrified1", "f_exp_terrified2", "f_exp_terrified3")
+        attribute showcase:
+            "itske_showcase"
 
     group nameplate:
-        attribute nameplate default:
-            "f_nameplate"
+        attribute name default:
+            Nameplate("f_nameplate1","f_nameplate2","f_nameplate3","f_nameplate4")
+        attribute trash:
+            Nameplate("f_nameplate_trash1","f_nameplate_trash2","f_nameplate_trash3","f_nameplate_trash4")
 
-layeredimage bg:
+#endregion
+
+#region JENN
+
+layeredimage speaker jenn:
+    group body:
+        attribute body default:
+            Speaker("j_body1", "j_body2", "j_body3")
+
+    group face:
+        attribute neutral default:
+            Speaker("j_exp_neutral1", "j_exp_neutral2", "j_exp_neutral3")
+        attribute worried:
+            Speaker("j_exp_worried1", "j_exp_worried2", "j_exp_worried3")
+        attribute enraged:
+            Speaker("j_exp_enraged1", "j_exp_enraged2", "j_exp_enraged3")
+        attribute cringe:
+            Speaker("j_exp_cringe1", "j_exp_cringe2", "j_exp_cringe3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("j_nameplate1","j_nameplate2","j_nameplate3","j_nameplate4")
+        attribute manager:
+            Nameplate("j_nameplate_mgr1","j_nameplate_mgr2","j_nameplate_mgr3","j_nameplate_mgr4")
+
+#endregion
+
+#region TOM
+
+layeredimage speaker tom:
+    group body:
+        attribute body default:
+            Speaker("t_body1", "t_body2", "t_body3")
+
+    group face:
+        attribute neutral default:
+            Speaker("t_exp_neutral1", "t_exp_neutral2", "t_exp_neutral3")
+        attribute sad:
+            Speaker("t_exp_sad1", "t_exp_sad2", "t_exp_sad3")
+        attribute shy:
+            Speaker("t_exp_shy1", "t_exp_shy2", "t_exp_shy3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("t_nameplate1","t_nameplate2","t_nameplate3","t_nameplate4")
+
+#endregion
+
+#region MAE
+
+layeredimage speaker mae:
+    group body:
+        attribute body default:
+            Speaker("m_body1", "m_body2", "m_body3")
+
+    group face:
+        attribute neutral default:
+            Speaker("m_exp_neutral1", "m_exp_neutral2", "m_exp_neutral3")
+        attribute happy:
+            Speaker("m_exp_happy1", "m_exp_happy2", "m_exp_happy3")
+        attribute stressed:
+            Speaker("m_exp_stressed1", "m_exp_stressed2", "m_exp_stressed3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("m_nameplate1","m_nameplate2","m_nameplate3","m_nameplate4")
+
+#endregion
+
+#region MEAT
+
+layeredimage speaker meat:
+    group body:
+        attribute unjacketed default:
+            Speaker("mt_body_unjacketed1", "mt_body_unjacketed2", "mt_body_unjacketed3")
+        attribute jacketed:
+            Speaker("mt_body_jacketed1", "mt_body_jacketed2", "mt_body_jacketed3")
+
+    group face:
+        attribute neutral default:
+            Speaker("mt_exp_neutral1", "mt_exp_neutral2", "mt_exp_neutral3")
+        attribute aroused:
+            Speaker("mt_exp_aroused1", "mt_exp_aroused2", "mt_exp_aroused3")
+        attribute smug:
+            Speaker("mt_exp_smug1", "mt_exp_smug2", "mt_exp_smug3")
+        attribute shock:
+            Speaker("mt_exp_shock1", "mt_exp_shock2", "mt_exp_shock3")
+        attribute embarrassed:
+            Speaker("mt_exp_embarrassed1", "mt_exp_embarrassed2", "mt_exp_embarrassed3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("mt_nameplate1","mt_nameplate2","mt_nameplate3","mt_nameplate4")
+
+#endregion
+
+#region CAMMY
+
+layeredimage speaker cammy:
+    group body:
+        attribute body default:
+            Speaker("c_body1", "c_body2", "c_body3")
+
+    group face:
+        attribute neutral default:
+            Speaker("c_exp_neutral1","c_exp_neutral2","c_exp_neutral3")
+        attribute aroused:
+            Speaker("c_exp_aroused1","c_exp_aroused2","c_exp_aroused3")
+        attribute focused:
+            Speaker("c_exp_focused1","c_exp_focused2","c_exp_focused3")
+        attribute happy:
+            Speaker("c_exp_happy1","c_exp_happy2","c_exp_happy3")
+        attribute smiling:
+            Speaker("c_exp_smiling1","c_exp_smiling2","c_exp_smiling3")
+        attribute worried:
+            Speaker("c_exp_worried1","c_exp_worried2","c_exp_worried3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("c_nameplate1","c_nameplate2","c_nameplate3","c_nameplate4")
+
+#endregion
+
+#region PIPER
+
+layeredimage speaker piper:
+    group body:
+        attribute human default:
+            Speaker("p_body_human1", "p_body_human2", "p_body_human3")
+        attribute body_warped1:
+            Speaker("p_body_warped1_1", "p_body_warped1_2", "p_body_warped1_3")
+        attribute body_warped2:
+            Speaker("p_body_warped2_1", "p_body_warped2_2", "p_body_warped2_3")
+        attribute body_warped3:
+            Speaker("p_body_warped3_1", "p_body_warped3_2", "p_body_warped3_3")
+
+    group face:
+        attribute neutral default:
+            Speaker("p_exp_neutral1", "p_exp_neutral2", "p_exp_neutral3")
+        attribute grin:
+            Speaker("p_exp_grin1", "p_exp_grin2", "p_exp_grin3")
+        attribute exp_warped1:
+            Speaker("p_exp_warped1_1", "p_exp_warped1_2", "p_exp_warped1_3")
+        attribute exp_warped2:
+            Speaker("p_exp_warped2_1", "p_exp_warped2_2", "p_exp_warped2_3")
+        attribute exp_warped3:
+            Speaker("p_exp_warped3_1", "p_exp_warped3_2", "p_exp_warped3_3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("p_nameplate1","p_nameplate2","p_nameplate3","p_nameplate4")
+        attribute que:
+            Nameplate("p_nameplate_que1","p_nameplate_que2","p_nameplate_que3","p_nameplate_que4")
+
+#endregion
+
+#region CHUD
+
+layeredimage speaker chud:
+    group body:
+        attribute body default:
+            Speaker("chud_body1", "chud_body2", "chud_body3")
+
+    group face:
+        attribute neutral default:
+            Speaker("chud_exp_neutral1", "chud_exp_neutral2", "chud_exp_neutral3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("chud_nameplate1","chud_nameplate2","chud_nameplate3","chud_nameplate4")
+
+#endregion
+
+#region PISS
+
+layeredimage speaker piss:
+    group body:
+        attribute body default:
+            Speaker("piss_body1", "piss_body2", "piss_body3")
+
+    group face:
+        attribute neutral default:
+            Speaker("piss_exp1", "piss_exp2", "piss_exp3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("piss_nameplate1","piss_nameplate2","piss_nameplate3","piss_nameplate4")
+
+#endregion
+
+#region DATE
+
+layeredimage speaker date:
+    group body:
+        attribute body default:
+            Speaker("d_body1", "d_body2", "d_body3")
+
+    group face:
+        attribute neutral default:
+            Speaker("d_exp_neutral1", "d_exp_neutral2", "d_exp_neutral3")
+        attribute smiling:
+            Speaker("d_exp_smiling1","d_exp_smiling2","d_exp_smiling3")
+        attribute worried:
+            Speaker("d_exp_worried1","d_exp_worried2","d_exp_worried3")
+        attribute awkward:
+            Speaker("d_exp_awkward1","d_exp_awkward2","d_exp_awkward3")
+        attribute yikes:
+            Speaker("d_exp_yikes1","d_exp_yikes2","d_exp_yikes3")
+
+    group nameplate:
+        attribute name default:
+            Nameplate("d_nameplate1","d_nameplate2","d_nameplate3","d_nameplate4")
+
+#endregion
+
+#region BACKGROUNDS
+
+layeredimage bg backyard:
     group image_main:
         attribute backyard default:
-            "backyard_main"
+            at bgpos
+            "backyard"
 
-    group image_red:
+    group backyard_red:
         attribute backyard_r default:
-            "backyard_red"
+            FlickerRight("backyard_r")
             blend "add"
 
-    group image_green:
+    group backyard_green:
         attribute backyard_g default:
-            "backyard_green"
+            FlickerUp_slight("backyard_g")
             blend "add"
 
-    group image_blue:
+    group backyard_blue:
         attribute backyard_b default:
-            "backyard_blue"
+            FlickerLeft("backyard_b")
             blend "add"
             
     group scanlines:
         attribute scanlines default:
-            at scroll_scanlines
+            at scanlines_moderate
             "pulse_scanlines"
             blend "add"
+
+layeredimage bg office:
+    group office:
+        attribute office default:
+            at bgpos
+            "office"
+
+    group office_red:
+        attribute office_r default:
+            FlickerRight("office_r")
+            blend "add"
+    
+    group office_green:
+        attribute office_g default:
+            FlickerUp_slight("office_g")
+            blend "add"
+    
+    group office_blue:
+        attribute office_b default:
+            FlickerLeft("office_b")
+            blend "add"
+
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+
+#endregion
 
 init python:
     renpy.music.register_channel("sound2")
