@@ -259,4 +259,12 @@ label sex2:
     f_t "It hurts so fucking much."
 
     nvl clear
+    scene lock_ch8
+    play sound lock_lick1
+    scene lock_ch8_txt1 with Dissolve(1.0)
+    scene lock_ch8_txt2 with Dissolve(1.0)
+    scene lock_ch8_txt3 with Dissolve(1.5)
+    scene lock_ch8_txt4 with Dissolve(4.0)
+    pause
+    stop sound
     jump depressed
