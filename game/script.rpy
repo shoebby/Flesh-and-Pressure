@@ -1,15 +1,42 @@
-﻿define j = Character("", kind=nvl, color="#ffffff", what_color="#dfff87", what_prefix="\"", what_suffix="\"") #jenn
-define f = Character("", kind=nvl, color="#ffffff", what_color="#ffb787", what_prefix="\"", what_suffix="\"") #Itske
+﻿init python:
+    renpy.music.register_channel("sound2", "sound")
+
+    def SpeakingBlip(event, speakerID, **kwargs):
+        beeps = 0
+        while beeps < 150:
+            randosound = renpy.random.randint(0,6)
+            if event == "show":
+                if randosound == 0:
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip1.wav", channel="sound", loop=False)
+                elif randosound == 1:
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip2.wav", channel="sound", loop=False)
+                elif randosound == 2:
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip3.wav", channel="sound", loop=False)
+                elif randosound == 3:
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip4.wav", channel="sound", loop=False)
+                elif randosound == 4:
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip5.wav", channel="sound", loop=False)
+                elif randosound == 5:
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip6.wav", channel="sound", loop=False)
+                elif randosound == 6:
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip7.wav", channel="sound", loop=False)
+                spause = renpy.music.get_duration(channel="sound")
+            elif event == "slow_done" or event == "end":
+                renpy.sound.stop(channel="sound")
+            beeps += 1
+
+define j = Character("", kind=nvl, color="#ffffff", what_color="#dfff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="j_") #jenn
+define f = Character("", kind=nvl, color="#ffffff", what_color="#ffb787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="f_") #Itske
 define f_t = Character("", kind=nvl, what_italic=True, what_color="#ff781f") #Itske mind-thoughts
-define p = Character("", kind=nvl, color="#ffffff", what_color="#87a7ff", what_prefix="\"", what_suffix="\"") #piper
-define m = Character("", kind=nvl, color="#ffffff", what_color="#ff87d1", what_prefix="\"", what_suffix="\"") #mae
-define t = Character("", kind=nvl, color="#ffffff", what_color="#ff8787", what_prefix="\"", what_suffix="\"") #tom
-define c = Character("", kind=nvl, color="#ffffff", what_color="#c587ff", what_prefix="\"", what_suffix="\"") #cammy
-define d = Character("", kind=nvl, color="#ffffff", what_color="#87fbff", what_prefix="\"", what_suffix="\"") #date
+define p = Character("", kind=nvl, color="#ffffff", what_color="#87a7ff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="p_") #piper
+define m = Character("", kind=nvl, color="#ffffff", what_color="#ffa7dd", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="m_") #mae
+define t = Character("", kind=nvl, color="#ffffff", what_color="#ff8787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="t_") #tom
+define c = Character("", kind=nvl, color="#ffffff", what_color="#c587ff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="c_") #cammy
+define d = Character("", kind=nvl, color="#ffffff", what_color="#87fbff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="d_") #date
 define d_t = Character("", kind=nvl, what_italic=True, what_color="#1ff8ff") #date mind-thoughts
-define mt = Character("", kind=nvl, color="#ffffff", what_color="#91ff87", what_prefix="\"", what_suffix="\"") #meat
-define piss = Character("", kind=nvl, color="#ffffff", what_color="#fff787", what_prefix="\"", what_suffix="\"") #the pee on the floor
-define chud = Character("", kind=nvl, color="#ffffff", what_color="#afafaf", what_prefix="\"", what_suffix="\"") #chud customer
+define mt = Character("", kind=nvl, color="#ffffff", what_color="#91ff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="mt_") #meat
+define piss = Character("", kind=nvl, color="#ffffff", what_color="#fff787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="piss_") #the pee on the floor
+define chud = Character("", kind=nvl, color="#ffffff", what_color="#afafaf", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="chud_") #chud customer
 
 transform Nameplate(frame1, frame2, frame3, frame4):
     frame1
@@ -136,6 +163,25 @@ transform scanlines_intense:
         0.05
     choice:
         0.1
+    repeat
+
+image pulse_scanlines:
+    "scanlines"
+    alpha 0.4
+    linear 3 alpha 0.2
+    linear 2  alpha 0.4
+
+    linear 0.05 alpha 0.01
+    linear 0.05 alpha 0.4
+
+    linear 0.2 alpha 0.1
+    linear 0.1 alpha 0.4
+
+    linear 3 alpha 0.2
+    linear 2  alpha 0.4
+
+    linear 3 alpha 0.2
+    linear 2  alpha 0.4
     repeat
 
 #endregion
@@ -327,25 +373,6 @@ transform FlickerUp_moderate(image):
 
 #endregion
 
-image pulse_scanlines:
-    "scanlines"
-    alpha 0.6
-    linear 3 alpha 0.2
-    linear 2  alpha 0.6
-
-    linear 0.05 alpha 0.1
-    linear 0.05 alpha 1.0
-
-    linear 0.2 alpha 0.1
-    linear 0.1 alpha 0.6
-
-    linear 3 alpha 0.2
-    linear 2  alpha 0.6
-
-    linear 3 alpha 0.2
-    linear 2  alpha 0.6
-    repeat
-
 #region ITSKE
 
 image itske_showcase:
@@ -532,6 +559,50 @@ image itske_showcase:
     0.15
     repeat
 
+image itske_showcase_crush:
+    "f_exp_crush1_1"
+    0.15
+    "f_exp_crush1_2"
+    0.15
+    "f_exp_crush1_3"
+    0.15
+
+    "f_exp_crush2_1"
+    0.15
+    "f_exp_crush2_2"
+    0.15
+    "f_exp_crush2_3"
+    0.15
+
+    "f_exp_crush3_1"
+    0.15
+    "f_exp_crush3_2"
+    0.15
+    "f_exp_crush3_3"
+    0.15
+
+    "f_exp_crush4_1"
+    0.15
+    "f_exp_crush4_2"
+    0.15
+    "f_exp_crush4_3"
+    0.15
+
+    "f_exp_crush5_1"
+    0.15
+    "f_exp_crush5_2"
+    0.15
+    "f_exp_crush5_3"
+    0.15
+
+    "f_exp_crush6_1"
+    0.15
+    "f_exp_crush6_2"
+    0.15
+    "f_exp_crush6_3"
+    0.15
+    repeat
+
 layeredimage speaker itske:
     group body:
         attribute work default:
@@ -598,8 +669,24 @@ layeredimage speaker itske:
             Speaker("f_exp_scared1", "f_exp_scared2", "f_exp_scared3")
         attribute terrified:
             Speaker("f_exp_terrified1", "f_exp_terrified2", "f_exp_terrified3")
+        #crushing
+        attribute crush1:
+            Speaker("f_exp_crush1_1","f_exp_crush1_2","f_exp_crush1_3")
+        attribute crush2:
+            Speaker("f_exp_crush2_1","f_exp_crush2_2","f_exp_crush2_3")
+        attribute crush3:
+            Speaker("f_exp_crush3_1","f_exp_crush3_2","f_exp_crush3_3")
+        attribute crush4:
+            Speaker("f_exp_crush4_1","f_exp_crush4_2","f_exp_crush4_3")
+        attribute crush5:
+            Speaker("f_exp_crush5_1","f_exp_crush5_2","f_exp_crush5_3")
+        attribute crush6:
+            Speaker("f_exp_crush6_1","f_exp_crush6_2","f_exp_crush6_3")
+        #showcase sequences
         attribute showcase:
             "itske_showcase"
+        attribute showcase_crush:
+            "itske_showcase_crush"
 
     group nameplate:
         attribute name default:
@@ -846,10 +933,15 @@ layeredimage bg backyard:
             blend "add"
             
     group scanlines:
-        attribute scanlines default:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
             at scanlines_moderate
             "pulse_scanlines"
-            blend "add"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
 
 layeredimage bg office:
     group office:
@@ -885,7 +977,3 @@ layeredimage bg office:
 
 
 #endregion
-
-init python:
-    renpy.music.register_channel("sound2")
-    preferences.text_cps = 100

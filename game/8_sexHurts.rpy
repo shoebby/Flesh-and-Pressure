@@ -32,7 +32,7 @@ label sex:
 menu (nvl=True):
     f "Okay, that's the bedroom. Looks 'fine' now. What else..."
 
-    "{b}{color=#fff}[[ANAL RETENTIVE PRAGMATIST]{/b}{/color} Bathroom? For y'know, douche stuff? If she wants to, that is.":
+    "{color=#fff}[[ANAL RETENTIVE PRAGMATIST]{/color} Bathroom? For y'know, douche stuff? If she wants to, that is.":
         nvl clear
         f_t "I head into the bathroom and am reminded of the absolute mess I left behind yesterday."
         f_t "There's shaving cream everywhere, leg hairs cling to the sink, but at least the shower looks fine."
@@ -49,7 +49,7 @@ menu (nvl=True):
         f_t "The sink itself is just a simple wipe with a cleaning rag, I should really do this more often..."
         f_t "But I definitely won't."
 
-    "{b}{color=#fff}[[APOLOGETIC HORNY CHEF]{/b}{/color} Kitchen? That way I can make her something in the morning, like a grilled cheese or something.":
+    "{color=#fff}[[APOLOGETIC HORNY CHEF]{/color} Kitchen? That way I can make her something in the morning, like a grilled cheese or something.":
         nvl clear
         f_t "If there's one thing I know it's that sex is hard work, and hard work makes hungry."
         f_t "Heading into the kitchen I'm confronted by the cumulative cooking of the past three days."
@@ -67,7 +67,7 @@ menu (nvl=True):
         f_t "Pans definitely need to be done by hand, I won't ruin the patina I so carefully built up over the years just for a shortcut of a few seconds."
         f_t "I leave them out to dry on the stovetop and quickly wipe a cleaning rag across the countertop. More than that isn't gonna happen tonight though."
 
-    "{b}{color=#fff}[[HOOKUP STAGEHAND]{/b}{/color} Living Room? Make sure to display some cool stuff, make a good first impression!":
+    "{color=#fff}[[HOOKUP STAGEHAND]{/color} Living Room? Make sure to display some cool stuff, make a good first impression!":
         nvl clear
         f_t "We talked about Dreamy Honey Darling Overload for what felt like ages... I should display some of my con merch in the living room..."
         f_t "It's both our favourite Gacha game, I bet she's never seen this limited edition Honey Macadamia figurine..."
@@ -102,7 +102,7 @@ label sex2:
     f_t "She's here? Already? Fuck!!!"
     f_t "I rush to put on something more presentable than my jammies."
     f_t "Big dyke pants..."
-    f_t "Rip a flannel from the clothing rack..."
+    f_t "Tank top, looks clean enough..."
     f_t "Skip the bra..."
     f_t "Okay! Open the door!"
 

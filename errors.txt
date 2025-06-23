@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/1_interview.rpy", line 6: expected '=' not found.
-    image bg office
-                   ^
+File "game/script.rpy", line 29: invalid syntax
+    Character("", kind=nvl, color="#ffffff", what_color="#ffb787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip(,"f_"))
+                                                                                                                              ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sat Jun 21 15:02:26 2025
+Mon Jun 23 12:45:39 2025

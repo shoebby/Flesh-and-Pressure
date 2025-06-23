@@ -163,9 +163,9 @@ label crushed:
     f_t "Maybe death is the quiet room to yourself, a hyperbolic time chamber; A space where nothing happens and no one disturbs unless you wish it so, doesn't that sound nice?"
 
     menu (nvl=True):
-        "{b}{color=#fff}[[ARE YOU WILLING TO EMBRACE YOURSELF]{/b}{/color} That sounds nice...":
+        "{color=#fff}[[ARE YOU WILLING TO EMBRACE YOURSELF]{/color} That sounds nice...":
             f "That sounds nice..."
-        "{b}{color=#fff}[[OR WILL YOU KEEP RUNNING AWAY]{/b}{/color} That sounds awful...":
+        "{color=#fff}[[OR WILL YOU KEEP RUNNING AWAY]{/color} That sounds awful...":
             f "That sounds awful..."
     
     p "I don't care how you think it -sounds-, I know that it's exactly what you -want-."

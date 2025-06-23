@@ -6,6 +6,24 @@ https://driveyourplowoverthebonesofthedead.bandcamp.com/album/tragedy-as-cathars
 chapter card thump :: Japanese_drum1 - Taira Komori
 https://taira-komori.jpn.org/playing01en.html
 
+Doorbell :: Multiple Doorbell - RangerRich68
+https://freesound.org/people/RangerRich68/sounds/686354/
+
+Door Opening :: Door, Front, Opening, A - InspectorJ
+https://freesound.org/people/InspectorJ/sounds/431117/
+
+Golf Hit and Hole :: HSN golf put and hit - Bluesy1905
+https://freesound.org/people/Bluesy1905/sounds/349324/
+
+Golf Hit :: Medium Golf Ball Hit - Jellytots_Julie
+https://freesound.org/people/Jellytots_Julie/sounds/654558/
+
+Golf Swing :: Swing1 - Taira Komori
+https://taira-komori.jpn.org/attack01en.html
+
+Glass Top Impact :: Hard Glass Impact - deleted_user_3656686
+https://freesound.org/people/deleted_user_3656686/sounds/418194/
+
 Chapter 3 end guitar lick :: Smooth Guitar Solo Lick - TheoJT
 https://freesound.org/people/TheoJT/sounds/510958/
 
@@ -16,3 +34,7 @@ https://dova-s.jp/EN/bgm/play22244.html
 
 main body font :: Apple Garamond
 https://www.dafont.com/apple-garamond.font
+
+=== RENPY ===
+Renpy Speech Pauses - brunoais
+https://brunoais.itch.io/renpy-speech-pauses

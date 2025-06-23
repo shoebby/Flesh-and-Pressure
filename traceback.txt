@@ -1,48 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 874, in script
-    layeredimage bg office:
-  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
-    rai.execute()
-  File "renpy/common/00layeredimage.rpy", line 803, in execute
-    l.extend(i.execute())
-  File "renpy/common/00layeredimage.rpy", line 292, in execute
-    rv.extend(i.execute(group=group, group_properties=properties))
-  File "renpy/common/00layeredimage.rpy", line 256, in execute
-    image = eval(self.image)
-  File "game/script.rpy", line 887, in <module>
-    FlickerDown("office_g")
-NameError: name 'FlickerDown' is not defined
+  File "game/1_interview.rpy", line 109, in script
+    f "Well there's this indie comedy parody movie called The People's Joker and I guess it's technically not from this year but I did watch it this year I actually pre-ordered the Blu-ray and it was a story I really resonated with you see-{nw}"
+  File "renpy/common/00nvl_mode.rpy", line 395, in do_display
+    renpy.display_say(
+TypeError: SpeakingBlip() missing 1 required positional argument: 'speakerID'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 874, in script
-    layeredimage bg office:
-  File "E:\Renpy\renpy\ast.py", line 1987, in execute
-    self.call("execute")
-  File "E:\Renpy\renpy\ast.py", line 1966, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "E:\Renpy\renpy\statements.py", line 374, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
-    rai.execute()
-  File "renpy/common/00layeredimage.rpy", line 803, in execute
-    l.extend(i.execute())
-  File "renpy/common/00layeredimage.rpy", line 292, in execute
-    rv.extend(i.execute(group=group, group_properties=properties))
-  File "renpy/common/00layeredimage.rpy", line 256, in execute
-    image = eval(self.image)
-  File "E:\Renpy\renpy\python.py", line 1218, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "E:\Renpy\renpy\python.py", line 1211, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 887, in <module>
-    FlickerDown("office_g")
-NameError: name 'FlickerDown' is not defined
+  File "game/1_interview.rpy", line 109, in script
+    f "Well there's this indie comedy parody movie called The People's Joker and I guess it's technically not from this year but I did watch it this year I actually pre-ordered the Blu-ray and it was a story I really resonated with you see-{nw}"
+  File "E:\Renpy\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "E:\Renpy\renpy\ast.py", line 623, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "E:\Renpy\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "E:\Renpy\renpy\character.py", line 1471, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/common/00nvl_mode.rpy", line 395, in do_display
+    renpy.display_say(
+  File "E:\Renpy\renpy\character.py", line 627, in display_say
+    callback("begin")
+  File "E:\Renpy\renpy\character.py", line 91, in __call__
+    c(*args, **kwargs)
+TypeError: SpeakingBlip() missing 1 required positional argument: 'speakerID'
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Flesh and Pressure You_Must_Be_Hungry
-Sat Jun 21 17:24:57 2025
+Mon Jun 23 12:47:34 2025

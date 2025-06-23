@@ -21,21 +21,21 @@ label fired:
     menu (nvl=True):
         f_t "Is there something I can say to get out of this...?"
 
-        "{b}{color=#fff}[[WHORE]{/b}{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
+        "{color=#fff}[[WHORE]{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
             f "W-would you like-{nw}"
 
             j "Don't."
 
             jump A1
 
-        "{b}{color=#fff}[[VICTIM]{/b}{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
+        "{color=#fff}[[VICTIM]{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
             f "Well he did-{nw}"
 
             j "No, let me think."
 
             jump A2
 
-        "{b}{color=#fff}[[PUPPY]{/b}{/color} Begging might work. As pathetic as possible, preferably.":
+        "{color=#fff}[[PUPPY]{/color} Begging might work. As pathetic as possible, preferably.":
             f "Jenn please I-{nw}"
 
             j "Stop."
@@ -45,14 +45,14 @@ label fired:
 label A1:
     menu (nvl=True):
         f "..."
-        "{b}{color=#fff}[[VICTIM]{/b}{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
+        "{color=#fff}[[VICTIM]{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
             f "Well he did-{nw}"
 
             j "No, let me think."
 
             jump B3
 
-        "{b}{color=#fff}[[PUPPY]{/b}{/color} Begging might work. As pathetic as possible, preferably.":
+        "{color=#fff}[[PUPPY]{/color} Begging might work. As pathetic as possible, preferably.":
             f "Jenn please I-{nw}"
 
             j "Stop."
@@ -62,13 +62,13 @@ label A1:
 label A2:
     menu (nvl=True):
         f "..."
-        "{b}{color=#fff}[[WHORE]{/b}{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
+        "{color=#fff}[[WHORE]{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
             f "W-would you like-{nw}"
 
             j "Don't."
 
             jump B3
-        "{b}{color=#fff}[[PUPPY]{/b}{/color} Begging might work. As pathetic as possible, preferably.":
+        "{color=#fff}[[PUPPY]{/color} Begging might work. As pathetic as possible, preferably.":
             f "Jenn please I-{nw}"
 
             j "Stop."
@@ -78,13 +78,13 @@ label A2:
 label A3:
     menu (nvl=True):
         f "..."
-        "{b}{color=#fff}[[WHORE]{/b}{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
+        "{color=#fff}[[WHORE]{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
             f "W-would you like-{nw}"
 
             j "Don't."
 
             jump B2
-        "{b}{color=#fff}[[VICTIM]{/b}{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
+        "{color=#fff}[[VICTIM]{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
             f "Well he did-{nw}"
 
             j "No, let me think."
@@ -94,7 +94,7 @@ label A3:
 label B1:
     menu (nvl=True):
         f "..."
-        "{b}{color=#fff}[[WHORE]{/b}{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
+        "{color=#fff}[[WHORE]{/color} Bribe her... Somehow, with something. Do I even have any savings left? Maybe she's into trannies?":
             f "W-would you like-{nw}"
 
             j "Don't."
@@ -104,7 +104,7 @@ label B1:
 label B2:
     menu (nvl=True):
         f "..."
-        "{b}{color=#fff}[[VICTIM]{/b}{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
+        "{color=#fff}[[VICTIM]{/color} It... Wasn't my fault? Could try to go with that? He took a swing at me, for sure.":
             f "Well he did-{nw}"
 
             j "No, let me think."
@@ -114,7 +114,7 @@ label B2:
 label B3:
     menu (nvl=True):
         f "..."
-        "{b}{color=#fff}[[PUPPY]{/b}{/color} Begging might work. As pathetic as possible, preferably.":
+        "{color=#fff}[[PUPPY]{/color} Begging might work. As pathetic as possible, preferably.":
             f "Jenn please I-{nw}"
 
             j "Stop."

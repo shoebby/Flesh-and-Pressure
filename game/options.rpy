@@ -50,6 +50,11 @@ define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True
 
+define config.default_music_volume = 0.7
+define config.default_sfx_volume = 0.7
+define config.default_voice_volume = 0.7
+
+define config.sample_sound = "bones_skullcrush.mp3"
 
 ## To allow the user to play a test sound on the sound or voice channel,
 ## uncomment a line below and use it to set a sample sound to play.
@@ -111,8 +116,8 @@ define config.window = "auto"
 
 ## Transitions used to show and hide the dialogue window
 
-define config.window_show_transition = Dissolve(.2)
-define config.window_hide_transition = Dissolve(.2)
+define config.window_show_transition = None
+define config.window_hide_transition = None
 
 
 ## Preference defaults #########################################################
@@ -120,7 +125,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 100
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0

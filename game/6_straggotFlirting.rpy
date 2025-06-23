@@ -100,7 +100,7 @@ label straggot:
 menu (nvl=True):
     f_t "Hmm..."
 
-    "{b}{color=#fff}[[DISGUSTINGLY DEFAULT, TORTUROUSLY TYPICAL]{/b}{/color} Go see a Ghibli movie, surely that'd be fine. Girls like Ghibli, be the sensitive boy she dreams about!":
+    "{color=#fff}[[DISGUSTINGLY DEFAULT, TORTUROUSLY TYPICAL]{/color} Go see a Ghibli movie, surely that'd be fine. Girls like Ghibli, be the sensitive boy she dreams about!":
         f "Well do you know Studio Ghibli?"
 
         t "... U-uhm...?"
@@ -118,7 +118,7 @@ menu (nvl=True):
 
         f "A-ah, yeah, nice! But yeah cinemas screen them here pretty often. Could be a good idea..."
 
-    "{b}{color=#fff}[[DESPERATE FAKE MIRRORER]{/b}{/color} Binge an extremely niche anime with her, try to match her power level.":
+    "{color=#fff}[[DESPERATE FAKE MIRRORER]{/color} Binge an extremely niche anime with her, try to match her power level.":
         f "Well, you want to impress her right?"
 
         t "Uhh yeah, I guess so?"
@@ -139,7 +139,7 @@ menu (nvl=True):
 
         f "Hff... Just watch Madoka Magica with her, she will be impressed, it's not too niche, trust me, I know weeb girls."
 
-    "{b}{color=#fff}[[FAUX-THOUGHTFUL EGOCENTRIC]{/b}{/color} Offer to take her to do something -you- like to do, whatever that might be. Pull her from her bubble! Let her into yours!":
+    "{color=#fff}[[FAUX-THOUGHTFUL EGOCENTRIC]{/color} Offer to take her to do something -you- like to do, whatever that might be. Pull her from her bubble! Let her into yours!":
         f "Well if you don't know much about it, maybe you should bring her along to something you enjoy?"
 
         t "Hmm... So far she seems quite comfortable in her interests..."

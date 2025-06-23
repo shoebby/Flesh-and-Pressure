@@ -6,7 +6,6 @@ label interview1:
     scene bg office
     
     show speaker itske tank at portrait
-
     f_t "Her office is nice, albeit a bit cramped, and full of -stuff-."
     f_t "Pictures from work parties, toys, little trinkets..."
     f_t "A Groot Funko Pop? Yeugh..."
@@ -62,7 +61,7 @@ label interview1:
         
         f_t "So... what should I tell her?"
 
-        "{b}{color=#fff}[[MARXIST LABOUR MACHINE]{/b}{/color} I am a machine, designed and constructed to generate as much surplus value as possible for my lord. I will do ANYTHING she asks of me.":
+        "{color=#fff}[[MARXIST LABOUR MACHINE]{/color} I am a machine, designed and constructed to generate as much surplus value as possible for my lord. I will do ANYTHING she asks of me.":
             nvl clear
             show speaker itske placeholder at portrait
             f "W-well, I've loved coffee for a long time, and making it with the proper hardware is a lot of fun to me and-"
@@ -87,7 +86,7 @@ label interview1:
             show speaker itske tank nervous at portrait
             f_t "Why did a cool mature woman like her have to say good job to me why why why why I'm not blushing am I-"
         
-        "{b}{color=#fff}[[COMMON-SENSE LIAR]{/b}{/color} I'm uh, a 'people person'? Is that something they want at places like this? Fuck if I know, think of something that sounds good.":
+        "{color=#fff}[[COMMON-SENSE LIAR]{/color} I'm uh, a 'people person'? Is that something they want at places like this? Fuck if I know, think of something that sounds good.":
             nvl clear
             show speaker itske placeholder at portrait
             f "I -totally- like being around and interacting with people."
@@ -120,7 +119,7 @@ label interview1:
             show speaker jenn manager cringe at portrait
             j "Mhm..."
 
-        "{b}{color=#fff}[[RECOVERING EXNEET]{/b}{/color} I'm a pathetic jobless loser, it's quite visible so I might as well be honest about it. Maybe I can score some pity points.":
+        "{color=#fff}[[RECOVERING EXNEET]{/color} I'm a pathetic jobless loser, it's quite visible so I might as well be honest about it. Maybe I can score some pity points.":
             nvl clear
             show speaker itske placeholder at portrait
             f "Can I... Be fully honest with you?"

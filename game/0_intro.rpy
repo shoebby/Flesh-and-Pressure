@@ -70,7 +70,7 @@ label start:
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     #BONE-CRACK sfx
-    play audio "ribscrush.mp3" volume 0.5
+    play audio "bones_ribscrush.mp3" volume 0.5
     show speaker itske edge at portrait
     f_t "They would crack and splinter, driving themselves into my lungs, my heart, perforating my skin from the inside."
     nvl clear
@@ -87,7 +87,7 @@ label start:
     show speaker itske edge at portrait
     f_t "It hurts so much and feels so good, all she needs is a small extra push until..."
     #BONE-CRACK-WET sfx
-    play audio "skullcrush.mp3" volume 0.5
+    play audio "bones_skullcrush.mp3" volume 0.5
     hide piper
     nvl clear
     #HEAVY-BREATH and PRESSING sfx stops

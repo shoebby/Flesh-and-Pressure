@@ -120,6 +120,7 @@ label piss:
 
     nvl clear
 
+    show speaker piss at portrait
     piss "You know you want a taste of me, come and get it you nasty bitch."
 
     nvl clear
