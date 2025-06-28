@@ -18,7 +18,7 @@ define config.name = _("Flesh and Pressure")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
@@ -48,11 +48,10 @@ define build.name = "FleshAndPressure"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
-define config.default_music_volume = 0.7
+define config.default_music_volume = 1.0
 define config.default_sfx_volume = 0.7
-define config.default_voice_volume = 0.7
 
 define config.sample_sound = "bones_skullcrush.mp3"
 
@@ -67,7 +66,7 @@ define config.sample_sound = "bones_skullcrush.mp3"
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "mainMenuTrack.wav"
 
 
 ## Transitions #################################################################

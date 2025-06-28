@@ -68,6 +68,54 @@ transform Speaker(frame1, frame2, frame3):
     0.15
     repeat
 
+transform MainMenuSky(frame1, frame2, frame3, frame4, frame5, frame6, frame7, frame8, frame9, frame10, frame11, frame12, alphaValue):
+    xpos 0
+    ypos -0.25
+    
+    frame1 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame2 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame3 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame4 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame5 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame6 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame7 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame8 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame9 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame10 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame11 with Dissolve(.125), alpha alphaValue
+    0.25
+    frame12 with Dissolve(.125), alpha alphaValue
+    0.25
+    repeat
+
+transform MainMenuItske():
+    "gui/itske_field1.png"
+    0.15
+    "gui/itske_field2.png"
+    0.15
+    "gui/itske_field3.png"
+    0.15
+    repeat
+
+transform MainMenuLogo():
+    "gui/logo1.png"
+    0.15
+    "gui/logo2.png"
+    0.15
+    "gui/logo3.png"
+    0.15
+    repeat
+
 transform portrait:
     xpos 520
     ypos 70

@@ -1,5 +1,5 @@
 ﻿################################################################################
-## Initialization
+#region Initialization
 ################################################################################
 
 ## The init offset statement causes the initialization statements in this file
@@ -20,12 +20,12 @@ define config.check_conflicting_properties = True
 ################################################################################
 
 
-## Colors ######################################################################
+#region Colors ######################################################################
 ##
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#cc0066'
+define gui.accent_color = '#fdcd0e'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#ffffff96'
@@ -46,15 +46,15 @@ define gui.insensitive_color = '#ffffff1a'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = '#510028'
-define gui.hover_muted_color = '#7a003d'
+define gui.muted_color = '#fdcd0e'
+define gui.hover_muted_color = '#fdcd0e'
 
 ## The colors used for dialogue and menu choice text.
 define gui.text_color = '#ffffff'
 define gui.interface_text_color = '#ffffff'
 
 
-## Fonts and Font Sizes ########################################################
+#region Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
 define gui.text_font = "AppleGaramond.ttf"
@@ -72,10 +72,10 @@ define gui.text_size = 16
 define gui.name_text_size = 16
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 16
+define gui.interface_text_size = 32
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 16
+define gui.label_text_size = 32
 
 ## The size of text on the notify screen.
 define gui.notify_text_size = 16
@@ -84,14 +84,13 @@ define gui.notify_text_size = 16
 define gui.title_text_size = 40
 
 
-## Main and Game Menus #########################################################
+#region Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
 define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
-
-## Dialogue ####################################################################
+#region Dialogue ####################################################################
 ##
 ## These variables control how dialogue is displayed on the screen one line at a
 ## time.
@@ -141,7 +140,7 @@ define gui.dialogue_width = 300
 define gui.dialogue_text_xalign = 0.0
 
 
-## Buttons #####################################################################
+#region Buttons #####################################################################
 ##
 ## These variables, along with the image files in gui/button, control aspects of
 ## how buttons are displayed.
@@ -200,7 +199,7 @@ define gui.quick_button_text_selected_color = gui.accent_color
 # define gui.navigation_button_width = 250
 
 
-## Choice Buttons ##############################################################
+#region Choice Buttons ##############################################################
 ##
 ## Choice buttons are used in the in-game menus.
 
@@ -216,7 +215,7 @@ define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = '#ff800a'
 
 
-## File Slot Buttons ###########################################################
+#region File Slot Buttons ###########################################################
 ##
 ## A file slot button is a special kind of button. It contains a thumbnail
 ## image, and text describing the contents of the save slot. A save slot uses
@@ -241,7 +240,7 @@ define gui.file_slot_cols = 3
 define gui.file_slot_rows = 2
 
 
-## Positioning and Spacing #####################################################
+#region Positioning and Spacing #####################################################
 ##
 ## These variables control the positioning and spacing of various user interface
 ## elements.
@@ -278,7 +277,7 @@ define gui.slot_spacing = 8
 define gui.main_menu_text_xalign = 1.0
 
 
-## Frames ######################################################################
+#region Frames ######################################################################
 ##
 ## These variables control the look of frames that can contain user interface
 ## components when an overlay or window is not present.
@@ -299,7 +298,7 @@ define gui.notify_frame_borders = Borders(13, 4, 32, 4)
 define gui.frame_tile = False
 
 
-## Bars, Scrollbars, and Sliders ###############################################
+#region Bars, Scrollbars, and Sliders ###############################################
 ##
 ## These control the look and size of bars, scrollbars, and sliders.
 ##
@@ -332,7 +331,7 @@ define gui.vslider_borders = Borders(4, 4, 4, 4)
 define gui.unscrollable = "hide"
 
 
-## History #####################################################################
+#region History #####################################################################
 ##
 ## The history screen displays dialogue that the player has already dismissed.
 
@@ -359,9 +358,9 @@ define gui.history_text_ypos = 30
 define gui.history_text_width = 300
 define gui.history_text_xalign = 0.0
 
-
-## NVL-Mode ####################################################################
-##
+##########################################################
+#region NVL-Mode
+##########################################################
 ## The NVL-mode screen displays the dialogue spoken by NVL-mode characters.
 
 ## The borders of the background of the NVL-mode background window.
@@ -415,7 +414,7 @@ define gui.language = "unicode"
 
 
 ################################################################################
-## Mobile devices
+#region Mobile devices
 ################################################################################
 
 init python:

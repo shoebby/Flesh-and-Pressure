@@ -356,16 +356,44 @@ screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
     tag menu
-
+    add MainMenuSky(
+        "office_r",
+        "machinery_r",
+        "livingroom_r",
+        "walkway_r",
+        "kitchen_r",
+        "hobby_r",
+        "hallway_r",
+        "frontdoor_r",
+        "desk_r",
+        "counter_r",
+        "bedroom_r",
+        "bathroom_r",
+        0.4
+    )
+    #add "gui/overlay/main_menu.png"
     add gui.main_menu_background
 
-    ## This empty frame darkens the main menu.
-    frame:
-        style "main_menu_frame"
+    add MainMenuLogo()
+    add MainMenuItske()
+    
+    vbox:
+        xpos 0.1
+        ypos 0.05
+        spacing 8
+        
+        textbutton _("{color=#fdcd0e}{size=26}Start{/size}{/outlinecolor}") action Start()
+
+        textbutton _("{color=#fdcd0e}{size=26}Load{/size}{/outlinecolor}") action ShowMenu("load")
+
+        textbutton _("{color=#fdcd0e}{size=26}Preferences{/size}{/outlinecolor}") action ShowMenu("preferences")
+
+        textbutton _("{color=#fdcd0e}{size=26}About{/size}{/outlinecolor}") action ShowMenu("about")
+
+        textbutton _("{color=#fdcd0e}{size=26}Quit{/size}{/outlinecolor}") action Quit(confirm=not main_menu)
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    use navigation
 
     if gui.show_name:
 
@@ -378,18 +406,11 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
-
-style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
-style main_menu_frame:
-    xsize 224
-    yfill True
-
-    background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
