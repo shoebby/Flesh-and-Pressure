@@ -33,7 +33,7 @@ define m = Character("", kind=nvl, color="#ffffff", what_color="#ffa7dd", what_p
 define t = Character("", kind=nvl, color="#ffffff", what_color="#ff8787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="t_") #tom
 define c = Character("", kind=nvl, color="#ffffff", what_color="#c587ff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="c_") #cammy
 define d = Character("", kind=nvl, color="#ffffff", what_color="#87fbff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="d_") #date
-define d_t = Character("", kind=nvl, what_italic=True, what_color="#1ff8ff") #date mind-thoughts
+define d_t = Character("", kind=nvl, what_italic=True, what_color="#1fc0ff") #date mind-thoughts
 define mt = Character("", kind=nvl, color="#ffffff", what_color="#91ff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="mt_") #meat
 define piss = Character("", kind=nvl, color="#ffffff", what_color="#fff787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="piss_") #the pee on the floor
 define chud = Character("", kind=nvl, color="#ffffff", what_color="#afafaf", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="chud_") #chud customer
@@ -717,6 +717,10 @@ layeredimage speaker itske:
             Speaker("f_exp_scared1", "f_exp_scared2", "f_exp_scared3")
         attribute terrified:
             Speaker("f_exp_terrified1", "f_exp_terrified2", "f_exp_terrified3")
+        attribute confused:
+            Speaker("f_exp_confused1","f_exp_confused2","f_exp_confused3")
+        attribute bothered:
+            Speaker("f_exp_bothered1","f_exp_bothered2","f_exp_bothered3")
         #crushing
         attribute crush1:
             Speaker("f_exp_crush1_1","f_exp_crush1_2","f_exp_crush1_3")
@@ -1022,6 +1026,5 @@ layeredimage bg office:
         attribute intense:
             at scanlines_intense
             "pulse_scanlines"
-
 
 #endregion

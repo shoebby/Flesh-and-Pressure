@@ -25,6 +25,7 @@ define gui.show_name = False
 
 define config.version = "You_Must_Be_Hungry"
 
+define config.minimum_presplash_time = 3.0
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
@@ -53,14 +54,10 @@ define config.has_voice = False
 define config.default_music_volume = 1.0
 define config.default_sfx_volume = 0.7
 
-define config.sample_sound = "bones_skullcrush.mp3"
-
 ## To allow the user to play a test sound on the sound or voice channel,
 ## uncomment a line below and use it to set a sample sound to play.
 
-# define config.sample_sound = "sample-sound.ogg"
-# define config.sample_voice = "sample-voice.ogg"
-
+define config.sample_sound = "bones_skullcrush.mp3"
 
 ## Uncomment the following line to set an audio file that will be played while
 ## the player is at the main menu. This file will continue playing into the

@@ -3,6 +3,7 @@ label straggot:
     play audio "chaptercard.mp3"
     pause
 
+    show speaker tom sad at portrait
     t "Dating is so hard..."
 
     f "Mh? How so?"

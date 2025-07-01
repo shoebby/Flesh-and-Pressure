@@ -214,6 +214,7 @@ define gui.choice_button_text_idle_color = '#ff800a'
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = '#ff800a'
 
+define gui.nvl_button_text_size = gui.text_size
 
 #region File Slot Buttons ###########################################################
 ##
