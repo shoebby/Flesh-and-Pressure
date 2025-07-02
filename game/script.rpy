@@ -3,7 +3,7 @@
 
     def SpeakingBlip(event, speakerID, **kwargs):
         beeps = 0
-        while beeps < 150:
+        while beeps < 999:
             randosound = renpy.random.randint(0,6)
             if event == "show":
                 if randosound == 0:
@@ -22,21 +22,21 @@
                     renpy.sound.queue("speakingBlips/" + speakerID + "blip7.wav", channel="sound", loop=False)
                 spause = renpy.music.get_duration(channel="sound")
             elif event == "slow_done" or event == "end":
-                renpy.sound.stop(channel="sound")
+                renpy.sound.stop(channel="sound", fadeout=0.1)
             beeps += 1
 
-define j = Character("", kind=nvl, color="#ffffff", what_color="#dfff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="j_") #jenn
-define f = Character("", kind=nvl, color="#ffffff", what_color="#ffb787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="f_") #Itske
-define f_t = Character("", kind=nvl, what_italic=True, what_color="#ff781f") #Itske mind-thoughts
-define p = Character("", kind=nvl, color="#ffffff", what_color="#87a7ff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="p_") #piper
+define j = Character("", kind=nvl, color="#ffffff", what_color="#dfff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="j_") #jenn - VO'D
+define f = Character("", kind=nvl, color="#ffffff", what_color="#ffb787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="f_") #Itske - VO'D
+define f_t = Character("", kind=nvl, what_italic=True, what_color="#ff781f", callback=SpeakingBlip, cb_speakerID="f_t_") #Itske mind-thoughts
+define p = Character("", kind=nvl, color="#ffffff", what_color="#87a7ff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="p_") #piper - VO'D
 define m = Character("", kind=nvl, color="#ffffff", what_color="#ffa7dd", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="m_") #mae
-define t = Character("", kind=nvl, color="#ffffff", what_color="#ff8787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="t_") #tom
-define c = Character("", kind=nvl, color="#ffffff", what_color="#c587ff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="c_") #cammy
+define t = Character("", kind=nvl, color="#ffffff", what_color="#ff8787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="t_") #tom - VO'D
+define c = Character("", kind=nvl, color="#ffffff", what_color="#c587ff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="c_") #cammy - VO'Dcnn
 define d = Character("", kind=nvl, color="#ffffff", what_color="#87fbff", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="d_") #date
-define d_t = Character("", kind=nvl, what_italic=True, what_color="#1fc0ff") #date mind-thoughts
-define mt = Character("", kind=nvl, color="#ffffff", what_color="#91ff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="mt_") #meat
-define piss = Character("", kind=nvl, color="#ffffff", what_color="#fff787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="piss_") #the pee on the floor
-define chud = Character("", kind=nvl, color="#ffffff", what_color="#afafaf", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="chud_") #chud customer
+define d_t = Character("", kind=nvl, what_italic=True, what_color="#1fc0ff", callback=SpeakingBlip, cb_speakerID="d_t_") #date mind-thoughts
+define mt = Character("", kind=nvl, color="#ffffff", what_color="#91ff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="mt_") #meat - VO'D
+define piss = Character("", kind=nvl, color="#ffffff", what_color="#fff787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="piss_") #the pee on the floor - VO'D
+define chud = Character("", kind=nvl, color="#ffffff", what_color="#afafaf", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="chud_") #chud customer - VO'D
 
 transform Nameplate(frame1, frame2, frame3, frame4):
     frame1
@@ -121,6 +121,12 @@ transform portrait:
     ypos 70
     xsize 150
     ysize 175
+
+transform showcase:
+    xpos 0.275
+    ypos 0.55
+    xanchor 0.5
+    yanchor 0.5
 
 transform bgpos:
     ypos 1.0
@@ -721,6 +727,10 @@ layeredimage speaker itske:
             Speaker("f_exp_confused1","f_exp_confused2","f_exp_confused3")
         attribute bothered:
             Speaker("f_exp_bothered1","f_exp_bothered2","f_exp_bothered3")
+        attribute upset:
+            Speaker("f_exp_upset1","f_exp_upset2","f_exp_upset3")
+        attribute focused:
+            Speaker("f_exp_focused1","f_exp_focused2","f_exp_focused3")
         #crushing
         attribute crush1:
             Speaker("f_exp_crush1_1","f_exp_crush1_2","f_exp_crush1_3")
@@ -887,6 +897,8 @@ layeredimage speaker piper:
             Speaker("p_exp_neutral1", "p_exp_neutral2", "p_exp_neutral3")
         attribute grin:
             Speaker("p_exp_grin1", "p_exp_grin2", "p_exp_grin3")
+        attribute itske:
+            Speaker("f_exp_smug1","f_exp_smug2","f_exp_smug3")
         attribute exp_warped1:
             Speaker("p_exp_warped1_1", "p_exp_warped1_2", "p_exp_warped1_3")
         attribute exp_warped2:
@@ -982,6 +994,70 @@ layeredimage bg backyard:
     group backyard_blue:
         attribute backyard_b default:
             FlickerLeft("backyard_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg loveshot1:
+    group image_main:
+        attribute loveshot1 default:
+            at bgpos
+            "piper_loveshot1"
+
+    group backyard_red:
+        attribute loveshot1_r default:
+            FlickerRight("piper_loveshot1_r")
+            blend "add"
+
+    group backyard_green:
+        attribute loveshot1_g default:
+            FlickerUp_slight("piper_loveshot1_g")
+            blend "add"
+
+    group backyard_blue:
+        attribute loveshot1_b default:
+            FlickerLeft("piper_loveshot1_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg loveshot2:
+    group image_main:
+        attribute loveshot2 default:
+            at bgpos
+            "piper_loveshot2"
+
+    group backyard_red:
+        attribute loveshot2_r default:
+            FlickerRight("piper_loveshot2_r")
+            blend "add"
+
+    group backyard_green:
+        attribute loveshot2_g default:
+            FlickerUp_slight("piper_loveshot2_g")
+            blend "add"
+
+    group backyard_blue:
+        attribute loveshot2_b default:
+            FlickerLeft("piper_loveshot2_b")
             blend "add"
             
     group scanlines:

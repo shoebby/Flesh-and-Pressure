@@ -34,6 +34,7 @@ label chud:
 
     nvl clear
 
+    show speaker itske focused at portrait
     f_t "I make my way to the food court to start ringing people up."
 
     nvl clear
@@ -77,7 +78,7 @@ label chud:
     show speaker chud at portrait
     chud "I said normal! So a normal, medium sized, salty popcorn, si-{nw}"
 
-    show speaker itske enraged at portrait
+    show speaker itske upset at portrait
     play sound "glasscrack.mp3"
     f_t "His nose meets the popcorn warmer's glass top surface with a dull crack."
 

@@ -257,7 +257,7 @@ label date:
     show speaker date neutral at portrait
     d "Hey um... Itske?"
 
-    show speaker itske forcedsmile at portrait
+    show speaker itske focused at portrait
     f "Yeap?"
 
     show speaker date worried at portrait

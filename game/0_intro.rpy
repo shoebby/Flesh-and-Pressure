@@ -1,5 +1,5 @@
 label start:
-    scene bg backyard
+    show bg backyard
     play music "introthump.mp3" loop
     f_t "I hate my job."
     f_t "It's boring, pays horribly, but at least my coworkers are sweet."
@@ -14,7 +14,7 @@ label start:
     f_t "Her coat is a textured cobalt blue..."
     f_t "She's snappy, tactile, inviting..."
     f_t "Even her hazard sticker is fully intact..."
-    show piper with Dissolve(2.0)
+    show bg loveshot1 with Dissolve(2.0)
     pause
     queue sound "pressing.mp3" loop volume 0.1
     f_t "She accommodates a bulky wheelie bin without issue, and I help her deal with it."
@@ -27,6 +27,7 @@ label start:
     f_t "I yank her lever towards me, relieving her tension, allowing her piston back up, granting her a breath."
     f_t "This dance repeats itself, usually around 8pm, before people start to complain about noise, and until all of the day's trash has been dealt with."
     nvl clear
+    show bg loveshot2 with Dissolve(2.0)
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "The crunching, cracking, and popping trash bags..."
     show speaker itske flustered at portrait with dissolve
@@ -39,7 +40,6 @@ label start:
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
     f_t "I get close to her body and push my groin up against her, feeling her machinal purr resonate through me."
-    play sound2 "heavybreathing.mp3" loop
     show speaker itske exerted at portrait
     f "So warm..."
     nvl clear
@@ -69,7 +69,6 @@ label start:
     f "Goddd... Why is this so hot..."
     nvl clear
     f_t "Press. Pull. Compress. Whine. Push. Release."
-    #BONE-CRACK sfx
     play audio "bones_ribscrush.mp3" volume 0.5
     show speaker itske edge at portrait
     f_t "They would crack and splinter, driving themselves into my lungs, my heart, perforating my skin from the inside."
@@ -86,11 +85,9 @@ label start:
     f_t "Press. Pull. Compress. Whine. Push. Release."
     show speaker itske edge at portrait
     f_t "It hurts so much and feels so good, all she needs is a small extra push until..."
-    #BONE-CRACK-WET sfx
     play audio "bones_skullcrush.mp3" volume 0.5
     hide piper
     nvl clear
-    #HEAVY-BREATH and PRESSING sfx stops
     stop sound
     stop music
     show speaker itske bust at portrait
@@ -106,7 +103,7 @@ label start:
     play music "titletrack.mp3"
 
 label titlescreen:
-    scene titlescreen
+    scene _titlescreen
     $ renpy.pause(11.0, hard=True)
     stop music
     jump interview1

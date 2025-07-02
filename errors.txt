@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 80: expected 'comma or end of line' not found.
-    frame5 with Dissolve(.125): alpha 0.5
-                              ^
+File "game/0_intro.rpy", line 17: expected 'image_name_component' not found.
+    show 'gui/window_icon.png' at showcase with Dissolve(2.0)
+         ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sat Jun 28 23:38:02 2025
+Wed Jul  2 23:20:44 2025
