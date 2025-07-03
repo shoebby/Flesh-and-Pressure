@@ -2,6 +2,8 @@ label piss:
     scene ch4
     play audio "chaptercard.mp3"
     pause
+    
+    show bg counter
     show speaker itske at portrait
     f_t "Its been weeks but I keep fiddling with Piper."
     show speaker itske nervous at portrait

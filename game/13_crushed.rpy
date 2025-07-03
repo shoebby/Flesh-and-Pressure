@@ -3,6 +3,7 @@ label crushed:
     play audio "chaptercard.mp3"
     pause
 
+    show bg backyard
     show speaker itske pouting at portrait
     f_t "Well... That's it. My last shift and I still haven't found a new job. After this I have about... 4 weeks until I'll be kicked out of my apartment."
     show speaker itske focused at portrait

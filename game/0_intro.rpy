@@ -1,6 +1,7 @@
 label start:
     show bg backyard
     play music "introthump.mp3" loop
+   
     f_t "I hate my job."
     f_t "It's boring, pays horribly, but at least my coworkers are sweet."
     f_t "They don't misgender me... intentionally... and usually get it right aside from a few unfortunate moments."

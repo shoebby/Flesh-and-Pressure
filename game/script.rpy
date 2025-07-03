@@ -976,22 +976,22 @@ layeredimage speaker date:
 #region BACKGROUNDS
 
 layeredimage bg backyard:
-    group image_main:
+    group main:
         attribute backyard default:
             at bgpos
             "backyard"
 
-    group backyard_red:
+    group red:
         attribute backyard_r default:
             FlickerRight("backyard_r")
             blend "add"
 
-    group backyard_green:
+    group green:
         attribute backyard_g default:
             FlickerUp_slight("backyard_g")
             blend "add"
 
-    group backyard_blue:
+    group blue:
         attribute backyard_b default:
             FlickerLeft("backyard_b")
             blend "add"
@@ -1008,22 +1008,22 @@ layeredimage bg backyard:
             "pulse_scanlines"
 
 layeredimage bg loveshot1:
-    group image_main:
+    group main:
         attribute loveshot1 default:
             at bgpos
             "piper_loveshot1"
 
-    group backyard_red:
+    group red:
         attribute loveshot1_r default:
             FlickerRight("piper_loveshot1_r")
             blend "add"
 
-    group backyard_green:
+    group green:
         attribute loveshot1_g default:
             FlickerUp_slight("piper_loveshot1_g")
             blend "add"
 
-    group backyard_blue:
+    group blue:
         attribute loveshot1_b default:
             FlickerLeft("piper_loveshot1_b")
             blend "add"
@@ -1040,22 +1040,22 @@ layeredimage bg loveshot1:
             "pulse_scanlines"
 
 layeredimage bg loveshot2:
-    group image_main:
+    group main:
         attribute loveshot2 default:
             at bgpos
             "piper_loveshot2"
 
-    group backyard_red:
+    group red:
         attribute loveshot2_r default:
             FlickerRight("piper_loveshot2_r")
             blend "add"
 
-    group backyard_green:
+    group green:
         attribute loveshot2_g default:
             FlickerUp_slight("piper_loveshot2_g")
             blend "add"
 
-    group backyard_blue:
+    group blue:
         attribute loveshot2_b default:
             FlickerLeft("piper_loveshot2_b")
             blend "add"
@@ -1072,26 +1072,378 @@ layeredimage bg loveshot2:
             "pulse_scanlines"
 
 layeredimage bg office:
-    group office:
+    group main:
         attribute office default:
             at bgpos
             "office"
 
-    group office_red:
+    group red:
         attribute office_r default:
             FlickerRight("office_r")
             blend "add"
     
-    group office_green:
+    group green:
         attribute office_g default:
             FlickerUp_slight("office_g")
             blend "add"
     
-    group office_blue:
+    group blue:
         attribute office_b default:
             FlickerLeft("office_b")
             blend "add"
 
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg bathroom:
+    group main:
+        attribute bathroom default:
+            at bgpos
+            "bathroom"
+
+    group red:
+        attribute bathroom_r default:
+            FlickerRight("bathroom_r")
+            blend "add"
+
+    group green:
+        attribute bathroom_g default:
+            FlickerUp_slight("bathroom_g")
+            blend "add"
+
+    group blue:
+        attribute bathroom_b default:
+            FlickerLeft("bathroom_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg bedroom:
+    group main:
+        attribute bedroom default:
+            at bgpos
+            "bedroom"
+
+    group red:
+        attribute bedroom_r default:
+            FlickerRight("bedroom_r")
+            blend "add"
+
+    group green:
+        attribute bedroom_g default:
+            FlickerUp_slight("bedroom_g")
+            blend "add"
+
+    group blue:
+        attribute bedroom_b default:
+            FlickerLeft("bedroom_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg counter:
+    group main:
+        attribute counter default:
+            at bgpos
+            "counter"
+
+    group red:
+        attribute counter_r default:
+            FlickerRight("counter_r")
+            blend "add"
+
+    group green:
+        attribute counter_g default:
+            FlickerUp_slight("counter_g")
+            blend "add"
+
+    group blue:
+        attribute counter_b default:
+            FlickerLeft("counter_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg desk:
+    group main:
+        attribute desk default:
+            at bgpos
+            "desk"
+
+    group red:
+        attribute desk_r default:
+            FlickerRight("desk_r")
+            blend "add"
+
+    group green:
+        attribute desk_g default:
+            FlickerUp_slight("desk_g")
+            blend "add"
+
+    group blue:
+        attribute desk_b default:
+            FlickerLeft("desk_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg frontdoor:
+    group main:
+        attribute frontdoor default:
+            at bgpos
+            "frontdoor"
+
+    group red:
+        attribute frontdoor_r default:
+            FlickerRight("frontdoor_r")
+            blend "add"
+
+    group green:
+        attribute frontdoor_g default:
+            FlickerUp_slight("frontdoor_g")
+            blend "add"
+
+    group blue:
+        attribute frontdoor_b default:
+            FlickerLeft("frontdoor_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg hallway:
+    group main:
+        attribute hallway default:
+            at bgpos
+            "hallway"
+
+    group red:
+        attribute hallway_r default:
+            FlickerRight("hallway_r")
+            blend "add"
+
+    group green:
+        attribute hallway_g default:
+            FlickerUp_slight("hallway_g")
+            blend "add"
+
+    group blue:
+        attribute hallway_b default:
+            FlickerLeft("hallway_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg hobby:
+    group main:
+        attribute hobby default:
+            at bgpos
+            "hobby"
+
+    group red:
+        attribute hobby_r default:
+            FlickerRight("hobby_r")
+            blend "add"
+
+    group green:
+        attribute hobby_g default:
+            FlickerUp_slight("hobby_g")
+            blend "add"
+
+    group blue:
+        attribute hobby_b default:
+            FlickerLeft("hobby_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg kitchen:
+    group main:
+        attribute kitchen default:
+            at bgpos
+            "kitchen"
+
+    group red:
+        attribute kitchen_r default:
+            FlickerRight("kitchen_r")
+            blend "add"
+
+    group green:
+        attribute kitchen_g default:
+            FlickerUp_slight("kitchen_g")
+            blend "add"
+
+    group blue:
+        attribute kitchen_b default:
+            FlickerLeft("kitchen_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg livingroom:
+    group main:
+        attribute livingroom default:
+            at bgpos
+            "livingroom"
+
+    group red:
+        attribute livingroom_r default:
+            FlickerRight("livingroom_r")
+            blend "add"
+
+    group green:
+        attribute livingroom_g default:
+            FlickerUp_slight("livingroom_g")
+            blend "add"
+
+    group blue:
+        attribute livingroom_b default:
+            FlickerLeft("livingroom_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg machinery:
+    group main:
+        attribute machinery default:
+            at bgpos
+            "machinery"
+
+    group red:
+        attribute machinery_r default:
+            FlickerRight("machinery_r")
+            blend "add"
+
+    group green:
+        attribute machinery_g default:
+            FlickerUp_slight("machinery_g")
+            blend "add"
+
+    group blue:
+        attribute machinery_b default:
+            FlickerLeft("machinery_b")
+            blend "add"
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg walkway:
+    group main:
+        attribute walkway default:
+            at bgpos
+            "walkway"
+
+    group red:
+        attribute walkway_r default:
+            FlickerRight("walkway_r")
+            blend "add"
+
+    group green:
+        attribute walkway_g default:
+            FlickerUp_slight("walkway_g")
+            blend "add"
+
+    group blue:
+        attribute walkway_b default:
+            FlickerLeft("walkway_b")
+            blend "add"
+            
     group scanlines:
         attribute slight default:
             at scanlines_slight

@@ -3,6 +3,7 @@ label flashback:
     play audio "chaptercard.mp3"
     pause
     
+    show bg livingroom
     show speaker itske drawn nervous at portrait
     f "A-ahh... It ticklesss... ehehe..."
 
@@ -190,7 +191,8 @@ label flashback:
     show speaker itske drawn edge at portrait
     f_t "Considering her preferences I bet she's soaked as well."
     show speaker itske drawn flustered at portrait
-    f_t "Walking over to the mirror I use my phone as a double reflection to get a clear view of my back..."
+    show bg hallway with dissolve
+    f_t "Walking over to the hallway mirror I use my phone as a double reflection to get a clear view of my back..."
 
     nvl clear
 

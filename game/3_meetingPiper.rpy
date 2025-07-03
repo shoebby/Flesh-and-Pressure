@@ -2,7 +2,7 @@ label meeting:
     scene ch3
     play audio "chaptercard.mp3"
     pause
-#CG counter
+    show bg counter
     show speaker tom at portrait
     t "-and honestly bitcoin is way overhyped by this point, I don't think it's worth investing in. Stuff's just too stable to get me -really- excited, y'know?"
 
@@ -30,7 +30,7 @@ label meeting:
     t "You never noticed it? It's out back! I can show it to you real quick."
 
     nvl clear
-#CG backyard
+    show bg backyard with dissolve
     show speaker itske neutral at portrait
     f_t "Through the heavy emergency back exit we enter the small outside area behind the cinema."
     f_t "It's grown quite familiar to me, it's the only place where I can go and smoke during my breaks."
@@ -177,6 +177,7 @@ label meeting:
 
     show speaker itske pouting at portrait
     f_t "I shuffle off back into the building, her whirring and whining growing fainter with every set of doors I pass through."
+    show bg counter with dissolve
     show speaker itske flustered at portrait
     f_t "I... Need to... -think-... about some stuff."
     show speaker itske smug at portrait

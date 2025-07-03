@@ -3,6 +3,7 @@ label sex:
     play audio "chaptercard.mp3"
     pause
 
+    show bg bedroom
     show speaker itske naked pouting at portrait
     f_t "Wooh. Okay. Sent her my location. Her distance is like 2 kilometers so I have some time to prepare."
     f_t "Need to clear out clothes from the floor and the bed..."
@@ -52,6 +53,7 @@ menu (nvl=True):
 
     "{color=#fff}[[ANAL RETENTIVE PRAGMATIST]{/color} Bathroom? For y'know, douche stuff? If she wants to, that is.":
         nvl clear
+        show bg bathroom with dissolve
         show speaker itske naked disgust at portrait
         f_t "I head into the bathroom and am reminded of the absolute mess I left behind yesterday."
         f_t "There's shaving cream everywhere, leg hairs cling to the sink, but at least the shower looks fine."
@@ -76,6 +78,7 @@ menu (nvl=True):
 
     "{color=#fff}[[APOLOGETIC HORNY CHEF]{/color} Kitchen? That way I can make her something in the morning, like a grilled cheese or something.":
         nvl clear
+        show bg kitchen with dissolve
         show speaker itske naked smug at portrait
         f_t "If there's one thing I know it's that sex is hard work, and hard work makes hungry."
         show speaker itske naked disgust at portrait
@@ -107,15 +110,18 @@ menu (nvl=True):
 
     "{color=#fff}[[HOOKUP STAGEHAND]{/color} Living Room? Make sure to display some cool stuff, make a good first impression!":
         nvl clear
+        show bg livingroom with dissolve
         show speaker itske naked pouting at portrait
         f_t "We talked about Dreamy Honey Darling Overload for what felt like ages... I should display some of my con merch in the living room..."
         show speaker itske naked smiling at portrait
+        show sc_macadamia at showcase with dissolve
         f_t "It's both our favourite Gacha game, I bet she's never seen this limited edition Honey Macadamia figurine..."
 
         show speaker itske naked smug at portrait
         f "Heh... She won't be able to resist..."
-
+        
         f_t "I carefully place it next to the TV, in clear view when you walk through the hall towards the bedroom."
+        hide sc_macadamia with dissolve
 
         show speaker itske naked nervous at portrait
         f "Maybe... Also clean up the couch, just in case."
@@ -153,22 +159,29 @@ label sex2:
     
     show speaker itske naked shock at portrait
     queue sound doorbell
+    pause
     f_t "..."
 
     show speaker itske naked scared at portrait
     f "She's here? Already? Fuck!!!"
 
+    show bg bedroom with dissolve
     show speaker itske naked stressed at portrait
     f_t "I rush to put on something more presentable than half-naked."
     show speaker itske naked pouting at portrait
     f_t "Big dyke pants..."
     show speaker itske tank smug at portrait
     f_t "Tank top, looks clean enough..."
-    show speaker itske tank pouting at portrait
-    f_t "Skip the bra..."
+
+    show speaker itske tank yelling at portrait
+    f "I'm coming!!!"
+
     show speaker itske tank stressed at portrait
+    f_t "Skip the bra..."
+    show speaker itske tank scared at portrait
     f_t "Okay! Open the door!"
 
+    show bg frontdoor with dissolve
     show speaker itske tank exerted at portrait
     f "Hff... H-hey... You look..."
 
@@ -211,6 +224,7 @@ label sex2:
 
     f "Phew..."
 
+    show bg bedroom with dissolve
     show speaker itske tank flustered at portrait
     f_t "I close the door and quickly make my way to the bedroom, catching her sliding out of her big puffy jacket and nonchalantly tossing it on the cuck chair."
 

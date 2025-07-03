@@ -3,6 +3,7 @@ label entanglement:
     play audio "chaptercard.mp3"
     pause
 
+    show bg counter
     show speaker mae neutral at portrait
     m "Itske! How're you? You've been sick for a while right? You had everyone worried!"
 
@@ -18,6 +19,7 @@ label entanglement:
 
     show speaker itske annoyed at portrait
     f_t "Stop saying slay at me. Please stop saying slay whenever I do anything. You fucking freak."
+    show bg office with dissolve
     f_t "I head upstairs into the manager's office to grab a set of keys and a portophone."
     f_t "I attach both to my belt and quickly clock in."
 
@@ -90,6 +92,7 @@ label entanglement:
 
     nvl clear
 
+    show bg counter with dissolve
     show speaker itske annoyed at portrait
     f_t "I make my way down and Mae pretends to not have heard what was said upstairs."
     show speaker itske upset at portrait
@@ -106,6 +109,7 @@ label entanglement:
 
     nvl clear
 
+    show bg backyard with dissolve
     show speaker piper neutral at portrait
     p "In trouble?"
 

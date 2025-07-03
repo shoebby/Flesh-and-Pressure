@@ -3,6 +3,7 @@ label fired:
     play audio "chaptercard.mp3"
     pause
 
+    show bg office
     show speaker jenn enraged at portrait
     j "..."
 

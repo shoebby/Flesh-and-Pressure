@@ -2,7 +2,7 @@ label alone:
     scene ch2
     play audio "chaptercard.mp3"
     pause
-#CG hallway
+    show bg hallway
     show speaker itske at portrait
     f_t "My keys clatter as I toss them on the metal hallway ledge."
     f_t "I messed up my throw and I brace myself as the weight of the carabiner pulls the rest of the bunch down over the edge."
@@ -66,9 +66,9 @@ label alone:
     f "So dark..."
 
     f_t "I throw on the hallway lights and then move on to the living room ones."
-#CG living room
+    show bg livingroom with dissolve
     f_t "Standing paper guy, standing Pixar guy, standing three-headed guy."
-#CG kitchen
+    show bg kitchen with dissolve
     f_t "Finally, with the kitchen lights on, I start feeling more at ease and throw a look at the oven's clock."
 
 
@@ -78,7 +78,7 @@ label alone:
     show speaker itske smiling
     f_t "Sleeping is wasting time, I could spend that time doing fun stuff!"
     show speaker itske forcedsmile
-#CG hobby room
+    show bg hobby with dissolve
     f_t "Walking over to the apartment's crafts corner I flick on the light switch and look around."
     f_t "Now that I have time to -myself- finally, I can do all the things I've been wanting to do!"
 
@@ -89,7 +89,7 @@ label alone:
 
     nvl clear
 
-#CG desk
+    show bg desk with dissolve
     f_t "Hopping over to my now lonely desk I turn my computer on and boot up Steam, scrolling through my library..."
     show speaker itske forcedsmile
     f_t "Scrolling..."
@@ -105,7 +105,7 @@ label alone:
 
     f_t "With heavy reluctance I boot up the Feed The Beast launcher and start playing the same modpack I've been playing for the past half-decade."
 
-    show speaker itske neutral
+    show speaker itske focused
     f "New world... Survival... Hard... World type default..."
 
     f_t "It's going pretty well this time around. Before long I even got a fully automated setup going for processing ores!"
@@ -115,33 +115,35 @@ label alone:
 
     show speaker itske confused
     f "Hey Cammy do you know how to-"
-    show speaker itske heartbroken
+    show speaker itske pouting
     f "...Oh."
+    show speaker itske heartbroken
     f "I... Forgot, again."
     show speaker itske crying
     f "..."
 
-    show speaker itske bothered
+    show speaker itske upset
     f_t "Damnit damnit damnit damnit my eyes are burning, I can't do this it hurts too much."
     f_t "Always feeling too much, always been my issue."
     show speaker itske heartbroken
     f_t "I should just head to bed, tomorrow I'll feel better, for sure."
     f_t "I turn off my PC, turn off the kitchen lights, turn off the living room lights, turn off the hallway lights..."
-#CG hallway
+    show bg hallway with dissolve
     show speaker itske stressed
     f_t "The dark has now taken hold of me, my eyes slowly acclimate to it but an uneasy feeling fills my throat like bile."
     show speaker itske scared
-#CG bedroom
+    show bg bedroom with dissolve
     f_t "I speedwalk to the bedroom and slam the door shut behind me, looking away from the dark beyond as I do so; afraid to catch a glimpse of something that is not there and cannot exist."
     show speaker itske terrified
     f_t "I quickly turn on the lights and crawl under the covers."
 
     nvl clear
 
+    show sc_bearnard at showcase with dissolve
     show speaker itske stressed
     f_t "tonight I'll be clutching onto Bearnard."
-#IMG bearnard
     f_t "He's fuzzy, soft, weighty, iridescent."
+    hide sc_bearnard with dissolve
     f_t "I keep staring at the closed door, every blink a terrifying moment of brief blindness."
     f_t "There's sounds, I could swear I'm hearing sounds."
     show speaker itske scared

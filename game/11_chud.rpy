@@ -3,6 +3,7 @@ label chud:
     play audio "chaptercard.mp3"
     pause
 
+    show bg counter
     show speaker itske tired at portrait
     f_t "Heading back inside I feel like a bit of the weight has fallen off my shoulders."
     f_t "I managed to do a task."

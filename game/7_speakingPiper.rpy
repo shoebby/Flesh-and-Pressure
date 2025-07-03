@@ -3,6 +3,7 @@ label speaking:
     play audio "chaptercard.mp3"
     pause
 
+    show bg backyard
     show speaker piper neutral que at portrait
     p "Do you like me?"
 

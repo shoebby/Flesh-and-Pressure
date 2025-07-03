@@ -3,6 +3,7 @@ label depressed:
     play audio "chaptercard.mp3"
     pause
 
+    show bg bedroom
     show speaker itske disheveled focused at portrait
     f_t "That's 67 slats... The rest can't be counted cause they're bunched up on the windowsill."
     f_t "Okay let's see... that's 67 slats on the blinds..."
