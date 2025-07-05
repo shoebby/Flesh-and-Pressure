@@ -242,11 +242,11 @@ label speaking:
 
     nvl clear
     scene lock_ch7
-    play sound lock_lick1
+    play music lock_lick1 noloop
     scene lock_ch7_txt1 with Dissolve(1.0)
     scene lock_ch7_txt2 with Dissolve(1.0)
     scene lock_ch7_txt3 with Dissolve(1.5)
     scene lock_ch7_txt4 with Dissolve(4.0)
     pause
-    stop sound
+    stop music
     jump sex

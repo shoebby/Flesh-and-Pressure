@@ -36,5 +36,5 @@ main body font :: Apple Garamond
 https://www.dafont.com/apple-garamond.font
 
 === RENPY ===
-Renpy Speech Pauses - brunoais
-https://brunoais.itch.io/renpy-speech-pauses
+Wave Shader - Wattson
+https://wattson.itch.io/renpy-wave-shader

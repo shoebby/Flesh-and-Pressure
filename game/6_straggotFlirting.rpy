@@ -297,4 +297,12 @@ label straggot2:
     f "Oh my f-{nw}"
 
     nvl clear
+    scene lock_ch6
+    play music lock_lick1 noloop
+    scene lock_ch6_txt1 with Dissolve(1.0)
+    scene lock_ch6_txt2 with Dissolve(1.0)
+    scene lock_ch6_txt3 with Dissolve(1.5)
+    scene lock_ch6_txt4 with Dissolve(4.0)
+    pause
+    stop music
     jump speaking

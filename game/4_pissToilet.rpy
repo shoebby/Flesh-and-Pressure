@@ -219,4 +219,12 @@ label piss:
     f "F-for fucks sake..."
 
     nvl clear
+    scene lock_ch4
+    play music lock_lick1 noloop
+    scene lock_ch4_txt1 with Dissolve(1.0)
+    scene lock_ch4_txt2 with Dissolve(1.0)
+    scene lock_ch4_txt3 with Dissolve(1.5)
+    scene lock_ch4_txt4 with Dissolve(4.0)
+    pause
+    stop music
     jump date

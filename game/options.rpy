@@ -40,6 +40,8 @@ define gui.about = _p("""
 
 define build.name = "FleshAndPressure"
 
+define config.mouse = { }
+define config.mouse['default'] = [("gui/cursor.png", 0, 0)]
 
 ## Sounds and music ############################################################
 

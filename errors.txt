@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/0_intro.rpy", line 17: expected 'image_name_component' not found.
-    show 'gui/window_icon.png' at showcase with Dissolve(2.0)
-         ^
+File "game/script.rpy", line 1147: attribute expects a non-empty block.
+    attribute flashback:
+                        ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed Jul  2 23:20:44 2025
+Fri Jul  4 13:24:48 2025

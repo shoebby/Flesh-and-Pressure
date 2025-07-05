@@ -2,8 +2,8 @@ label flashback:
     scene ch9-5
     play audio "chaptercard.mp3"
     pause
-    
-    show bg livingroom
+    scene black
+    show bg bedroom_fb with Dissolve(5.0)
     show speaker itske drawn nervous at portrait
     f "A-ahh... It ticklesss... ehehe..."
 
@@ -210,4 +210,12 @@ label flashback:
     f "Nishiki fish!!!"
 
     nvl clear
+    scene lock_ch9-5
+    play music lock_lick1 noloop
+    scene lock_ch9-5_txt1 with Dissolve(1.0)
+    scene lock_ch9-5_txt2 with Dissolve(1.0)
+    scene lock_ch9-5_txt3 with Dissolve(1.5)
+    scene lock_ch9-5_txt4 with Dissolve(4.0)
+    pause
+    stop music
     jump entanglement

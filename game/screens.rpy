@@ -382,15 +382,20 @@ screen main_menu():
         ypos 0.05
         spacing 8
         
-        textbutton _("{color=#fdcd0e}{size=26}Start{/size}{/outlinecolor}") action Start()
+        textbutton _("{size=26}Start{/size}") action Start()
 
-        textbutton _("{color=#fdcd0e}{size=26}Load{/size}{/outlinecolor}") action ShowMenu("load")
+        textbutton _("{size=26}Load{/size}") action ShowMenu("load")
 
-        textbutton _("{color=#fdcd0e}{size=26}Preferences{/size}{/outlinecolor}") action ShowMenu("preferences")
+        textbutton _("{size=26}Preferences{/size}") action ShowMenu("preferences")
 
-        textbutton _("{color=#fdcd0e}{size=26}About{/size}{/outlinecolor}") action ShowMenu("about")
+        textbutton _("{size=26}About{/size}") action ShowMenu("about")
 
-        textbutton _("{color=#fdcd0e}{size=26}Quit{/size}{/outlinecolor}") action Quit(confirm=not main_menu)
+        textbutton _("{size=26}Quit{/size}") action Quit(confirm=not main_menu)
+
+    hbox xalign 0.025 yalign 0.975 spacing 12:
+        imagebutton idle "gui/itch_idle.png" hover "gui/itch_hover.png" action OpenURL('https://shoebby.itch.io/')
+        imagebutton idle "gui/bluesky_idle.png" hover "gui/bluesky_hover.png" action OpenURL('https://bsky.app/profile/lexie.land')
+        imagebutton idle "gui/lexieland_idle.png" hover "gui/lexieland_hover.png" action OpenURL('https://www.lexie.land/')
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.

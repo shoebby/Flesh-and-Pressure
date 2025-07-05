@@ -162,4 +162,12 @@ label depressed:
     f_t "The only genuine connection I've had in recent memory was with a fucking trash compactor."
 
     nvl clear
+    scene lock_ch9
+    play music lock_lick1 noloop
+    scene lock_ch9_txt1 with Dissolve(1.0)
+    scene lock_ch9_txt2 with Dissolve(1.0)
+    scene lock_ch9_txt3 with Dissolve(1.5)
+    scene lock_ch9_txt4 with Dissolve(4.0)
+    pause
+    stop music
     jump flashback

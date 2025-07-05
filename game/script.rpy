@@ -2,14 +2,14 @@
     renpy.music.register_channel("sound2", "sound")
 
     def SpeakingBlip(event, speakerID, **kwargs):
-        beeps = 0
-        while beeps < 999:
-            randosound = renpy.random.randint(0,6)
-            if event == "show":
+        beeps = 0 #at the start of the dialogue set beeps to 0
+        while beeps < 999: #absolute maximum amount of beeps per dialogue, can be whatever its just to make the while loop work
+            randosound = renpy.random.randint(0,6) #select a random integer
+            if event == "show": #pick one of 7 'blip' sound effects, you can make it less but im doing musical scales and modes so its a lot
                 if randosound == 0:
-                    renpy.sound.queue("speakingBlips/" + speakerID + "blip1.wav", channel="sound", loop=False)
-                elif randosound == 1:
-                    renpy.sound.queue("speakingBlips/" + speakerID + "blip2.wav", channel="sound", loop=False)
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip1.wav", channel="sound", loop=False)  #construct the path of the audio clip using the
+                elif randosound == 1:                                                                           #speakerID, for example one of these clips is called
+                    renpy.sound.queue("speakingBlips/" + speakerID + "blip2.wav", channel="sound", loop=False)  #f_blip3.wav
                 elif randosound == 2:
                     renpy.sound.queue("speakingBlips/" + speakerID + "blip3.wav", channel="sound", loop=False)
                 elif randosound == 3:
@@ -20,10 +20,10 @@
                     renpy.sound.queue("speakingBlips/" + speakerID + "blip6.wav", channel="sound", loop=False)
                 elif randosound == 6:
                     renpy.sound.queue("speakingBlips/" + speakerID + "blip7.wav", channel="sound", loop=False)
-                spause = renpy.music.get_duration(channel="sound")
-            elif event == "slow_done" or event == "end":
-                renpy.sound.stop(channel="sound", fadeout=0.1)
-            beeps += 1
+                spause = renpy.music.get_duration(channel="sound") #pause the channel for the duration of the audioclip, so they dont overlap a bunch
+            elif event == "slow_done" or event == "end":        #if the dialogue box is finished writing
+                renpy.sound.stop(channel="sound", fadeout=0.1)  #stop the channel sound, fadeout of 0.1s to make sure it doesn't make an annoying 'click' sound
+            beeps += 1 #add 1 to beeps after a clip is called
 
 define j = Character("", kind=nvl, color="#ffffff", what_color="#dfff87", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="j_") #jenn - VO'D
 define f = Character("", kind=nvl, color="#ffffff", what_color="#ffb787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="f_") #Itske - VO'D
@@ -424,6 +424,10 @@ transform FlickerUp_moderate(image):
     choice:
         1.4
     repeat
+
+transform Flashback(image, _prd, _amp, _spd):
+    image
+    function WaveShader(direction='both', repeat='mirrored', period =_prd, amp=_amp, speed=_spd)
 
 #endregion
 
@@ -1166,6 +1170,22 @@ layeredimage bg bedroom:
         attribute intense:
             at scanlines_intense
             "pulse_scanlines"
+
+layeredimage bg bedroom_fb:
+    group red:
+        attribute flashback_r default:
+            Flashback("bedroom_r", (2.5, 1.1), (-2.0, 1.4), (0.3, -1.2))
+            blend "add"
+
+    group green:
+        attribute flashback_g default:
+            Flashback("bedroom_g", (1.0, 0.3), (4.0, -1.2), (0.6, 1.5))
+            blend "add"
+
+    group blue:
+        attribute flashback_b default:
+            Flashback("bedroom_b", (0.6, 2.1), (1.0, 2.1), (1.5, 2.0))
+            blend "add"
 
 layeredimage bg counter:
     group main:

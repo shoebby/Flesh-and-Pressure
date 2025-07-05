@@ -203,4 +203,12 @@ label fired_end:
     j "I'll see you tomorrow."
 
     nvl clear
+    scene lock_ch12
+    play music lock_lick1 noloop
+    scene lock_ch12_txt1 with Dissolve(1.0)
+    scene lock_ch12_txt2 with Dissolve(1.0)
+    scene lock_ch12_txt3 with Dissolve(1.5)
+    scene lock_ch12_txt4 with Dissolve(4.0)
+    pause
+    stop music
     jump crushed
