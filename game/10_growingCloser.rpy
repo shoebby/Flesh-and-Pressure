@@ -3,16 +3,23 @@ label entanglement:
     play audio "chaptercard.mp3"
     pause
 
+    scene black
     show bg counter
     show speaker mae neutral at portrait
     m "Itske! How're you? You've been sick for a while right? You had everyone worried!"
 
     show speaker itske annoyed at portrait
     f_t "Yeah, sure. I bet all of you were glad that the weird, miserable little tranny wasn't here to cause discomfort all day."
-    f_t "Or do you also just see me as a freaky thing to gawk at and use? I mean, you're bi, best of both worlds, right? Right? Right?"
+    f_t "Or do you also just see me as a freaky thing to gawk at and use? I mean, you're bi, best of both worlds, right?"
+    show speaker itske angry at portrait
+    f_t "Right?"
+    show speaker itske enraged at portrait
+    f_t "Right?"
+
+    nvl clear
 
     show speaker itske pouting at portrait
-    f "Hey Mae. Yeah I'm doing better now, thanks. I'll head upstairs to get changed."
+    f "... Hey Mae. Yeah I'm doing better now, thanks. I'll head upstairs to get changed."
 
     show speaker mae happy at portrait
     m "Slay, cya soon!"
@@ -29,7 +36,8 @@ label entanglement:
     j "Hey there Itske, welcome back."
 
     show speaker itske stressed at portrait
-    f_t "Fuck, I forgot to acknowledge her presence. Don't be weird."
+    f_t "Fuck, forgot to acknowledge her presence."
+    f_t "Don't be weird."
 
     show speaker itske pouting at portrait
     f "Hey Jenn, yeah, sorry, I caught a pretty bad bug. I'm running a bit late so I'll just drop my jacket and stuff off in the break room okay?"
@@ -57,8 +65,11 @@ label entanglement:
     f "Please don't fire me..."
 
     show speaker jenn worried at portrait
-    j "... If you don't want that, we don't want that either. Just... Please... Get your act straight."
+    j "... If you don't want that, we don't want that either."
+    j "Just... Please... Get your act straight."
     j "I'm on your side here, but the regional manager only sees a... less-than-optimally performing number on his sheet."
+
+    nvl clear
 
     show speaker itske heartbroken at portrait
     f "I'm... Really trying my best..."
@@ -104,12 +115,12 @@ label entanglement:
     show speaker mae happy at portrait
     m "Yeah of course, wouldn't wanna break your habit!"
 
+    show bg backyard with dissolve
     show speaker itske annoyed at portrait
-    f_t "Her beaming smile is giving me radiation poisoning, the Geiger counter's static turns into clicks as I quickly escape the fallout zone into the back alley's relatively fresh air."
+    f_t "Her beaming smile is radioactive, the Geiger counter's static reduces to sporadic clicks as I quickly escape the fallout zone into the back yard's relatively fresh air."
 
     nvl clear
 
-    show bg backyard with dissolve
     show speaker piper neutral at portrait
     p "In trouble?"
 
@@ -137,6 +148,9 @@ label entanglement:
     show speaker piper neutral at portrait
     p "Whenever I see you talk with someone, be it here or outside of work, it's like you surround yourself with a thick impenetrable wall."
     p "You don't want to let people in, you don't trust to let them in, even when you're balls deep inside of someone you're just..."
+
+    nvl clear
+
     show speaker piper grin at portrait
     p "Not. "
     p "Letting."
@@ -158,7 +172,7 @@ label entanglement:
 
     nvl clear
 
-    show speaker piper grin at portrait
+    show speaker piper pouting at portrait
     p "Are you really surprised Cammy left you? You wouldn't touch her for months."
 
     show speaker itske enraged at portrait
@@ -170,7 +184,7 @@ label entanglement:
     p "Do you even know the name of that girl you fucked? Did you bother to ask?"
     p "Hell, do you remember the name of that -date-?"
 
-    show speaker itske bothered at portrait
+    show speaker itske upset at portrait
     f "Shut the FUCK up."
 
     nvl clear
@@ -181,6 +195,9 @@ label entanglement:
     show speaker piper grin at portrait
     p "It drives you crazy."
 
+    nvl clear
+    
+    show bg backyard moderate
     show speaker itske yelling at portrait
     f "SHUT."
     f "UP."
@@ -195,6 +212,9 @@ label entanglement:
     show speaker piper grin at portrait
     p "All you want is to die."
 
+    nvl clear
+
+    show bg backyard intense
     show speaker itske upset at portrait
     f "NOT TRUE."
     f "NOT."
@@ -208,6 +228,7 @@ label entanglement:
 
     nvl clear
 
+    show bg backyard moderate
     show speaker itske enraged at portrait
     f "Is this funny to you...?"
     show speaker itske upset at portrait
@@ -225,6 +246,7 @@ label entanglement:
 
     nvl clear
 
+    show bg backyard -moderate
     show speaker itske angry at portrait
     f "No, I want to live. Nothing you say will change that."
     f "They're not gonna fire me, I'm gonna excel, they're gonna promote me to shift leader or something."
@@ -238,11 +260,15 @@ label entanglement:
     
     f_t "Her grin shrinks back to a slight smile; polite, kind, motherly."
 
+    nvl clear
+
     show speaker piper neutral at portrait
     p "Alright... I'll always believe in you, you know that right?"
 
     show speaker itske annoyed at portrait
     f "Right..."
+
+    nvl clear
 
     show speaker piper neutral at portrait
     p "I love you Itske, you can do this."
@@ -250,11 +276,23 @@ label entanglement:
     show speaker itske pouting at portrait
     f "Y-yes..."
 
+    nvl clear
+
     show speaker itske upset at portrait
     f_t "Why do I feel so disappointed?"
+
+    nvl clear
 
     show speaker itske disgust at portrait
     f "L-let's compact some trash."
     
     nvl clear
+    scene lock_ch10
+    play music lock_lick1 noloop
+    scene lock_ch10_txt1 with Dissolve(1.0)
+    scene lock_ch10_txt2 with Dissolve(1.0)
+    scene lock_ch10_txt3 with Dissolve(1.5)
+    scene lock_ch10_txt4 with Dissolve(4.0)
+    pause
+    stop music
     jump chud

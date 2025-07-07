@@ -1,18 +1,17 @@
-2025-07-05 11:22:25 UTC
+2025-07-07 19:13:14 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.7.25031702
 
 Early init took 0.08s
 Loading error handling took 0.03s
-Loading script took 0.42s
+Loading script took 0.39s
 Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
-Running init code took 0.09s
+Running init code took 0.16s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
 Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -20,18 +19,18 @@ Initial gc took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
+Creating interface object took 0.02s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
-Running _start took 1.68s
-Interface start took 0.32s
+Running _start took 0.97s
+Interface start took 0.35s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -45,16 +44,13 @@ Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Screen sizes: virtual=(1024, 768) physical=(1985, 1057) drawable=(1985, 1057)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Screen sizes: virtual=(1024, 768) physical=(1103, 1057) drawable=(1103, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1103, 843) drawable=(1103, 843)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1103, 731) drawable=(1103, 731)
 Maximum texture size: 4096x4096

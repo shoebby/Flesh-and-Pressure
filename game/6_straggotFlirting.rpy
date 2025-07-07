@@ -20,13 +20,16 @@ label straggot:
     t "I've been on dating apps, done a bunch of texting, but it never seems to turn into a date..."
     t "Like, you have a girlfriend right?"
 
+    nvl clear
+
     show speaker itske nervous at portrait
     f "Errr..."
     
+    show speaker itske awkward at portrait
     f_t "Such horrible timing for a conversation like this, right after yesterday's mess."
     show speaker itske pouting at portrait
     f_t "She didn't block me but with how cold and distant she is now I kinda wish she did."
-    show speaker itske bothered at portrait
+    show speaker itske upset at portrait
     f_t "Whatever, fucking chaser."
 
     nvl clear
@@ -41,7 +44,9 @@ label straggot:
     show speaker itske confused at portrait
     f_t "But what if you have two things to say?"
     show speaker itske annoyed at portrait
-    f_t "I hate that this guy is like 10\% right, it -is- complicated."
+    f_t "I hate that this guy is like 10\% right, it's a bit complicated."
+
+    nvl clear
 
     show speaker tom neutral at portrait
     t "Oh, weird, I thought I heard you talk about her recently."
@@ -66,6 +71,9 @@ label straggot:
     f_t "I didn't realize but this is somehow now contending with the strip bar gig for longest held job."
     show speaker itske smug at portrait
     f_t "And I had a sweet gimmick there! I have no gimmick here at all! Except for my trash-compacting I guess."
+
+    nvl clear
+
     show speaker itske pouting at portrait
     f_t "Why haven't they fired me yet?"
     show speaker itske thinking at portrait
@@ -90,17 +98,25 @@ label straggot:
     show speaker itske disgust at portrait
     f_t "Oh my god shut up you've had like 2 relationships and they both violently imploded, and hookups do NOT count as relevant dating experience."
 
+    nvl clear
+
     show speaker tom neutral at portrait
-    t "Oh! Sure! Alright so I was thinking, for this girl I've been texting with for a while, she -really- likes anime, do you know wha-"
+    t "Oh!"
+    t "Sure!"
+    t "Alright so I was thinking, for this girl I've been texting with for a while."
+    t "She -really- likes anime, do you know wha-"
 
     show speaker itske smug at portrait
-    f_t "My sagely nodding cues him into the fact that I am also a disgusting weeb. I even have my arms crossed, it's like the full picture."
+    f_t "My sagely nodding cues him into the fact that I am also a disgusting weeb."
+    f_t "I even have my arms crossed, it's like the full picture."
+
+    nvl clear
 
     show speaker tom neutral at portrait
     t "Well I figured, why not take her out to karaoke?"
 
     show speaker itske smiling at portrait
-    f_t "This is an incredible idea."
+    f_t "This is an incredible idea!"
 
     show speaker tom neutral at portrait
     t "I think I'd like your perspective on this cause she's trans as well-"
@@ -116,7 +132,7 @@ label straggot:
     t "Oh god is it?"
 
     show speaker itske smug at portrait
-    f "99\% chance it is. Even if she went through with it there's a major chance she breaks down crying halfway through her first performance-"
+    f "99\% chance it is. Even if she went through with it there's a major chance she'll break down crying halfway through her first performance-"
 
     show speaker itske disgust at portrait
     f_t "Wow, projecting much?"
@@ -127,6 +143,8 @@ label straggot:
     show speaker tom sad at portrait
     t "Okay... So what sort of date ideas do you suggest?"
 
+    nvl clear
+
     show speaker itske pouting at portrait
     f "Well it depends y'know? You've gotta know what they like and it mostly hinges on that."
     show speaker itske smiling at portrait
@@ -134,11 +152,17 @@ label straggot:
     show speaker itske forcedsmile at portrait
     f "Depending on the person even minigolf could be a good date idea"
 
+    nvl clear
+
     show speaker tom neutral at portrait
     t "Haha, so I take it you don't like midgetgolf?"
 
+    nvl clear
+
     show speaker itske annoyed at portrait
     f "I hate it. Also don't call it that, it's kinda ableist."
+
+    nvl clear
 
     show speaker tom sad at portrait
     t "O-okay... Then... What should I do? Any ideas?"
@@ -165,15 +189,17 @@ menu (nvl=True):
         show speaker tom neutral at portrait
         t "Oh I'm sure she'd like that! She likes to wear these fluffy, frilly, cutesy dresses 'n stuff, like a Disney princess!"
 
+        nvl clear
+
         show speaker itske forcedsmile at portrait
         f_t "Oh god he fell for a lolita girl."
         f_t "Not just a lolita girl, but from his description probably a sweet lolita girl."
         f_t "She's going to ruin his life and eat him alive."
-        show speaker itske thinking at portrait
+        show speaker itske upset at portrait
         f_t "I'm so fucking envious."
 
         show speaker itske smiling at portrait
-        f "A-ah, yeah, nice! But yeah cinemas screen them here pretty often. Could be a good idea..."
+        f "A-ah, yeah, nice! But yeah cinemas screen them pretty often. Could be a good idea..."
 
     "{color=#fff}[[DESPERATE FAKE MIRRORER]{/color} Binge an extremely niche anime with her, try to match her power level.":
         show speaker itske smug at portrait
@@ -190,6 +216,8 @@ menu (nvl=True):
 
         show speaker itske annoyed at portrait
         f_t "Liking peak media is NOT pretentious."
+
+        nvl clear
 
         show speaker tom neutral at portrait
         t "Besides, wouldn't I basically be lying? I don't know anything about anime."
@@ -210,29 +238,37 @@ menu (nvl=True):
         show speaker itske smiling at portrait
         f "Well if you don't know much about it, maybe you should bring her along to something you enjoy?"
 
-        show speaker tom neutral at portrait
-        t "Hmm... So far she seems quite comfortable in her interests..."
+        show speaker tom sad at portrait
+        t "She seems quite comfortable in her interests though..."
 
         show speaker itske smiling at portrait
         f "Offer to pull her out of her bubble! Maybe she'll appreciate it. What sorta things do you like to do?"
 
+        nvl clear
+
         show speaker tom neutral at portrait
         t "I see where you're coming from... Maybe I should take her to the gym!"
 
-        show speaker itske stressed at portrait
+        show speaker itske awkward at portrait
         f_t "Oh god."
 
+        nvl clear
+
         show speaker tom neutral at portrait
-        t "She's quite scrawny, especially in her arms! I think she's a bit ashamed of it cause she wears long sleeves in every picture I've seen."
+        t "She's quite scrawny, especially in her arms. I think she's a bit ashamed of it cause she wears long sleeves in every picture I've seen."
 
         show speaker itske scared at portrait
         f_t "Ohhhh no."
 
+        nvl clear
+
         show speaker tom neutral at portrait
-        t "And afterwards we could go out for a nice protein-rich meal for some 'sick gains'! She said she skips meals pretty often, lack of money probably so I could treat her."
+        t "And afterwards I can take her out for a nice protein-rich meal! She said she skips meals pretty often, lack of money probably so I could treat her."
 
         show speaker itske terrified at portrait
         f_t "Nonononono."
+
+        nvl clear
 
         show speaker itske sad at portrait
         f "Just..."
@@ -251,26 +287,38 @@ label straggot2:
     show speaker itske pouting at portrait
     f "What I like? Uh, CSI shows I guess, I've been binging CSI: Cyber lately and it's honestly kinda horrible and I know the subgenre as a whole is essentially copaganda but like-"
 
+    nvl clear
+
     show speaker tom shy at portrait
     t "Well... I'm seeing something else I like..."
 
     show speaker itske confused at portrait
     f "Huh? What was that?"
 
+    nvl clear
+
     show speaker tom shy at portrait
     t "O-oh, I said: I'm seeing something else I like..."
+
+    nvl clear
 
     show speaker itske confused at portrait
     f "..."
 
+    nvl clear
+
     show speaker tom shy at portrait
     t "..."
+
+    nvl clear
 
     show speaker itske disgust at portrait
     f "..."
 
+    nvl clear
+
     show speaker tom shy at portrait
-    t "... I'm seei-"
+    t "... I'm seei-{nw}"
 
     show speaker itske annoyed at portrait
     f "Are you flirting with me?"
@@ -278,10 +326,12 @@ label straggot2:
     show speaker tom shy at portrait
     t "... Maybe."
 
-    show speaker itske bothered at portrait
-    f_t "Oh god he is, what the fuck man he's not even in his 20s."
+    show speaker itske disgust at portrait
+    f_t "What the fuck man he's not even in his 20s."
 
-    show speaker itske nervous at portrait
+    nvl clear
+
+    show speaker itske awkward at portrait
     f "You... Should focus on your weeb girl..."
 
     show speaker tom shy at portrait

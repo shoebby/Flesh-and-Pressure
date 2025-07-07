@@ -3,6 +3,7 @@ label chud:
     play audio "chaptercard.mp3"
     pause
 
+    scene black
     show bg counter
     show speaker itske tired at portrait
     f_t "Heading back inside I feel like a bit of the weight has fallen off my shoulders."
@@ -59,6 +60,7 @@ label chud:
     show speaker chud at portrait
     chud "Hey, -sir-."
 
+    show bg counter resentment with Dissolve(2.0)
     show speaker itske disgust at portrait
     f "Good... Evening... What can I get you?{nw}"
     show speaker chud at portrait
@@ -74,17 +76,28 @@ label chud:
     show speaker chud at portrait
     chud "Salty of course! Sweet isn't normal, -sir-."
 
+    show bg counter hatred with Dissolve(2.0)
     show speaker itske enraged at portrait
     f "B-but what size-{nw}"
     show speaker chud at portrait
     chud "I said normal! So a normal, medium sized, salty popcorn, si-{nw}"
 
     show speaker itske upset at portrait
+    show bg black
     play sound "glasscrack.mp3"
     f_t "His nose meets the popcorn warmer's glass top surface with a dull crack."
 
     show speaker itske disgust at portrait
-    f "A-ahh... Fuck."
+    f "A-ahh..."
+    f "Fuck."
 
     nvl clear
+    scene lock_ch11
+    play music lock_lick1 noloop
+    scene lock_ch11_txt1 with Dissolve(1.0)
+    scene lock_ch11_txt2 with Dissolve(1.0)
+    scene lock_ch11_txt3 with Dissolve(1.5)
+    scene lock_ch11_txt4 with Dissolve(4.0)
+    pause
+    stop music
     jump fired

@@ -3,8 +3,9 @@ label piss:
     play audio "chaptercard.mp3"
     pause
     
+    scene black
     show bg counter
-    show speaker itske at portrait
+    show speaker itske flustered at portrait
     f_t "Its been weeks but I keep fiddling with Piper."
     show speaker itske nervous at portrait
     f_t "She's so... Fun."
@@ -18,7 +19,10 @@ label piss:
     nvl clear
 
     show speaker mae at portrait
-    m "Heyyy Itske! Can you do a cleaning round on the bathrooms?"
+    m "Heyyy Itske! Can you do a cleaning round on the bathrooms?{nw}"
+
+    show speaker itske shock at portrait
+    f "WAH-{nw}"
 
     show speaker itske confused at portrait
     f "Whuh? I already did one earlier today, can't you do it?"
@@ -26,17 +30,24 @@ label piss:
     show speaker mae stressed at portrait
     m "I've still got some shift leader tasks to finish up, sorry! Pretty please?"
 
+    nvl clear
+
     show speaker itske annoyed at portrait
-    f_t "That's such bullshit, but I really do not feel like arguing... I guess it's something to do."
+    f_t "That's such bullshit, but I really do not feel like arguing..."
+    show speaker itske tired at portrait
+    f_t "I guess it's something to do."
+
+    nvl clear
 
     show speaker itske pouting at portrait
-    f "Okay, fine. Please don't make this a habit."
+    f "Okay, fine, but please don't make this a habit."
 
     show speaker mae happy at portrait
     m "Yaaay thank you, and I won't! Don't worry!"
 
     show speaker itske pouting at portrait
-    f_t "Mae's cute, her indestructible sense of optimism is refreshing. I haven't really met many people like that over the past few years."
+    f_t "Mae's cute, her indestructible sense of optimism is refreshing."
+    f_t "I haven't really met many people like that over the past few years."
     f_t "Mostly people who used to be like that I guess, people who turned into something different by the world around them."
     show speaker itske thinking at portrait
     f_t "By force more than anything."
@@ -46,7 +57,7 @@ label piss:
 
     nvl clear
 
-    show speaker itske neutral at portrait
+    show speaker itske focused at portrait
     f_t "I put on a pair of baby blue nitrile gloves and load a bucket with toilet cleaning supplies."
     show speaker itske smug at portrait
     f_t "I have a pack of black nitrile gloves at home too, primarily for sex reasons."
@@ -55,9 +66,16 @@ label piss:
 
     show speaker itske pouting at portrait
     f "Cleaning sprays, separate wipes for counters and toilets, replacement rolls, trash bags, replacement soap... This should cover it."
-#CG toilets
+    
+    nvl clear
+
+    show bg toilets with dissolve
+    show speaker itske focused at portrait
     f_t "I make my way to the men's restroom to start off at, it's usually the grossest."
     f_t "An inexplicably wet floor, odd green stains under the toilet seat, nothing out of the ordinary."
+
+    nvl clear
+
     f_t "The women's restroom isn't anything crazy either, except for the distinct smell of used pads and tampons emanating from one of the stalls."
 
     show speaker itske disgust at portrait
@@ -67,7 +85,7 @@ label piss:
     f_t "It's a sort of bacterial smell, the metallic note of blood also plays a major role..."
     show speaker itske flustered at portrait
     f_t "..."
-    show speaker itske nervous at portrait
+    show speaker itske awkward at portrait
     f_t "Why am I talking about this like it's a perfume?"
 
     nvl clear
@@ -93,17 +111,17 @@ label piss:
     show speaker itske annoyed at portrait
     f "... Oh, yeah, the upstairs toilets."
 
-    show speaker itske neutral at portrait
+    show speaker itske focused at portrait
     f_t "It's not that much of a gender neutral toilet, it's just the third one inexplicably left over."
     f_t "Gendering it would be unfair so it became 'mixed'."
     f_t "I head up the stairs and through the door, I check all the stalls to see if anyone is inside and lock the door to make sure no one disturbs my cleaning."
     f_t "I start with the toilet bowls, the first two go without an issue. However-"
-#CG toilet stall
 
     show speaker itske confused at portrait
     f "Holy shit."
-
+    show bg piss with dissolve
     nvl clear
+    $ renpy.pause(3.5, hard=True)
     
     f_t "Piss is everywhere. There's seemingly no surface without the slick-wet yellow sheen of it."
     f_t "The flushing buttons, the toilet brush holder, and-"
@@ -120,8 +138,14 @@ label piss:
     show speaker itske bothered at portrait
     f_t "Nonono she's not conniving like that, no way. She's like a golden retriever girl, a golden retriever wouldn't do that."
 
-    show speaker itske tired at portrait
-    f "Hff... Well... I guess I'll just do it and get it over with."
+    nvl clear
+
+    show speaker itske upset at portrait
+    f "Hff..."
+    show speaker itske pouting at portrait
+    f "Well..."
+    show speaker itske awkward at portrait
+    f "I guess I'll just do it and get it over with."
 
     nvl clear
 
@@ -132,6 +156,8 @@ label piss:
     show speaker itske blehhh at portrait
     f "Fuck dude... Drink some water..."
 
+    nvl clear
+
     show speaker itske disgust at portrait
     f_t "After quarantining it in a trash bag I set to work trying to clean the toilet roll holder."
     f_t "It's a sliding contraption that holds two rolls at once. The other one is, thankfully, completely dry."
@@ -139,17 +165,26 @@ label piss:
     show speaker itske pouting at portrait
     f_t "One final wiping with some paper towel turns it pristine, mostly in relation to the dire state of its surroundings."
 
+    nvl clear
+    
     show speaker itske disgust at portrait
     f "Let's just get this toilet out of the way now..."
 
     nvl clear
 
-    f_t "Getting down on my knees in front of the meticulously amber-misted toilet, I get a moment to inspect the damage."
+    show speaker itske focused at portrait
+    f_t "Getting down on my knees in front of the meticulously amber-misted toilet, carefully avoiding the puddles, I take a moment to inspect the damage."
     show speaker itske confused at portrait
-    f_t "They somehow managed to get pee under the bowl, under the seat, under the lid..."
+    f_t "They somehow managed to get pee under the bowl..."
+    f_t "On and under the seat..."
+    f_t "On and under the lid..."
+
+    nvl clear
 
     show speaker itske annoyed at portrait
     f "Very... Thorough..."
+
+    nvl clear
 
     show speaker itske confused at portrait
     f_t "Here it's where I pick up something new, a scent unlike that of the toilet roll."
@@ -176,6 +211,7 @@ label piss:
 
     nvl clear
 
+    show bg piss buildup with Dissolve(1.0)
     show speaker itske exerted at portrait
     f_t "I unbuckle my belt and obediently pull out my cock, my half-hearted tuck has been pressing up against the inseam of my pants for what feels like ages."
     show speaker itske edge at portrait
@@ -186,6 +222,15 @@ label piss:
     show speaker itske flustered at portrait
     f_t "I lower my face to the puddle, a eyelash's length removed from touching it directly with my lips."
     f_t "My shallow breaths ripple its surface, my narcissus-yellow reflection floats and warps."
+
+    nvl clear
+
+    show speaker piss at portrait
+    piss "Yeah bitch, that's right, come to momma."
+
+    nvl clear
+
+    show speaker itske edge at portrait
     f_t "Carefully, I place a kiss on its surface. I pull back slightly and let the droplets rest on my lips, acquiring a taste for it."
 
     nvl clear
@@ -197,21 +242,34 @@ label piss:
     f_t "The flavour is different. Less nutty than it smells, more pungent, it reminds me of kimchi."
     show speaker itske exerted at portrait
     f_t "I feel myself getting close, and dive in for a fully committed lick."
-    f_t "I flick the trembling surface with my tongue and catch a full taste."
-    show speaker itske edge at portrait
-    f_t "The flavours of it shoot through my mouth, violently bouncing between the mucosa lining of my cheeks."
-    show speaker itske neutral at portrait
-    f_t "My dick twitches and my attention falters together with my balance."
 
     nvl clear
 
+    show speaker piss at portrait
+    piss "Can't get enough of me can you, you gross slut."
+
+    nvl clear
+
+    show bg piss climax with Dissolve(1.0)
+    show speaker itske blehhh at portrait
+    f_t "I flick the trembling surface with my tongue and catch a full taste."
+    show speaker itske edge at portrait
+    f_t "The flavours of it shoot through my mouth, violently bouncing between the mucosa lining of my cheeks."
     show speaker itske shock at portrait
+    f_t "My dick twitches and my attention falters together with my balance."
+
+    nvl clear
+    scene black
+    show speaker itske yelling at portrait
     f "Wah!!!"
 
-    f_t "I manage to catch myself on the wet toilet bowl, barely not slipping from its slippery porcelain but thoroughly wetting the upper half of my shirt."
+    show speaker itske shock at portrait
+    f_t "I manage to catch myself on the wet toilet bowl, barely not slipping off the slippery porcelain."
 
     show speaker itske bust at portrait
     f "W-wah..."
+
+    f_t "My uniform is completely soaked in piss."
 
     f "..."
 

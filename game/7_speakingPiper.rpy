@@ -3,6 +3,7 @@ label speaking:
     play audio "chaptercard.mp3"
     pause
 
+    scene black
     show bg backyard
     show speaker piper neutral que at portrait
     p "Do you like me?"
@@ -19,6 +20,8 @@ label speaking:
     show speaker itske confused at portrait
     f_t "I look up through the metal grating of the emergency exit's walkway and see someone standing right above me."
     f_t "It's hard to make her face out but I can see black dress shoes, long legs dressed in sleek gray trousers, and cobalt blue strands of hair flicking about in the wind..."
+
+    nvl clear
 
     show speaker itske annoyed at portrait
     f "M-ma'am? This area is off limits for custo- uh... Visitors."
@@ -40,11 +43,15 @@ label speaking:
     show speaker itske tired at portrait
     f_t "She steps down the ringing metal stairs..."
 
+    nvl clear
+
     show speaker piper neutral que at portrait
     p "You've been touching me..."
 
     show speaker itske nervous at portrait
     f_t "She's... Taller than I thought..."
+
+    nvl clear
 
     show speaker piper neutral que at portrait
     p "Grinding up against me..."
@@ -52,13 +59,18 @@ label speaking:
     show speaker itske flustered at portrait
     f_t "P-pretty..."
 
+    nvl clear
+
     show speaker piper que grin at portrait
     p "Using me..."
 
     show speaker itske nervous at portrait
     f "Y-you're..."
 
-    f_t "She leans against her machine self comfortably. She smiles warmly, maternally... Coyly."
+    nvl clear
+
+    f_t "She leans against her machine self comfortably."
+    f_t "She smiles warmly, maternally... Coyly."
 
     show speaker itske bust at portrait
     f "Piper?"
@@ -76,6 +88,8 @@ label speaking:
     f_t "She lets out a soft chuckle. It falls nicely on the ears, it kinda reminds me of mom."
     show speaker itske nervous at portrait
     f_t "Guhhh..."
+
+    nvl clear
 
     show speaker piper neutral at portrait
     p "It's okay dear, I don't mind. Really."
@@ -99,8 +113,8 @@ label speaking:
     show speaker itske flustered at portrait
     f "Feel... appreciated..."
 
-    show speaker itske stressed at portrait
-    f_t "Piper's smile widens to a grin. Did she enjoy that comment? What is this reaction?"
+    show speaker itske confused at portrait
+    f_t "Piper's smile widens to a mildly unsettling grin. Did she enjoy that comment? What is this reaction?"
 
     show speaker piper grin at portrait
     p "Of course, you work so hard. Don't people acknowledge that?"
@@ -110,11 +124,15 @@ label speaking:
     show speaker itske heartbroken at portrait
     f "It doesn't matter how many people I help, make smile, give joy to, it's all rendered pointless when I..."
 
+    nvl clear
+
     show speaker piper grin at portrait
     p "When you mess up?"
 
     show speaker itske crying at portrait
     f "Yeah..."
+
+    nvl clear
 
     show speaker piper grin at portrait
     p "Is it such an unavoidable thing?"
@@ -123,8 +141,10 @@ label speaking:
     f "Maybe, I don't know, I think so. I can't keep it up forever, eventually I'll have a moment where I..."
     show speaker itske crying at portrait
     f "..."
-    show speaker itske bothered at portrait
+    show speaker itske upset at portrait
     f "A moment where I'll either collapse in on myself, or explode on someone."
+
+    nvl clear
 
     show speaker piper grin at portrait
     p "People all have their limits don't they?"
@@ -132,10 +152,10 @@ label speaking:
     show speaker itske pouting at portrait
     f "Yeah, but mine just happens to be a lot lower than most people's..."
 
+    nvl clear
+
     show speaker piper grin at portrait
     p "You poor thing..."
-
-    nvl clear
 
     show speaker itske nervous at portrait
     f_t "I can't help but feel nervous, she has this air about her, a pressure holding me down and making it hard to stay coherent."
@@ -144,17 +164,21 @@ label speaking:
     show speaker itske flustered at portrait
     f_t "She really is like mom, but rather than a scolding it feels like..."
 
+    nvl clear
+
     show speaker piper grin at portrait
     p "A hug?"
 
     show speaker itske flustered at portrait
     f_t "Before I could gather my thoughts her arms extend outwards and her long elegant fingers splay out, inviting me into her embrace."
 
+    nvl clear
+
     show speaker piper grin at portrait
     p "You... Look like you need it."
 
     show speaker itske stressed at portrait
-    f_t "Her wide grin triggers an uneasy feeling in my throat, as if something is pinching my esophagus close to shut."
+    f_t "Her wide grin triggers an uneasy feeling in my throat, it pinches my esophagus close to shut."
     show speaker itske nervous at portrait
     f_t "Regardless of this feeling... I do need it."
     show speaker itske pouting at portrait
@@ -187,7 +211,12 @@ label speaking:
     show speaker itske edge at portrait
     f_t "It's a nice level of pressure, it kind of reminds me of my weighted blanket. Her arms feel like they extend all around my body, providing me with a full-bodied experience of bliss."
     show speaker itske flustered at portrait
-    f_t "She smells nice... Very sweet; the product of thousands of sweet sodas, bursting and perfuming her. I want to taste her too..."
+    f_t "She smells nice... Very sweet; the product of thousands of sugary sodas, bursting and perfuming her."
+    f_t"I want to taste her..."
+
+    nvl clear
+
+    show bg backyard moderate
     show speaker itske pouting at portrait
     f_t "But she feels..."
     f_t "Cold... Hard... Textured... Like powder coated steel."
@@ -200,6 +229,8 @@ label speaking:
 
     show speaker itske nervous at portrait
     f "I... Think I've had enough..."
+
+    nvl clear
 
     show speaker piper grin at portrait
     p "... Are you sure?"
@@ -215,11 +246,16 @@ label speaking:
     show speaker itske scared at portrait
     f_t "It's getting harder to talk as the air is squeezed from my chest. I'm scared, even if I could look her in the eyes I don't think I'd like to."
 
+    nvl clear
+
+    show bg backyard intense
     show speaker piper exp_warped1 body_warped1 at portrait
     p "What if I don't want to?"
 
     show speaker itske terrified at portrait
     f_t "I can feel my ribs shifting and creaking. Panic blurs my vision as I struggle to escape her."
+
+    nvl clear
 
     show speaker piper exp_warped1 body_warped1 at portrait
     p "What if... -You- don't want to?"
@@ -235,10 +271,14 @@ label speaking:
 
     nvl clear
 
+    show bg backyard -intense
     show speaker itske scared at portrait
-    f_t "In an instant her grasp loosens. As the world comes back into focus Piper's nowhere to be seen, except for the machine which she embodies."
+    f_t "In an instant her pressure relents."
+    f_t "As the world comes back into focus Piper's nowhere to be seen, except for the machine which she embodies."
     show speaker itske stressed at portrait
-    f_t "Disoriented, and unsure about what exactly just happened, I head back inside. Seeking distraction in my menial job from a fluttering chest and a pressing hard-on."
+    f_t "Disoriented, and unsure about what exactly just happened, I head back inside."
+    show bg counter with dissolve
+    f_t "Seeking distraction in my menial job from a fluttering chest and a pressing hard-on."
 
     nvl clear
     scene lock_ch7

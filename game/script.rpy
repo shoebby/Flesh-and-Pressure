@@ -38,6 +38,8 @@ define mt = Character("", kind=nvl, color="#ffffff", what_color="#91ff87", what_
 define piss = Character("", kind=nvl, color="#ffffff", what_color="#fff787", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="piss_") #the pee on the floor - VO'D
 define chud = Character("", kind=nvl, color="#ffffff", what_color="#afafaf", what_prefix="\"", what_suffix="\"", callback=SpeakingBlip, cb_speakerID="chud_") #chud customer - VO'D
 
+define mdiss = { "master" : Dissolve(10.0) }
+
 transform Nameplate(frame1, frame2, frame3, frame4):
     frame1
     0.15
@@ -131,7 +133,7 @@ transform showcase:
 transform bgpos:
     ypos 1.0
 
-#region Scanline Transforms
+#region Background Transforms
 
 transform scanlines_slight:
     ypos 1.0
@@ -221,30 +223,48 @@ transform scanlines_intense:
 
 image pulse_scanlines:
     "scanlines"
+    blend "multiply"
     alpha 0.4
-    linear 3 alpha 0.2
-    linear 2  alpha 0.4
+    linear 3 alpha 0.8
+    linear 2  alpha 1.0
 
-    linear 0.05 alpha 0.01
-    linear 0.05 alpha 0.4
+    linear 0.05 alpha 0.1
+    linear 0.05 alpha 1.0
 
-    linear 0.2 alpha 0.1
-    linear 0.1 alpha 0.4
+    linear 0.2 alpha 0.7
+    linear 0.1 alpha 1.0
 
-    linear 3 alpha 0.2
-    linear 2  alpha 0.4
+    linear 3 alpha 0.8
+    linear 2  alpha 1.0
 
-    linear 3 alpha 0.2
-    linear 2  alpha 0.4
+    linear 3 alpha 0.8
+    linear 2  alpha 1.0
     repeat
 
-#endregion
+image pulse_scanlines_scary:
+    "scanlines"
+    blend "min"
+    alpha 0.4
+    linear 3 alpha 0.8
+    linear 2  alpha 1.0
 
-#region Flicker Transforms
+    linear 0.05 alpha 0.1
+    linear 0.05 alpha 1.0
+
+    linear 0.2 alpha 0.7
+    linear 0.1 alpha 1.0
+
+    linear 3 alpha 0.8
+    linear 2  alpha 1.0
+
+    linear 3 alpha 0.8
+    linear 2  alpha 1.0
+    repeat
 
 transform FlickerRight(image):
     ypos 1.0
     image
+    blend "add"
 
     choice:
         0.1
@@ -291,9 +311,112 @@ transform FlickerRight(image):
 
     repeat
 
+transform FlickerRight_moderate(image):
+    ypos 1.0
+    image
+    blend "add"
+
+    choice:
+        0.1
+        xpos -0.01
+    choice:
+        0.2
+        xpos -0.008
+    choice:
+        0.3
+        xpos -0.006
+    0.1
+    choice:
+        0.1
+        xpos -0.004
+    choice:
+        0.2
+        xpos -0.011
+    choice:
+        0.3
+        xpos -0.009
+    0.1
+    choice:
+        0.05
+        xpos -0.004
+    choice:
+        0.05
+        xpos -0.006
+    choice:
+        0.05
+        xpos -0.008
+    choice:
+        0.05
+        xpos -0.006
+    choice:
+        0.05
+        xpos 0.010
+    0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.05
+    repeat
+
+transform FlickerRight_intense(image):
+    ypos 1.0
+    image
+    blend "add"
+
+    choice:
+        0.1
+        xpos -0.031
+    choice:
+        0.05
+        xpos -0.024
+    choice:
+        0.05
+        xpos -0.062
+    0.1
+    choice:
+        0.1
+        xpos -0.08
+    choice:
+        0.1
+        xpos -0.022
+    choice:
+        0.05
+        xpos -0.047
+    0.1
+    choice:
+        0.1
+        xpos -0.004
+    choice:
+        0.05
+        xpos -0.093
+    choice:
+        0.05
+        xpos -0.024
+    choice:
+        0.1
+        xpos -0.012
+    choice:
+        0.05
+        xpos -0.031
+    choice:
+        0.1
+        xpos -0.054
+    choice:
+        0.1
+        xpos 0.34
+    0.1
+    choice:
+        0.1
+    choice:
+        0.05
+    repeat
+
 transform FlickerLeft(image):
     ypos 1.0
     image
+    blend "add"
 
     choice:
         0.1
@@ -337,12 +460,119 @@ transform FlickerLeft(image):
         0.1
     choice:
         0.05
+    repeat
 
+transform FlickerLeft_moderate(image):
+    ypos 1.0
+    image
+    blend "add"
+
+    choice:
+        0.1
+        xpos 0.009
+    choice:
+        0.2
+        xpos 0.006
+    choice:
+        0.3
+        xpos 0.003
+    0.1
+    choice:
+        0.1
+        xpos 0.003
+    choice:
+        0.2
+        xpos 0.015
+    choice:
+        0.3
+        xpos 0.009
+    0.1
+    choice:
+        0.05
+        xpos 0.003
+    choice:
+        0.05
+        xpos 0.015
+    choice:
+        0.05
+        xpos 0.003
+    choice:
+        0.05
+        xpos 0.015
+    choice:
+        0.05
+        xpos 0.006
+    0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.05
+    repeat
+
+transform FlickerLeft_intense(image):
+    ypos 1.0
+    image
+    blend "add"
+
+    choice:
+        0.1
+        xpos 0.054
+    choice:
+        0.05
+        xpos 0.031
+    choice:
+        0.05
+        xpos 0.086
+    choice:
+        0.1
+        xpos 0.041
+    choice:
+        0.05
+        xpos 0.12
+    choice:
+        0.05
+        xpos -0.2
+    0.1
+    choice:
+        0.1
+        xpos 0.003
+    choice:
+        0.05
+        xpos 0.002
+    choice:
+        0.1
+        xpos 0.006
+    0.1
+    choice:
+        0.05
+        xpos 0.098
+    choice:
+        0.1
+        xpos 0.034
+    choice:
+        0.15
+        xpos 0.066
+    choice:
+        0.05
+        xpos 0.003
+    choice:
+        0.1
+        xpos 0.13
+    0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.05
     repeat
 
 transform FlickerUp_slight(image):
     ypos 1.0
     image
+    blend "add"
 
     choice:
         0.1
@@ -387,6 +617,7 @@ transform FlickerUp_slight(image):
 transform FlickerUp_moderate(image):
     ypos 1.0
     image
+    blend "add"
 
     choice:
         0.4
@@ -425,9 +656,91 @@ transform FlickerUp_moderate(image):
         1.4
     repeat
 
+transform FlickerUp_intense(image):
+    ypos 1.0
+    image
+    blend "add"
+
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    0.1
+    choice:
+        linear .05 ypos 0.9
+    choice:
+        ypos 0.946
+    choice:
+        ypos 0.970
+    choice:
+        ypos 0.921
+    choice:
+        ypos 0.911
+    choice:
+        ypos 1.5
+    0.2
+    ypos 1.0
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    0.1
+    choice:
+        ypos 0.9
+    choice:
+        ypos 0.95
+    choice:
+        ypos 0.98
+    choice:
+        ypos 0.9
+    choice:
+        ypos 0.95
+    choice:
+        ypos 0.98
+    choice:
+        linear .01 ypos 0.5
+    0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    choice:
+        0.1
+    repeat
+
 transform Flashback(image, _prd, _amp, _spd):
     image
+    blend "add"
     function WaveShader(direction='both', repeat='mirrored', period =_prd, amp=_amp, speed=_spd)
+
+transform Bricks(image):
+    image
+    function WaveShader(direction='both', repeat='mirrored', double=True, period =1, amp=1, speed=.2)
+
+transform PissMontage():
+    "piss_1" with Dissolve(0.1)
+    0.4
+    "piss_2" with Dissolve(0.1)
+    0.4
+    "piss_3" with Dissolve(0.1)
+    0.4
+    "piss_4" with Dissolve(0.1)
+    0.4
+    "piss_5" with Dissolve(0.1)
+    0.4
+    "piss_6" with Dissolve(0.1)
+    0.4
+    "piss_7" with Dissolve(0.1)
+    0.4
+    PissWave("piss_5", False, 0.5)
+
+transform PissWave(image, isDouble, _amp):
+    image
+    function WaveShader(direction='both', repeat='mirrored', double=isDouble, period =.5, amp=_amp, speed=.3)
 
 #endregion
 
@@ -735,6 +1048,8 @@ layeredimage speaker itske:
             Speaker("f_exp_upset1","f_exp_upset2","f_exp_upset3")
         attribute focused:
             Speaker("f_exp_focused1","f_exp_focused2","f_exp_focused3")
+        attribute awkward:
+            Speaker("f_exp_awkward1","f_exp_awkward2","f_exp_awkward3")
         #crushing
         attribute crush1:
             Speaker("f_exp_crush1_1","f_exp_crush1_2","f_exp_crush1_3")
@@ -986,19 +1301,28 @@ layeredimage bg backyard:
             "backyard"
 
     group red:
-        attribute backyard_r default:
+        attribute slight default:
             FlickerRight("backyard_r")
-            blend "add"
+        attribute moderate:
+            FlickerRight_moderate("backyard_r")
+        attribute intense:
+            FlickerRight_intense("backyard_r")
 
     group green:
-        attribute backyard_g default:
+        attribute slight default:
             FlickerUp_slight("backyard_g")
-            blend "add"
+        attribute moderate:
+            FlickerUp_moderate("backyard_g")
+        attribute intense:
+            FlickerUp_intense("backyard_r")
 
     group blue:
-        attribute backyard_b default:
+        attribute slight default:
             FlickerLeft("backyard_b")
-            blend "add"
+        attribute moderate:
+            FlickerLeft_moderate("backyard_b")
+        attribute intense:
+            FlickerLeft_intense("backyard_b")
             
     group scanlines:
         attribute slight default:
@@ -1020,17 +1344,14 @@ layeredimage bg loveshot1:
     group red:
         attribute loveshot1_r default:
             FlickerRight("piper_loveshot1_r")
-            blend "add"
 
     group green:
         attribute loveshot1_g default:
             FlickerUp_slight("piper_loveshot1_g")
-            blend "add"
 
     group blue:
         attribute loveshot1_b default:
             FlickerLeft("piper_loveshot1_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1052,17 +1373,14 @@ layeredimage bg loveshot2:
     group red:
         attribute loveshot2_r default:
             FlickerRight("piper_loveshot2_r")
-            blend "add"
 
     group green:
         attribute loveshot2_g default:
             FlickerUp_slight("piper_loveshot2_g")
-            blend "add"
 
     group blue:
         attribute loveshot2_b default:
             FlickerLeft("piper_loveshot2_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1084,17 +1402,14 @@ layeredimage bg office:
     group red:
         attribute office_r default:
             FlickerRight("office_r")
-            blend "add"
     
     group green:
         attribute office_g default:
             FlickerUp_slight("office_g")
-            blend "add"
     
     group blue:
         attribute office_b default:
             FlickerLeft("office_b")
-            blend "add"
 
     group scanlines:
         attribute slight default:
@@ -1116,17 +1431,14 @@ layeredimage bg bathroom:
     group red:
         attribute bathroom_r default:
             FlickerRight("bathroom_r")
-            blend "add"
 
     group green:
         attribute bathroom_g default:
             FlickerUp_slight("bathroom_g")
-            blend "add"
 
     group blue:
         attribute bathroom_b default:
             FlickerLeft("bathroom_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1144,21 +1456,62 @@ layeredimage bg bedroom:
         attribute bedroom default:
             at bgpos
             "bedroom"
+        attribute sad:
+            at bgpos
+            "bedroom"
+            alpha 0.5
+        attribute supersad:
+            at bgpos
+            "bedroom"
+            alpha 0.2
 
     group red:
         attribute bedroom_r default:
             FlickerRight("bedroom_r")
-            blend "add"
+        
+        attribute resentment:
+            FlickerRight_moderate("bedroom_r")
+            alpha 0.5
+        attribute hatred:
+            FlickerRight_intense("bedroom_r")
+        
+        attribute sad:
+            FlickerRight_moderate("bedroom_b")
+            alpha 0.5
+        attribute supersad:
+            FlickerRight_intense("bedroom_b")
 
     group green:
         attribute bedroom_g default:
             FlickerUp_slight("bedroom_g")
-            blend "add"
+       
+        attribute resentment:
+            FlickerUp_moderate("bedroom_r")
+            alpha 0.5
+        attribute hatred:
+            FlickerUp_intense("bedroom_r")
+        
+        attribute sad:
+            FlickerUp_moderate("bedroom_g")
+            alpha 0.5
+        attribute supersad:
+            FlickerUp_intense("bedroom_b")
 
     group blue:
         attribute bedroom_b default:
             FlickerLeft("bedroom_b")
-            blend "add"
+        
+        attribute resentment:
+            FlickerLeft_moderate("bedroom_g")
+            alpha 0.5
+        attribute hatred:
+            FlickerLeft_intense("bedroom_r")
+        
+        attribute sad:
+            FlickerLeft_moderate("bedroom_b")
+            alpha 0.5
+        attribute supersad:
+            FlickerLeft_intense("bedroom_b")
             
     group scanlines:
         attribute slight default:
@@ -1170,22 +1523,22 @@ layeredimage bg bedroom:
         attribute intense:
             at scanlines_intense
             "pulse_scanlines"
+        attribute scary:
+            at bgpos
+            "pulse_scanlines_scary"
 
 layeredimage bg bedroom_fb:
     group red:
         attribute flashback_r default:
             Flashback("bedroom_r", (2.5, 1.1), (-2.0, 1.4), (0.3, -1.2))
-            blend "add"
 
     group green:
         attribute flashback_g default:
             Flashback("bedroom_g", (1.0, 0.3), (4.0, -1.2), (0.6, 1.5))
-            blend "add"
 
     group blue:
         attribute flashback_b default:
             Flashback("bedroom_b", (0.6, 2.1), (1.0, 2.1), (1.5, 2.0))
-            blend "add"
 
 layeredimage bg counter:
     group main:
@@ -1196,17 +1549,32 @@ layeredimage bg counter:
     group red:
         attribute counter_r default:
             FlickerRight("counter_r")
-            blend "add"
+        
+        attribute resentment:
+            FlickerRight_moderate("counter_r")
+            alpha 0.5
+        attribute hatred:
+            FlickerRight_intense("counter_r")
 
     group green:
         attribute counter_g default:
             FlickerUp_slight("counter_g")
-            blend "add"
+
+        attribute resentment:
+            FlickerUp_moderate("counter_r")
+            alpha 0.5
+        attribute hatred:
+            FlickerUp_intense("counter_r")
 
     group blue:
         attribute counter_b default:
             FlickerLeft("counter_b")
-            blend "add"
+        
+        attribute resentment:
+            FlickerLeft_moderate("counter_g")
+            alpha 0.5
+        attribute hatred:
+            FlickerLeft_intense("counter_r")
             
     group scanlines:
         attribute slight default:
@@ -1228,17 +1596,14 @@ layeredimage bg desk:
     group red:
         attribute desk_r default:
             FlickerRight("desk_r")
-            blend "add"
 
     group green:
         attribute desk_g default:
             FlickerUp_slight("desk_g")
-            blend "add"
 
     group blue:
         attribute desk_b default:
             FlickerLeft("desk_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1260,17 +1625,14 @@ layeredimage bg frontdoor:
     group red:
         attribute frontdoor_r default:
             FlickerRight("frontdoor_r")
-            blend "add"
 
     group green:
         attribute frontdoor_g default:
             FlickerUp_slight("frontdoor_g")
-            blend "add"
 
     group blue:
         attribute frontdoor_b default:
             FlickerLeft("frontdoor_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1292,17 +1654,14 @@ layeredimage bg hallway:
     group red:
         attribute hallway_r default:
             FlickerRight("hallway_r")
-            blend "add"
 
     group green:
         attribute hallway_g default:
             FlickerUp_slight("hallway_g")
-            blend "add"
 
     group blue:
         attribute hallway_b default:
             FlickerLeft("hallway_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1314,6 +1673,9 @@ layeredimage bg hallway:
         attribute intense:
             at scanlines_intense
             "pulse_scanlines"
+        attribute scary:
+            at bgpos
+            "pulse_scanlines_scary"
 
 layeredimage bg hobby:
     group main:
@@ -1324,17 +1686,14 @@ layeredimage bg hobby:
     group red:
         attribute hobby_r default:
             FlickerRight("hobby_r")
-            blend "add"
 
     group green:
         attribute hobby_g default:
             FlickerUp_slight("hobby_g")
-            blend "add"
 
     group blue:
         attribute hobby_b default:
             FlickerLeft("hobby_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1356,17 +1715,14 @@ layeredimage bg kitchen:
     group red:
         attribute kitchen_r default:
             FlickerRight("kitchen_r")
-            blend "add"
 
     group green:
         attribute kitchen_g default:
             FlickerUp_slight("kitchen_g")
-            blend "add"
 
     group blue:
         attribute kitchen_b default:
             FlickerLeft("kitchen_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1388,17 +1744,14 @@ layeredimage bg livingroom:
     group red:
         attribute livingroom_r default:
             FlickerRight("livingroom_r")
-            blend "add"
 
     group green:
         attribute livingroom_g default:
             FlickerUp_slight("livingroom_g")
-            blend "add"
 
     group blue:
         attribute livingroom_b default:
             FlickerLeft("livingroom_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1420,17 +1773,14 @@ layeredimage bg machinery:
     group red:
         attribute machinery_r default:
             FlickerRight("machinery_r")
-            blend "add"
 
     group green:
         attribute machinery_g default:
             FlickerUp_slight("machinery_g")
-            blend "add"
 
     group blue:
         attribute machinery_b default:
             FlickerLeft("machinery_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1452,17 +1802,14 @@ layeredimage bg walkway:
     group red:
         attribute walkway_r default:
             FlickerRight("walkway_r")
-            blend "add"
 
     group green:
         attribute walkway_g default:
             FlickerUp_slight("walkway_g")
-            blend "add"
 
     group blue:
         attribute walkway_b default:
             FlickerLeft("walkway_b")
-            blend "add"
             
     group scanlines:
         attribute slight default:
@@ -1474,5 +1821,349 @@ layeredimage bg walkway:
         attribute intense:
             at scanlines_intense
             "pulse_scanlines"
+
+layeredimage bg toilets:
+    group main:
+        attribute toilets default:
+            at bgpos
+            "toilets"
+
+    group red:
+        attribute toilets_r default:
+            FlickerRight("toilets_r")
+
+    group green:
+        attribute toilets_g default:
+            FlickerUp_slight("toilets_g")
+
+    group blue:
+        attribute toilets_b default:
+            FlickerLeft("toilets_b")
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg golf_1:
+    group main:
+        attribute golf_1 default:
+            at bgpos
+            "golf_1"
+
+    group red:
+        attribute golf_1_r default:
+            FlickerRight("golf_1_r")
+
+    group green:
+        attribute golf_1_g default:
+            FlickerUp_slight("golf_1_g")
+
+    group blue:
+        attribute golf_1_b default:
+            FlickerLeft("golf_1_b")
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg golf_2:
+    group main:
+        attribute golf_2 default:
+            at bgpos
+            "golf_2"
+
+    group red:
+        attribute golf_2_r default:
+            FlickerRight("golf_2_r")
+
+    group green:
+        attribute golf_2_g default:
+            FlickerUp_slight("golf_2_g")
+
+    group blue:
+        attribute golf_2_b default:
+            FlickerLeft("golf_2_b")
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg golf_3:
+    group main:
+        attribute golf_3 default:
+            at bgpos
+            "golf_3"
+
+    group red:
+        attribute golf_3_r default:
+            FlickerRight("golf_3_r")
+
+    group green:
+        attribute golf_3_g default:
+            FlickerUp_slight("golf_3_g")
+
+    group blue:
+        attribute golf_3_b default:
+            FlickerLeft("golf_3_b")
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+layeredimage bg golf_4:
+    group main:
+        attribute golf_4 default:
+            at bgpos
+            "golf_4"
+
+    group red:
+        attribute golf_4_r default:
+            FlickerRight("golf_4_r")
+
+    group green:
+        attribute golf_4_g default:
+            FlickerUp_slight("golf_4_g")
+
+    group blue:
+        attribute golf_4_b default:
+            FlickerLeft("golf_4_b")
+            
+    group scanlines:
+        attribute slight default:
+            at scanlines_slight
+            "pulse_scanlines"
+        attribute moderate:
+            at scanlines_moderate
+            "pulse_scanlines"
+        attribute intense:
+            at scanlines_intense
+            "pulse_scanlines"
+
+#endregion
+
+#region Special Backgrounds
+
+layeredimage bg bricks:
+    group main:
+        attribute 1 default:
+            Bricks("brick_1")
+        attribute 2:
+            Bricks("brick_2")
+        attribute 3:
+            Bricks("brick_3")
+        attribute 4:
+            Bricks("brick_4")
+        attribute 5:
+            Bricks("brick_5")
+        attribute 6:
+            Bricks("brick_6")
+        attribute 7:
+            Bricks("brick_7")
+
+layeredimage bg piss:
+    group main:
+        attribute start default:
+            PissMontage()
+        attribute buildup:
+            PissWave("piss_3", False, 2.0)
+        attribute climax:
+            PissWave("piss_7", True, 10.0)
+
+image crush1:
+    choice:
+        'backyard_r'
+    choice:  
+        'golf_1_g'
+    choice:
+        'toilets_b'
+    alpha 0.0
+    linear 10 alpha 1.0
+    choice:
+        0.5
+    choice:
+        0.5
+    choice:
+        0.5
+    repeat
+
+image crush2:
+    choice:
+        'bathroom_r'
+    choice:  
+        'backyard_g'
+    choice:
+        'frontdoor_b'
+    alpha 0.0
+    linear 5 alpha 1.0
+    choice:
+        0.5
+    choice:
+        0.5
+    choice:
+        0.5
+    repeat
+
+image crush3:
+    choice:
+        'counter_r'
+    choice:  
+        'piper_loveshot2_g'
+    choice:
+        'walkway_b'
+    alpha 0.0
+    linear 2.5 alpha 1.0
+    choice:
+        0.5
+    choice:
+        0.5
+    choice:
+        0.5
+    repeat
+
+image crush4:
+    choice:
+        'hobby_r'
+    choice:  
+        'livingroom_g'
+    choice:
+        'piper_loveshot1_b'
+    alpha 0.0
+    choice:
+        linear 0.5 alpha 1.0
+    choice:
+        linear 1 alpha 1.0
+    choice:
+        linear 1.5 alpha 1.0
+    0.1
+    choice:
+        0.2
+    choice:
+        0.2
+    repeat
+
+image crush5:
+    choice:
+        'office_r'
+    choice:  
+        'kitchen_g'
+    choice:
+        'desk_b'
+
+    choice:
+        'bedroom_r'
+    choice:  
+        'bathroom_g'
+    choice:
+        'backyard_b'
+
+    choice:
+        'golf_4_r'
+    choice:  
+        'frontdoor_g'
+    choice:
+        'golf_1_b'
+
+    choice:
+        'toilets_r'
+    choice:  
+        'golf_2_g'
+    choice:
+        'machinery_b'
+    alpha 0.0
+    choice:
+        linear 0.1 alpha 1.0
+        0.1
+    choice:
+        linear 0.5 alpha 1.0
+        0.2
+    choice:
+        linear 1.0 alpha 1.0
+        0.2
+    repeat
+
+layeredimage bg crush:
+    group layer1:
+        attribute set1 default:
+            at bgpos
+            FlickerRight('crush1')
+        attribute set2:
+            at bgpos
+            FlickerRight('crush2')
+        attribute set3:
+            at bgpos
+            FlickerRight('crush3')
+        attribute set4:
+            at bgpos
+            FlickerRight('crush4')
+        attribute set5:
+            at bgpos
+            FlickerRight('crush5')
+
+    group layer2:
+        attribute set1 default:
+            at bgpos
+            FlickerUp_slight('crush1')
+        attribute set2:
+            at bgpos
+            FlickerUp_slight('crush2')
+        attribute set3:
+            at bgpos
+            FlickerUp_slight('crush3')
+        attribute set4:
+            at bgpos
+            FlickerUp_slight('crush4')
+        attribute set5:
+            at bgpos
+            FlickerUp_slight('crush5')
+
+    group layer3:
+        attribute set1 default:
+            at bgpos
+            FlickerLeft('crush1')
+        attribute set2:
+            at bgpos
+            FlickerLeft('crush2')
+        attribute set3:
+            at bgpos
+            FlickerLeft('crush3')
+        attribute set4:
+            at bgpos
+            FlickerLeft('crush4')
+        attribute set5:
+            at bgpos
+            FlickerLeft('crush5')
+
+    group scanlines:
+        attribute scanlines default:
+            at scanlines_slight
+            "pulse_scanlines_scary"
 
 #endregion

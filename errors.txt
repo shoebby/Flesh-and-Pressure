@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 1147: attribute expects a non-empty block.
-    attribute flashback:
-                        ^
+File "game/13_crushed.rpy", line 260: expected menuitem
+    show speaker itske crying at portrait
+    ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Fri Jul  4 13:24:48 2025
+Mon Jul  7 20:41:17 2025

@@ -2,7 +2,7 @@ label interview1:
     scene ch1
     play audio "chaptercard.mp3"
     pause
-    play music "hydrangeaBreath.mp3"
+    play music "music/hydrangeaBreath.mp3"
     scene bg office
     
     show speaker itske tank at portrait
@@ -67,8 +67,12 @@ label interview1:
             f "W-well, I've loved coffee for a long time, and making it with the proper hardware is a lot of fun to me and-"
             show speaker jenn manager worried at portrait
             j "Ah, yeah, okay. I'm sorry to inform you that we don't really have anything like that though... We're not like those luxury cinemas that have espresso machines."
+
+            nvl clear
+
             show speaker itske tank scared at portrait
-            f_t "Oh my god you IDIOT! the barista job interview is tomorrow, not today!"
+            f_t "Oh my god you IDIOT!"
+            f_t "The barista interview is tomorrow, not today!"
             f_t "Didn't you notice the big movie posters?"
             f_t "The popcorn warmers?"
             show speaker itske tank nervous at portrait
@@ -77,11 +81,18 @@ label interview1:
             f "A-ah but... well... I like to make popcorn at ho-"
             show speaker jenn manager cringe at portrait
             j "That's... we... get our popcorn pre-popped from the manufacturer..."
+
+            nvl clear
+
+            show speaker itske tank shock at portrait
+            f_t "AUUUUGH."
             show speaker itske tank annoyed at portrait
             f_t "Do they do ANYTHING here themselves???"
             f_t "Has the art of cinema been lost???"
+            show speaker itske tank upset at portrait
+            f "M{w=.1}m{w=.1}h{w=.1}h{w=.1}h{w=.1}h-{nw}"
             show speaker itske tank smiling at portrait
-            f "Mmmhhhh-I'm really good at cleaning!! And I enjoy it!"
+            f "I'm really good at cleaning!! And I enjoy it!"
             show speaker jenn manager worried at portrait
             j "O-okay there we go! We -do- do that here!"
             show speaker jenn manager -worried at portrait
@@ -98,6 +109,9 @@ label interview1:
             j "...Why did you say 'totally' like that?"
             show speaker itske tank disgust at portrait
             f_t "Inside voice is NOT outside voice, you stupid mongrel."
+
+            nvl clear
+
             show speaker itske tank nervous at portrait
             f "N-no reason, something was... stuck... in my throat... Frog..."
             show speaker itske tank smiling at portrait
@@ -111,7 +125,7 @@ label interview1:
 
             nvl clear
             show speaker itske tank smiling at portrait
-            f "Well there's this indie comedy parody movie called The People's Joker and I guess it's technically not from this year but I did watch it this year I actually pre-ordered the Blu-ray and it was a story I really resonated with you see-{nw}"
+            f "Well there's this indie comedy parody movie called The People's Joker and I guess it's technically not from this year but I did watch it this year I actually pre-ordered the Blu-ray and it was a story I really resonated with because well like the main character I'm also trans and I also had a lot of difficulties coming to terms with-{nw}"
 
             nvl clear
             show speaker itske tank shock at portrait
@@ -120,7 +134,7 @@ label interview1:
             f_t "WRAP IT UP."
             f_t "ABORT."
             show speaker itske forcedsmile at portrait
-            f "-So yeah that really felt analogous to my relationship with my mother."
+            f "-So yeah that really felt analogous to my relationship with my mother and made me cry a bunch."
             show speaker jenn manager cringe at portrait
             j "Mhm..."
 
@@ -142,14 +156,23 @@ label interview1:
             show speaker itske tank disgust at portrait
             f_t "It -was- a brothel but I was technically just a waitress so..."
             f_t "Sorry Madame Jeannette for dragging you like this."
+
+            nvl clear
+
             show speaker itske tank pouting at portrait
             f "I'm not looking for pity-"
             show speaker itske tank smug at portrait
             f_t "I am."
+
+            nvl clear
+
             show speaker itske tank pouting at portrait
             f "-and I'll work my butt off if you do hire me-"
             show speaker itske tank smug at portrait
             f_t "I probably won't."
+
+            nvl clear
+
             show speaker itske tank pouting at portrait
             f "I'm just asking for a chance."
             show speaker jenn manager worried at portrait
@@ -157,15 +180,22 @@ label interview1:
 
     nvl clear
     show speaker itske tank terrified at portrait
-    f_t "Oh god she's scribbling in her notepad, do NOT let her scribble in her notepad, she'll realize I'm being a total freak midwit weirdo."
+    f_t "Oh god she's scribbling in her notepad."
+    f_t "Do NOT let her scribble in her notepad, notepads are NEVER a good sign."
+    f_t "She'll realize I'm being a total freak midwit weirdo."
     f_t "Say something, say ANYTHING."
     show speaker itske tank exerted at portrait
     f_t "STOP STARING AT HER CLEAVAGE."
+
+    nvl clear
+
     show speaker itske tank nervous at portrait
-    f "B-beautiful weather toda-"
+    f "B-beautiful weather toda-{nw}"
 
     show speaker jenn manager at portrait
     j "Hey, it's okay. You're hired."
+
+    nvl clear
 
     show speaker itske tank confused at portrait
     f_t "What?"
@@ -180,6 +210,7 @@ label interview1:
     f "Wh-whuh?"
 
     nvl clear
+
     show speaker jenn manager at portrait
     j "Mismatching socks..."
 
@@ -206,6 +237,8 @@ label interview1:
 
     show speaker jenn manager at portrait
     j "We run a pretty tight ship here so you'll need to keep up, but I want to at the very least give you a shot [[EXPLETIVE]."
+
+    nvl clear
 
     show speaker itske tank pouting at portrait
     f "T-thank you miss... And, uhm, if you don't mind..."

@@ -3,9 +3,12 @@ label crushed:
     play audio "chaptercard.mp3"
     pause
 
+    scene black
     show bg backyard
     show speaker itske pouting at portrait
-    f_t "Well... That's it. My last shift and I still haven't found a new job. After this I have about... 4 weeks until I'll be kicked out of my apartment."
+    f_t "Well...{w=0.5} That's it."
+    f_t "My last shift and I still haven't found a new job."
+    f_t "After this I have about... 4 weeks until I'll be kicked out of my apartment."
     show speaker itske focused at portrait
     f_t "I flick open my phone to check... Not a single email or call back, except for a notification on new job listings."
 
@@ -17,7 +20,7 @@ label crushed:
     show speaker itske thinking at portrait
     f_t "Security... Hmmm... I did break his nose..."
     show speaker itske pouting at portrait
-    f_t "Hmmm..."
+    f_t "Hm{w=.2}m{w=.2}m{w=.2}m..."
     show speaker itske focused at portrait
     f_t "Apply..."
     show speaker itske annoyed at portrait
@@ -46,15 +49,22 @@ label crushed:
     nvl clear
 
     show speaker itske upset at portrait
-    f "W-what happened to that \"ouuhh I believe in you\" shtick? Got bored? Lost interest?"
+    f "W-what happened to that \"ouuhh I believe in you\" shtick?"
+    f "Did you get bored?"
+    show speaker itske enraged at portrait
+    f "Lost interest?"
 
+    show speaker piper neutral at portrait
+    p "Silly! I'd never lose interest in you."
     show speaker piper grin at portrait
     p "False hope makes you taste better, and by now it should've long dawned on you that it's a lost cause..."
+
+    nvl clear
 
     show speaker itske disgust at portrait
     f_t "The words leave her lips covered in a viscous layer of disgust."
     f_t "No matter how much or how hard I shake them around in my head they don't get any kinder, any more understanding, any less slimy."
-    show speaker itske upset at portrait
+    show speaker itske pouting at portrait
     f_t "Her pity has run out."
 
     nvl clear
@@ -64,6 +74,8 @@ label crushed:
 
     show speaker itske enraged at portrait
     f "I... I can bounce back from this. I've been in worse situations."
+
+    nvl clear
 
     show speaker piper neutral at portrait
     p "Why would you want to do that to yourself all over again?"
@@ -79,30 +91,34 @@ label crushed:
     show speaker piper grin at portrait
     p "All I'm offering is a way out."
 
-    nvl clear
-
+    show bg backyard moderate
     show speaker itske scared at portrait
     f_t "Her beautiful frame opens up, arms hissing air, fingers unfurling their arrays of knuckles."
+
+    nvl clear
 
     show speaker piper exp_warped1 body_warped1 at portrait
     p "A blissful one at that."
 
-    show speaker itske pouting at portrait
+    show speaker itske scared at portrait
     f "... I'm scared."
+    f_t "Piper sighs, steam escapes between her teeth."
 
     nvl clear
 
-    show speaker itske scared at portrait
-    f_t "Piper sighs, steam escapes between her teeth."
-
     show speaker piper exp_warped1 body_warped1 at portrait
-    p "When aren't you scared? You've said it before yourself, to yourself, countless times: do it scared."
+    p "When aren't you scared? You've said it before yourself, to yourself, countless times:"
+    p "you W{w=.5}A{w=.5}N{w=.5}T{w=1.0} me."
 
     show speaker itske heartbroken at portrait
     f "C-can I just get a regular hug? Please?"
 
+    nvl clear
+
     show speaker piper exp_warped1 body_warped1 at portrait
-    p "The only thing I can give you at this point is the full thing, the real deal. If you're not ready for that, stop wasting my time and get back to your last hours of employment."
+    p "The only thing I can give you at this point is the full thing, the real deal."
+    show speaker piper neutral at portrait
+    p "If you're not ready for that, stop wasting my time and get back to your last hours of employment."
 
     nvl clear
 
@@ -115,11 +131,16 @@ label crushed:
     show speaker itske crying at portrait
     f_t "Her presence crushes me."
 
+    nvl clear
+
     show speaker piper exp_warped1 body_warped1 at portrait
-    p "You keep saying that, but who or what are you living for? No friends, no partners, no important work, no hobbies, what's your reason?"
+    p "You keep saying that, but who or what are you living for?"
+    p "No friends,{w=.5} no partners,{w=.5} no work,{w=.5} no hobbies,{w=.5} what's your reason?"
 
     show speaker itske sad at portrait
-    f "S-sniff... Juh-just people... In general... I -do- have friends... A-and my parents... I promised..."
+    f "S-{w=0.2}sniff... Juh-{w=0.2}just people... In general... I -do- have friends... A-{w=0.2}and my parents... I promised..."
+
+    nvl clear
 
     show speaker piper exp_warped1 body_warped1 at portrait
     p "What, those people online who sometimes reply to your messages? Is your brain -that- broken, that you consider those people your friends?"
@@ -127,11 +148,15 @@ label crushed:
     show speaker itske crying at portrait
     f "..."
 
+    nvl clear
+
     show speaker piper exp_warped1 body_warped1 at portrait
     p "And your parents... That promise died with them disowning you, they detest you."
 
     show speaker itske crying at portrait
     f "..."
+
+    nvl clear
 
     show speaker piper exp_warped1 body_warped1 at portrait
     p "You're completely and utterly alone, you're terrified."
@@ -147,8 +172,13 @@ label crushed:
     show speaker itske crying at portrait
     f "C-chance...?"
 
+    nvl clear
+
     show speaker piper exp_warped1 body_warped1 at portrait
-    p "Wrong, incorrect, and you know the real reason, because I also know why."
+    p "Loud."
+    p "Incorrect."
+    p "BUZZER!"
+    p "You know the real reason, because I also know why."
 
     show speaker itske crying at portrait
     f "... W-wa-{nw}"
@@ -156,7 +186,8 @@ label crushed:
     nvl clear
 
     show speaker piper exp_warped1 body_warped1 at portrait
-    p "That's right! You want, you take, you demand, you need... And what do you give?"
+    p "That's right!"
+    p "You want, you take, you demand, you need... And what do you give?"
 
     show speaker itske upset at portrait
     f "... Not-{nw}"
@@ -164,7 +195,8 @@ label crushed:
     nvl clear
 
     show speaker piper exp_warped1 body_warped1 at portrait
-    p "Ab-so-lute-ly fuck-all. You wanna know what sealed the deal on Cammy?"
+    p "Ab-so-lute-ly fuck-all."
+    p "You wanna know what sealed the deal on Cammy?"
 
     show speaker itske crying at portrait
     f "..."
@@ -172,10 +204,12 @@ label crushed:
     nvl clear
 
     show speaker piper exp_warped2 body_warped2 at portrait
-    p "For an entire year, you neglected and forgot -everything-."
+    p "For an entire year, you neglected and forgot"
+    p "EVERYTHING."
 
     nvl clear
 
+    show bg backyard intense with Dissolve(2.0)
     show speaker piper exp_warped2 body_warped2 at portrait
     p "Her birthday."
     p "Your anniversary."
@@ -189,7 +223,9 @@ label crushed:
     nvl clear
 
     show speaker piper exp_warped2 body_warped2 at portrait
-    p "She didn't leave you over a lack of sex, numbskull. She left because you gave every indication that you did not care about her in the slightest."
+    p "She didn't leave you over a lack of sex, numbskull."
+    p "Is that all you can think about?"
+    p "She left because you gave every indication that you did not care about her in the slightest."
     p "No, instead of spending time with her you went to meet up with strangers from the internet, and did things with them you've barely grown to admit to yourself."
     p "Honestly, that's your real preference; people you've just met."
     p "The intoxicating, exotic eroticism of a stranger, barely real people in your eyes, you desire them and their approval the most."
@@ -212,32 +248,43 @@ label crushed:
     f_t "Do you want me to jerk you off?"
     f_t "Do you want to hatefuck my throat?"
     
+    nvl clear
+
     show speaker piper exp_warped2 body_warped2 at portrait
     p "Do you -really- want to die, or do you want to reach a state of being where there's nothing beyond -you-?"
-
-    nvl clear
 
     show speaker piper itske body_warped2 at portrait
     f_t "Maybe death is the quiet room to yourself, a hyperbolic time chamber; A space where nothing happens and no one disturbs unless you wish it so, doesn't that sound nice?"
 
+    show speaker itske pouting at portrait
     menu (nvl=True):
-        "{color=#fff}[[ARE YOU WILLING TO EMBRACE YOURSELF]{/color} That sounds nice...":
+        
+        f "That sounds..."
+
+        "{color=#fff}[[WILL YOU EMBRACE YOURSELF]{/color} Nice...":
             show speaker itske flustered at portrait
             f "That sounds nice..."
-        "{color=#fff}[[OR WILL YOU KEEP RUNNING AWAY]{/color} That sounds awful...":
+        "{color=#fff}[[OR WILL YOU KEEP RUNNING AWAY]{/color} Awful...":
             show speaker itske crying at portrait
             f "That sounds awful..."
     
+    nvl clear
+
     show speaker piper exp_warped2 body_warped2 at portrait
     p "I don't care how you think it -sounds-, I know that it's exactly what you -want-."
 
     show speaker itske pouting at portrait
     f "... Maybe what I want isn't what I need."
+    
+    nvl clear
 
     show speaker piper exp_warped2 body_warped2 at portrait
-    p "Seriously? You've been impulsive all your life, going off of what you -want- has been your default setting for the past 25 years."
+    p "Seriously?"
+    p "You've been impulsive all your life, going off of what you -want- has been your default setting for the past 25 years."
 
-    p "Like, ugh, fucks sake, you've let people do unspeakable things to you just cause you thought it -might- be hot. You KNOW this is really fucking hot, you KNOW you want this."
+    p "Like,{w=.5} ugh,{w=.5} fucks sake,{w=.5} you've let people do unspeakable things to you just cause you thought it -might- be hot."
+    p "You KNOW this is really fucking hot."
+    p "You KNOW you want this."
 
     show speaker itske crying at portrait
     f "B-but dying-{nw}"
@@ -245,7 +292,7 @@ label crushed:
     nvl clear
 
     show speaker piper exp_warped2 body_warped2 at portrait
-    p "You let some random psycho run a box cutter all over your body, as if that doesn't carry a lethal risk."
+    p "You let some random psycho run a box cutter all over your body, as if that doesn't carry mortal risk."
 
     show speaker itske crying at portrait
     f "... P-please-{nw}"
@@ -258,48 +305,71 @@ label crushed:
     show speaker itske sad trash at portrait
     f "S-stopp..."
 
+    nvl clear
+
     show speaker piper exp_warped2 body_warped2 at portrait
-    p "I didn't know trash could talk, trash is just there to get crushed and thrown away. Trash isn't missed by anyone, trash is discarded and left to rot with all the other trash."
+    p "I didn't know trash could talk."
+    p "Trash is just there to get crushed and thrown away."
+    p "Trash isn't missed by anyone."
+    p "Trash is discarded and left to rot with all the other trash."
 
     show speaker itske crying trash at portrait
     f_t "I take a trembling step forward."
 
+    nvl clear
+
     show speaker piper exp_warped2 body_warped2 at portrait
-    p "Is trash coming to its senses? Is trash finally realizing that this is the only thing it deserves?"
+    p "Is trash coming to its trashy senses?"
+    p "Is trash finally realizing that this is the only thing it deserves?"
 
     show speaker itske crying trash at portrait
     f_t "Another step, teardrops darken specks of concrete."
 
+    nvl clear
+
     show speaker piper exp_warped2 body_warped2 at portrait
+    p "..."
+    show speaker piper neutral body_warped2 at portrait
     p "Is trash ready...?"
 
     show speaker itske crying trash at portrait
     f "T-trash is... is ready..."
 
+    nvl clear
+
+    show bg black
     show speaker piper exp_warped3 body_warped3 at portrait
     p "Good girl."
 
     nvl clear
-
+    
+    show bg crush set1
     show speaker itske crush1 at portrait
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     f_t "Her arms scream as they wrap and close around me, my own limbs tightly pressed to my chest."
-    f_t "For a moment it feels nice, the blanketing slight pressure, but the force on my body increases with every moment."
+    f_t "It's dark."
+    f_t "For a moment it feels nice."
+    f_t "Peaceful."
+    f_t "A blanketing pressure slowly creeps up on me."
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
-    f_t "My own arms press the air out of my lungs, it quickly becomes hard to breathe and I can feel... hear my spine popping."
-    f_t "Her steady whine climbs a few notes as she encounters her first, major obstacle in my ribcage. At first it gave, but its flex has long since maxed out."
+    f_t "My own arms press the air out of my lungs, it quickly becomes hard to breathe and I can feel..."
+    f_t "Hear..."
+    f_t "My spine popping."
+    f_t "Her steady whine climbs a few notes as she encounters her first, major obstacle in my ribcage."
+    f_t "At first it gave, but its flex has turned into a stubborn stiffness."
     f_t "My skin bruises, the flesh shifts and tears in places, but the frame of my chest remains resolute."
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     f_t "I can still feel the pressure increase, it hurts so good when, finally, my ribs begin to give out one by one."
+    show bg crush set2
     show speaker itske crush2 at portrait
     f_t "A crack here, a pop there. With every sound the others grow weaker as their workload quickly becomes unbearable, until they all might as well be powder."
     f_t "Shards of bone drive themselves into my lungs, liver, heart. I start hacking up blood."
@@ -307,47 +377,63 @@ label crushed:
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     f_t "I feel my shoulders pop out of their sockets, rolling and shifting inside of my body, wreaking havoc on my delicate meat."
     f_t "Tendons tear, bones fracture, muscle fibers rip, organs collapse, until her pressure finally reaches my skull."
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
+    show bg crush set3
     show speaker itske crush3 at portrait
     f_t "Drifting in and out of consciousness, it's a miracle I can still think, feel, enjoy."
     f_t "The skull is strong, it tries to hold its own against her onslaught."
-    f_t "The pressure builds up, it hurts, an incredible headache crackles through my brain."
+    f_t "The pressure builds up, it hurts, an incredible headache crackles through my brain fluid."
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     f_t "My cheek bones give out and drive themselves further into my eye sockets. The growing pressure pushes behind my eyes."
+    
+    show bg crush set4
     show speaker itske crush4 at portrait
     f_t "The pain has long since blinded me, and when they pop from their sockets I do not feel or sense a thing beyond the wet slap with which they hit my face."
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
+    show bg crush set5
     show speaker itske crush5 at portrait
     f_t "My jaw splits, with a clean snap I get the mandibles of an insect, housed by loose shifting flesh."
     f_t "Teeth sit loosely, I lick a few of them out from their sockets, chittering in my mouth like beetles."
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     f_t "I can feel my palate separate. First the lining, then the bone, shifting, cracking, pulling apart."
     f_t "My tongue is drip-fed dribbles of seeping brain fluid; salty, slightly metallic, I never knew."
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
-    f_t "Her whine grows, the fault lines of my skull creak and struggle to remain in place, until finally..."
+    f_t "Her whine grows."
+    f_t "The fault lines of my skull creak and struggle to remain in place."
+    f_t "Until finally."
+    
+    show bg black
+    show piper_loveshot2_r:
+        blend "add"
+    show piper_loveshot1_r:
+        blend "add"
+    show machinery_r:
+        blend "add"
     show speaker itske crush6 at portrait
     f_t "They too, buckle to her cruel pressure."
+
+    jump credits

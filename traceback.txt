@@ -1,81 +1,48 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-Compiling ATL code at game/script.rpy:430
-  File "game/9.5_flashback.rpy", line 11, in script
-    c "Hold still silly... I'm trying to get these whiskers right..."
-  File "renpy/common/00nvl_mode.rpy", line 395, in do_display
-    renpy.display_say(
-  File "renpy/common/00layeredimage.rpy", line 704, in _duplicate
-    d = d._duplicate(None)
-  File "game/script.rpy", line 430, in <module>
-    function WaveShader(direction='both', repeatx='repeat', period =_prd, amp=_amp, speed=_spd)
-TypeError: __init__() got an unexpected keyword argument 'repeatx'
+While running game code:
+  File "game/script.rpy", line 1454, in script
+    layeredimage bg bedroom:
+  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
+    rai.execute()
+  File "renpy/common/00layeredimage.rpy", line 803, in execute
+    l.extend(i.execute())
+  File "renpy/common/00layeredimage.rpy", line 292, in execute
+    rv.extend(i.execute(group=group, group_properties=properties))
+  File "renpy/common/00layeredimage.rpy", line 256, in execute
+    image = eval(self.image)
+  File "game/script.rpy", line 1472, in <module>
+    FlickerUp_slight_moderate("bedroom_r")
+NameError: name 'FlickerUp_slight_moderate' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/9.5_flashback.rpy", line 11, in script
-    c "Hold still silly... I'm trying to get these whiskers right..."
-  File "E:\Renpy\renpy\ast.py", line 2586, in execute
-    Say.execute(self)
-  File "E:\Renpy\renpy\ast.py", line 623, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "E:\Renpy\renpy\exports\sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "E:\Renpy\renpy\character.py", line 1471, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/common/00nvl_mode.rpy", line 395, in do_display
-    renpy.display_say(
-  File "E:\Renpy\renpy\character.py", line 814, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "E:\Renpy\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "E:\Renpy\renpy\display\core.py", line 2218, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "E:\Renpy\renpy\display\core.py", line 2748, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "E:\Renpy\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\Renpy\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\Renpy\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 1 more time]
-  File "E:\Renpy\renpy\display\displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "E:\Renpy\renpy\display\image.py", line 540, in visit
-    self.find_target()
-  File "E:\Renpy\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "renpy/common/00layeredimage.rpy", line 704, in _duplicate
-    d = d._duplicate(None)
-  File "E:\Renpy\renpy\display\transform.py", line 1193, in _duplicate
-    rv = self(_args=args)
-  File "E:\Renpy\renpy\display\transform.py", line 1095, in __call__
-    child = child._duplicate(_args)
-  File "E:\Renpy\renpy\display\transform.py", line 1194, in _duplicate
-    rv.take_execution_state(self)
-  File "E:\Renpy\renpy\atl.py", line 551, in take_execution_state
-    block = self.compile()
-  File "E:\Renpy\renpy\atl.py", line 723, in compile
-    block = self.atl.compile(self.context)
-  File "E:\Renpy\renpy\atl.py", line 925, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "E:\Renpy\renpy\atl.py", line 925, in <listcomp>
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "E:\Renpy\renpy\atl.py", line 2085, in compile
-    return Function(self.loc, ctx.eval(self.expr))
-  File "E:\Renpy\renpy\atl.py", line 387, in eval
-    return renpy.python.py_eval(expr, locals=self.context)
+  File "game/script.rpy", line 1454, in script
+    layeredimage bg bedroom:
+  File "E:\Renpy\renpy\ast.py", line 1987, in execute
+    self.call("execute")
+  File "E:\Renpy\renpy\ast.py", line 1966, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "E:\Renpy\renpy\statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
+    rai.execute()
+  File "renpy/common/00layeredimage.rpy", line 803, in execute
+    l.extend(i.execute())
+  File "renpy/common/00layeredimage.rpy", line 292, in execute
+    rv.extend(i.execute(group=group, group_properties=properties))
+  File "renpy/common/00layeredimage.rpy", line 256, in execute
+    image = eval(self.image)
   File "E:\Renpy\renpy\python.py", line 1218, in py_eval
     return py_eval_bytecode(code, globals, locals)
   File "E:\Renpy\renpy\python.py", line 1211, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 430, in <module>
-    function WaveShader(direction='both', repeatx='repeat', period =_prd, amp=_amp, speed=_spd)
-TypeError: __init__() got an unexpected keyword argument 'repeatx'
+  File "game/script.rpy", line 1472, in <module>
+    FlickerUp_slight_moderate("bedroom_r")
+NameError: name 'FlickerUp_slight_moderate' is not defined
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Flesh and Pressure You_Must_Be_Hungry
-Fri Jul  4 13:36:17 2025
+Mon Jul  7 17:52:35 2025

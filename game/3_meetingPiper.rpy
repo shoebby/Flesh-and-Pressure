@@ -15,7 +15,9 @@ label meeting:
     t "-what's been really exciting lately? These things called NFTs-"
 
     show speaker itske annoyed at portrait
-    f_t "Ughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-{nw}"
+    f_t "Ugh{w=.2}h{w=.2}h{w=.2}h{w=.2}h-{nw}"
+
+    nvl clear
 
     show speaker itske disgust at portrait
     f "Heyyy, Tom, are there any tasks that still need to be done today? I'm really itching to like, do something."
@@ -34,7 +36,7 @@ label meeting:
     show speaker itske neutral at portrait
     f_t "Through the heavy emergency back exit we enter the small outside area behind the cinema."
     f_t "It's grown quite familiar to me, it's the only place where I can go and smoke during my breaks."
-    show speaker itske nervous at portrait
+    show speaker itske smug at portrait
     f_t "By extension, also -during- my shifts whenever I'm 'sweeping' out back."
 
     show speaker tom at portrait
@@ -56,6 +58,9 @@ label meeting:
     f_t "The cobalt blue powder coating remains undamaged despite the hundreds of wheelie bins that have been rammed into her."
     show speaker itske confused at portrait
     f_t "My god, even her hazard stickers are intact."
+
+    nvl clear
+
     show speaker itske pouting at portrait
     f_t "Her function seems intuitive; a big disc moves down by piston action and presses the trash in the bin down, pushing the air out and creating space for more bags."
     f_t "The sequence of inputs had to be told to me though."
@@ -69,7 +74,7 @@ label meeting:
     f_t "Push the lever."
     f_t "Release the button."
     f_t "Press. Pull. Compress. Whine. Push. Release."
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
     show speaker itske flustered at portrait
     f_t "This... Has something to it."
 
@@ -95,7 +100,8 @@ label meeting:
     show speaker itske nervous at portrait
     f "W-waah... Well that's 1 bin down... I think I could do some more..."
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    show speaker itske focused at portrait
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
     show speaker itske flustered at portrait
     f_t "The lever's a nice hard-plastic handle, ribbed for grip, letting me grab a hold of her firmly; would she like it?"
     f_t "Something beautiful about her are the bits of green moss growing on top of her pressing disc."
@@ -108,9 +114,9 @@ label meeting:
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
     f_t "She's incredible."
-    f_t "Thanks to her one wheelie bin can fit about 8 trash bags, each full of plastic bottles, packaging, bits of food, and carton popcorn boxes."
+    f_t "Thanks to her one wheelie bin can fit about 8 trash bags, each full of plastic bottles, packaging, bits of food, and cardboard popcorn boxes."
     show speaker itske nervous at portrait
     f_t "Each piece of trash makes their own set of sounds when they get pressed; they crackle, pop, or sometimes even squelch."
     show speaker itske edge at portrait
@@ -124,7 +130,7 @@ label meeting:
 
     nvl clear
 
-    f_t "Press. Pull. Compress. Whine. Push. Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
     show speaker itske exerted at portrait
     f_t "My hands have gone clammy and I can feel beads of sweat roll down my cheeks."
     f_t "I think this is turning me on, but I'm not getting hard, and I'm not exactly sure -what- about this is turning me on so much."
@@ -136,18 +142,20 @@ label meeting:
     f_t "The cracking, the squeezing, it's kind of like..."
 
     show speaker itske flustered at portrait
-    f "Bones... Meat... Organs..."
+    f "Bones...{w=.5} Meat...{w=.5} Organs..."
 
     nvl clear
 
     f_t "I've never done something like this, I've done slapping, punching, cutting, but nothing that... Genuinely would break me."
     show speaker itske pouting at portrait
     f_t "I guess I did jerk off while watching Crash (1996)."
-    show speaker itske thinking at portrait
+    show speaker itske disgust at portrait
     f_t "Do I... Want to get Crash (1996)'d?"
 
     show speaker itske nervous at portrait
     f "I think I might want to get Crash (1996)'d..."
+
+    nvl clear
 
     show speaker tom at portrait
     t "Hey Itske, you almost done?{nw}"

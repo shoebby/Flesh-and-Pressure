@@ -192,12 +192,14 @@ label fired_end:
 
     nvl clear
 
+    show sc_document at showcase with dissolve
     show speaker itske crying at portrait
     f_t "She hands me a freshly printed document."
     f_t "It's warm."
     f_t "The words are too blurry to make out."
     f_t "I hurriedly stuff it in one of my cargo pockets as her gaze bores into me."
 
+    hide sc_document with dissolve
     show speaker jenn enraged at portrait
     j "You won't need to finish your shift today, go home."
     j "I'll see you tomorrow."

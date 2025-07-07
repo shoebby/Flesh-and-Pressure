@@ -11,7 +11,7 @@ label flashback:
     c "Hold still silly... I'm trying to get these whiskers right..."
 
     show speaker itske drawn edge at portrait
-    f_t "The felt tip travels along the side of my midriff, the closer it gets to my side the more ticklish it becomes."
+    f_t "The felt tip travels along the side of my midriff, the closer it gets to my lovehandles the more ticklish it gets."
     show speaker itske drawn flustered at portrait
     f_t "I try my best to contain myself..."
     f_t "No wiggling..."
@@ -29,7 +29,7 @@ label flashback:
     f_t "She yanks me up by the arm, still dazed I let her barrage of affection rain down on me."
     show speaker itske drawn flustered at portrait
     f_t "Her tongue runs along my lips, enters the space between my gums and my cheeks..."
-    f_t "She explores me freely, wetting the lining of my drool-soaked mouth."
+    f_t "She explores me freely, further wetting the lining of my drool-soaked mouth."
 
     show speaker itske drawn exerted at portrait
     f "Mnmnh..."
@@ -93,7 +93,7 @@ label flashback:
     f_t "Aggressive thick lines across my throat..."
     show speaker itske drawn flustered at portrait
     f_t "Cammy has helped me a lot, helped me kick bad habits and tendencies."
-    show speaker itske drawn nervous at portrait
+    show speaker itske drawn awkward at portrait
     f_t "Rather an alcohol marker than alcohol and a box cutter."
     show speaker itske drawn nervous at portrait
     f_t "She's smart about stuff like this, smart in ways I don't think I'll ever be."
@@ -121,12 +121,14 @@ label flashback:
 
     nvl clear
 
-    show speaker itske drawn confused at portrait
+    show bg bedroom
+    show speaker itske drawn pouting at portrait
     f_t "Wh-... What was that pause?"
     show speaker itske drawn stressed at portrait
     f_t "Did she hesitate?"
     show speaker itske drawn bothered at portrait
     f_t "N-no, maybe she got distracted?"
+    show bg bedroom sad
     show speaker itske drawn stressed at portrait
     f_t "but it's just us two..."
     show speaker itske drawn scared at portrait
@@ -137,9 +139,11 @@ label flashback:
     f_t "Does she not like me anymore?"
     show speaker itske drawn terrified at portrait
     f_t "Does she hate me?"
+    show bg bedroom supersad
     show speaker itske drawn crying at portrait
     f_t "Does she want me to di-{nw}"
 
+    show bg bedroom -supersad
     show speaker cammy worried at portrait
     c "H-hey, babe, why are you shaking?"
 
@@ -160,6 +164,7 @@ label flashback:
     show speaker itske drawn pouting at portrait
     f "..."
 
+    show bg bedroom_fb with Dissolve(2.0)
     show speaker itske drawn nervous at portrait
     f "W-what are you drawing?"
 
