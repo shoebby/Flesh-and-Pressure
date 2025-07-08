@@ -1,6 +1,6 @@
 === AUDIO ===
 
-title track snippet :: spirit incantation - drive your plow over the bones of the dead
+title track :: spirit incantation - drive your plow over the bones of the dead
 https://driveyourplowoverthebonesofthedead.bandcamp.com/album/tragedy-as-catharsis
 
 chapter card thump :: Japanese_drum1 - Taira Komori
@@ -29,6 +29,9 @@ https://freesound.org/people/TheoJT/sounds/510958/
 
 Hydrangea Breath - Shimtone
 https://dova-s.jp/EN/bgm/play22244.html
+
+oct 8 2021 - Mobygratis
+https://mobygratis.com/
 
 === FONTS ===
 

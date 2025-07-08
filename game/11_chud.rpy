@@ -3,6 +3,7 @@ label chud:
     play audio "chaptercard.mp3"
     pause
 
+    play music "music/hydrangeaBreath.mp3"
     scene black
     show bg counter
     show speaker itske tired at portrait
@@ -57,12 +58,14 @@ label chud:
     nvl clear
     show speaker itske pouting at portrait
     f_t "Next one-{nw}"
+    stop music
     show speaker chud at portrait
     chud "Hey, -sir-."
 
     show bg counter resentment with Dissolve(2.0)
     show speaker itske disgust at portrait
     f "Good... Evening... What can I get you?{nw}"
+    play music bpd_noise fadein 15.0
     show speaker chud at portrait
     chud "Let's see... How about a coke and a popcorn? -Sir-."
 
@@ -84,11 +87,15 @@ label chud:
 
     show speaker itske upset at portrait
     show bg black
-    play sound "glasscrack.mp3"
-    f_t "His nose meets the popcorn warmer's glass top surface with a dull crack."
+    stop music
+    play sound "glasscrack.mp3" volume 10.0
+    f_t "His nose meets the counter's glass top with a dull crack."
 
-    show speaker itske disgust at portrait
+    show speaker itske smug at portrait
     f "A-ahh..."
+    show speaker itske pouting at portrait
+    f "..."
+    show speaker itske disgust at portrait
     f "Fuck."
 
     nvl clear

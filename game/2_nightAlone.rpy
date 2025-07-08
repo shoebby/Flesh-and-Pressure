@@ -2,6 +2,8 @@ label alone:
     scene ch2
     play audio "chaptercard.mp3"
     pause
+
+    play music "music/flashback.mp3"
     show bg hallway
     show speaker itske at portrait
     f_t "My keys clatter as I toss them on the metal hallway ledge."

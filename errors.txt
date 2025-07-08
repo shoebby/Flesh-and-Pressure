@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/13_crushed.rpy", line 260: expected menuitem
-    show speaker itske crying at portrait
-    ^
+File "game/11_chud.rpy", line 91: expected end of line
+    play sound "glasscrack.mp3" 1.0
+                                ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Mon Jul  7 20:41:17 2025
+Tue Jul  8 21:50:14 2025

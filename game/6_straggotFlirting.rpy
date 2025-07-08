@@ -3,6 +3,7 @@ label straggot:
     play audio "chaptercard.mp3"
     pause
 
+    play music "music/hydrangeaBreath.mp3"
     show bg counter
     show speaker tom sad at portrait
     t "Dating is so hard..."
@@ -289,6 +290,7 @@ label straggot2:
 
     nvl clear
 
+    stop music
     show speaker tom shy at portrait
     t "Well... I'm seeing something else I like..."
 

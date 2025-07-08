@@ -2,6 +2,8 @@ label meeting:
     scene ch3
     play audio "chaptercard.mp3"
     pause
+
+    play music "music/hydrangeaBreath.mp3"
     show bg counter
     show speaker tom at portrait
     t "-and honestly bitcoin is way overhyped by this point, I don't think it's worth investing in. Stuff's just too stable to get me -really- excited, y'know?"

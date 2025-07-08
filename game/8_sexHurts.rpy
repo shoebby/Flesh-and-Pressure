@@ -3,6 +3,7 @@ label sex:
     play audio "chaptercard.mp3"
     pause
 
+    
     scene black
     show bg bedroom
     show speaker itske naked pouting at portrait

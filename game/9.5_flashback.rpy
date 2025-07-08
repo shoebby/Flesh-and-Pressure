@@ -3,6 +3,7 @@ label flashback:
     play audio "chaptercard.mp3"
     pause
     scene black
+    play music "music/flashback.mp3" fadein 7.0
     show bg bedroom_fb with Dissolve(5.0)
     show speaker itske drawn nervous at portrait
     f "A-ahh... It ticklesss... ehehe..."
@@ -120,7 +121,8 @@ label flashback:
     c "Love you too!"
 
     nvl clear
-
+    stop music
+    play music bpd_noise fadein 15.0
     show bg bedroom
     show speaker itske drawn pouting at portrait
     f_t "Wh-... What was that pause?"
@@ -142,7 +144,7 @@ label flashback:
     show bg bedroom supersad
     show speaker itske drawn crying at portrait
     f_t "Does she want me to di-{nw}"
-
+    stop music
     show bg bedroom -supersad
     show speaker cammy worried at portrait
     c "H-hey, babe, why are you shaking?"
@@ -164,6 +166,7 @@ label flashback:
     show speaker itske drawn pouting at portrait
     f "..."
 
+    play music "music/flashback.mp3" fadein 5.0
     show bg bedroom_fb with Dissolve(2.0)
     show speaker itske drawn nervous at portrait
     f "W-what are you drawing?"
@@ -205,7 +208,7 @@ label flashback:
     f "..."
 
     nvl clear
-
+    stop music
     show speaker itske drawn shock at portrait
     f "!!!"
 

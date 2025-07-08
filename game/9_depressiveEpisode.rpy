@@ -3,6 +3,8 @@ label depressed:
     play audio "chaptercard.mp3"
     pause
 
+    play music "music/flashback.mp3"
+    play sound2 bpd_noise loop volume 0.01
     scene black
     show bg bedroom
     show speaker itske disheveled focused at portrait

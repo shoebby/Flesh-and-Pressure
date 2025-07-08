@@ -3,6 +3,7 @@ label piss:
     play audio "chaptercard.mp3"
     pause
     
+    play music "music/hydrangeaBreath.mp3"
     scene black
     show bg counter
     show speaker itske flustered at portrait

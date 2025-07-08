@@ -326,7 +326,7 @@ label crushed:
     f_t "Another step, teardrops darken specks of concrete."
 
     nvl clear
-
+    
     show speaker piper exp_warped2 body_warped2 at portrait
     p "..."
     show speaker piper neutral body_warped2 at portrait
@@ -342,6 +342,7 @@ label crushed:
     p "Good girl."
 
     nvl clear
+    
     
     show bg crush set1
     show speaker itske crush1 at portrait
