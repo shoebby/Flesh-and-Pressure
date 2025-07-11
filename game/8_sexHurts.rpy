@@ -3,7 +3,7 @@ label sex:
     play audio "chaptercard.mp3"
     pause
 
-    
+    play music "music/silly.mp3"
     scene black
     show bg bedroom
     show speaker itske naked pouting at portrait
@@ -286,10 +286,10 @@ label sex2:
     mt "Ah, okay. Cool."
 
     nvl clear
-
+    stop music fadeout 5.0
     show speaker itske tank stressed at portrait
     f_t "She plops herself down on the edge of the bed and looks at me through her eyelashes."
-
+    
     show speaker meat smug at portrait
     mt "So... What're you waiting for~?"
 
@@ -302,7 +302,7 @@ label sex2:
     f "Nothing!"
 
     nvl clear
-
+    play music "music/horny.mp3" fadein 10.0
     show speaker itske tank neutral at portrait
     f_t "I sit down next to her and push my face into her neck."
     f_t "Her shallow breaths tell me she's enjoying it, and trying her best not to show it too much."
@@ -410,6 +410,7 @@ label sex2:
 
     show speaker itske tank bothered at portrait
     show bg bedroom resentment with Dissolve(2.0)
+    play music "music/angry.mp3" fadein 2.0
     f_t "Ah, god damnit."
 
     show speaker itske tank smiling at portrait

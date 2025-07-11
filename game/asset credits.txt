@@ -1,8 +1,35 @@
-=== AUDIO ===
+=== MUSIC ===
+title drop instrumental :: Catastrophe - pekarot
+https://www.youtube.com/watch?v=N8poqG2-vPw
 
-title track :: spirit incantation - drive your plow over the bones of the dead
-https://driveyourplowoverthebonesofthedead.bandcamp.com/album/tragedy-as-catharsis
+Hydrangea Breath - Shimtone
+https://dova-s.jp/EN/bgm/play22244.html
 
+oct 8 2021 - Mobygratis
+https://mobygratis.com/
+
+eero - Mobygratis
+https://mobygratis.com/
+
+Protean - Silicon Transmitter
+https://freemusicarchive.org/music/Silicon_Transmitter/susurrus/protean/
+
+Search - long_loaf
+https://freemusicarchive.org/music/long_loaf/Search/long_loaf_-_Search_-_02_Search/
+
+Cracked Ice - long_loaf
+https://freemusicarchive.org/music/long_loaf/Search/long_loaf_-_Search_-_01_Cracked_Ice/
+
+Eternal Sky - Musinova
+https://freemusicarchive.org/music/musinova/single/eternal-sky-ambient-new-agemp3/
+
+Electronic Jungle Indie - Musinova
+https://freemusicarchive.org/music/musinova/single/electronic-jungle-indie-loopmp3/
+
+Plux - Golden Hits
+https://freemusicarchive.org/music/Golden_Hits/Cassedits/Plux_7-2-09_63_EDIT/
+
+=== OTHER AUDIO ===
 chapter card thump :: Japanese_drum1 - Taira Komori
 https://taira-komori.jpn.org/playing01en.html
 
@@ -26,12 +53,6 @@ https://freesound.org/people/deleted_user_3656686/sounds/418194/
 
 Chapter 3 end guitar lick :: Smooth Guitar Solo Lick - TheoJT
 https://freesound.org/people/TheoJT/sounds/510958/
-
-Hydrangea Breath - Shimtone
-https://dova-s.jp/EN/bgm/play22244.html
-
-oct 8 2021 - Mobygratis
-https://mobygratis.com/
 
 === FONTS ===
 

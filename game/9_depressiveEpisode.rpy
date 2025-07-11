@@ -28,7 +28,7 @@ label depressed:
     f_t "I guess the landlord thought it'd be cool and rustic."
     show speaker itske disheveled smug at portrait
     f_t "A perfect candidate for counting."
-
+    
     nvl clear
 
     show speaker itske disheveled pouting at portrait
@@ -152,6 +152,8 @@ label depressed:
 
     nvl clear
     show speaker itske disheveled upset at portrait
+    stop music fadeout 5.0
+    queue music "music/sad.mp3" fadein 5.0
     show bg bricks 5 with mdiss
     f "... H-{w=.2}hundred and twelve,{w=.5} hundred and thirteen,{w=.5} hundred and fo{w=.2}-fourteen...{w=.5} hundred a-{w=.2}and fifteen..."
 

@@ -17,6 +17,7 @@ label speaking:
     show speaker piper neutral que at portrait
     p "Up here silly."
 
+    play music "music/piper.mp3" fadein 4.0
     show speaker itske confused at portrait
     f_t "I look up through the metal grating of the emergency exit's walkway and see someone standing right above me."
     f_t "It's hard to make her face out but I can see black dress shoes, long legs dressed in sleek gray trousers, and cobalt blue strands of hair flicking about in the wind..."
@@ -216,6 +217,7 @@ label speaking:
 
     nvl clear
 
+    stop music fadeout 5.0
     show bg backyard moderate
     show speaker itske pouting at portrait
     f_t "But she feels..."
@@ -248,7 +250,8 @@ label speaking:
 
     nvl clear
 
-    show bg backyard intense
+    play music "music/scared.mp3" fadein 2.0
+    show bg backyard intense with dissolve
     show speaker piper exp_warped1 body_warped1 at portrait
     p "What if I don't want to?"
 
@@ -271,6 +274,7 @@ label speaking:
 
     nvl clear
 
+    stop music fadeout 2.0
     show bg backyard -intense
     show speaker itske scared at portrait
     f_t "In an instant her pressure relents."

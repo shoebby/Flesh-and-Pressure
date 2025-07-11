@@ -5,6 +5,7 @@ label entanglement:
 
     scene black
     show bg counter
+    play music "music/angry.mp3"
     show speaker mae neutral at portrait
     m "Itske! How're you? You've been sick for a while right? You had everyone worried!"
 
@@ -61,9 +62,11 @@ label entanglement:
     show speaker jenn worried at portrait
     j "We want what's best for you, and your contract renewal date is coming up..."
 
+    stop music fadeout 2.0
+    queue music "music/sad.mp3" fadein 2.0
     show speaker itske heartbroken at portrait
     f "Please don't fire me..."
-
+    
     show speaker jenn worried at portrait
     j "... If you don't want that, we don't want that either."
     j "Just... Please... Get your act straight."
@@ -103,6 +106,7 @@ label entanglement:
 
     nvl clear
 
+    stop music fadeout 4.0
     show bg counter with dissolve
     show speaker itske annoyed at portrait
     f_t "I make my way down and Mae pretends to not have heard what was said upstairs."
@@ -121,6 +125,7 @@ label entanglement:
 
     nvl clear
 
+    play music "music/piper.mp3" fadein 4.0
     show speaker piper neutral at portrait
     p "In trouble?"
 
@@ -139,6 +144,7 @@ label entanglement:
 
     nvl clear
 
+    stop music
     show speaker piper neutral at portrait
     p "Have you ever considered letting people in?"
 
@@ -159,6 +165,7 @@ label entanglement:
 
     nvl clear
 
+    play music "music/angry.mp3" fadein 10.0
     show speaker itske angry at portrait
     f "... What would you know about any of that? You're a trash compactor."
 
@@ -172,7 +179,7 @@ label entanglement:
 
     nvl clear
 
-    show speaker piper pouting at portrait
+    show speaker piper grin at portrait
     p "Are you really surprised Cammy left you? You wouldn't touch her for months."
 
     show speaker itske enraged at portrait
@@ -214,7 +221,7 @@ label entanglement:
 
     nvl clear
 
-    show bg backyard intense
+    show bg backyard intense with dissolve
     show speaker itske upset at portrait
     f "NOT TRUE."
     f "NOT."
@@ -228,7 +235,7 @@ label entanglement:
 
     nvl clear
 
-    show bg backyard moderate
+    show bg backyard moderate with dissolve
     show speaker itske enraged at portrait
     f "Is this funny to you...?"
     show speaker itske upset at portrait
@@ -246,6 +253,7 @@ label entanglement:
 
     nvl clear
 
+    stop music fadeout 10.0
     show bg backyard -moderate
     show speaker itske angry at portrait
     f "No, I want to live. Nothing you say will change that."
@@ -257,7 +265,6 @@ label entanglement:
     f "They... have to."
 
     nvl clear
-    
     f_t "Her grin shrinks back to a slight smile; polite, kind, motherly."
 
     nvl clear

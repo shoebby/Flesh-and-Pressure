@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/11_chud.rpy", line 91: expected end of line
-    play sound "glasscrack.mp3" 1.0
-                                ^
+File "game/4_pissToilet.rpy", line 203: play requires a file
+    play music
+              ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue Jul  8 21:50:14 2025
+Fri Jul 11 00:57:16 2025

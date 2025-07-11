@@ -69,6 +69,7 @@ label meeting:
 
     nvl clear
 
+    stop music fadeout 10.0
     f_t "Press and hold down the button."
     f_t "Pull the lever."
     f_t "Let her compress."
@@ -94,6 +95,7 @@ label meeting:
     f_t "It's hard to pick up, but when flipping her switch she starts purring, very quietly."
     f_t "It's anticipatory, her attempt at withholding her excitement..."
     f_t "Waiting..."
+    play music "music/horny2.mp3" fadein 10.0
     show speaker itske flustered at portrait
     f_t "Turned on..."
 
@@ -159,6 +161,7 @@ label meeting:
 
     nvl clear
 
+    stop music
     show speaker tom at portrait
     t "Hey Itske, you almost done?{nw}"
 

@@ -3,6 +3,7 @@ label date:
     play audio "chaptercard.mp3"
     pause
 
+    play music "music/silly.mp3"
     show bg black
     show speaker date yikes at portrait
     d_t "I've been waiting here for a while now... We said 8 PM right? It's already 8:13 and she isn't responding to any texts..."
@@ -73,6 +74,7 @@ label date:
     show speaker date smiling at portrait
     d "Ah! Yeah, thanks. I'm not very competitive though so I'm fine with leaving that aside-"
 
+    stop music
     show speaker itske shock at portrait
     f "..."
 
@@ -89,6 +91,7 @@ label date:
     show speaker itske nervous at portrait
     f "Ah! No, sorry. I guess I'm just not used to someone... Uhm... Not wanting to... Uh... Compete..."
 
+    play music "music/silly.mp3" fadein 2.0
     show speaker date yikes at portrait
     d_t "Just -what- happened to this girl? Her entire demeanor turned into that of a wounded fawn."
     show speaker date awkward at portrait
@@ -116,6 +119,7 @@ label date:
     show speaker itske smiling at portrait
     f "Nice one! Ehe, okay, my turn!"
 
+    stop music
     show speaker date smiling at portrait
     play sound golf_miss
     pause
@@ -160,6 +164,7 @@ label date:
 
     nvl clear
 
+    play music "music/silly.mp3" fadein 2.0
     show speaker itske exerted at portrait
     f "Hah... Hah... Nice... New record!"
 
@@ -206,6 +211,7 @@ label date:
     show speaker date smiling at portrait
     d "Mhh it's fine, really, this doesn't seem fu-"
 
+    stop music
     show speaker itske scared at portrait
     f "But I need to follow the rules!"
 
@@ -251,6 +257,7 @@ label date:
 
     nvl clear
 
+    play music "music/silly.mp3" fadein 2.0
     show speaker date smiling at portrait
     d "G-good job!"
 
@@ -314,6 +321,7 @@ label date:
     show speaker date smiling at portrait
     d "I'd love to continue playing but I just wanted you to know, ok?"
 
+    stop music
     show speaker itske heartbroken at portrait
     f "...Oh."
 
@@ -333,7 +341,7 @@ label date:
     d_t "-Definitely- needs."
 
     nvl clear
-
+    
     show speaker itske heartbroken at portrait
     f "O-ok... Okay, well, can we be um, friends at least then?"
 

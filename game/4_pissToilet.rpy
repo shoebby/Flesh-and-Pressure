@@ -118,10 +118,12 @@ label piss:
     f_t "I head up the stairs and through the door, I check all the stalls to see if anyone is inside and lock the door to make sure no one disturbs my cleaning."
     f_t "I start with the toilet bowls, the first two go without an issue. However-"
 
+    stop music
     show speaker itske confused at portrait
     f "Holy shit."
     show bg piss with dissolve
     nvl clear
+    play music "music/piss.mp3" fadein 5.0
     $ renpy.pause(3.5, hard=True)
     
     f_t "Piss is everywhere. There's seemingly no surface without the slick-wet yellow sheen of it."
@@ -194,10 +196,11 @@ label piss:
     f_t "It's not usually my thing, but..."
 
     nvl clear
-
+    $ renpy.music.set_volume(0.00, delay=0, channel='music') 
     show speaker itske edge at portrait
     f "Hfffgh..."
 
+    $ renpy.music.set_volume(1.00, delay=0, channel='music') 
     f_t "I'm very much in the mood, and then it very much -is-."
     show speaker itske flustered at portrait
     f_t "I get closer to the toilet bowl and inspect it all around, it really is -covered-."
@@ -207,11 +210,13 @@ label piss:
 
     nvl clear
 
+    $ renpy.music.set_volume(0.00, delay=0, channel='music')
     show speaker piss at portrait
     piss "You know you want a taste of me, come and get some you nasty bitch."
 
     nvl clear
 
+    $ renpy.music.set_volume(1.00, delay=1, channel='music') 
     show bg piss buildup with Dissolve(1.0)
     show speaker itske exerted at portrait
     f_t "I unbuckle my belt and obediently pull out my cock, my half-hearted tuck has been pressing up against the inseam of my pants for what feels like ages."
@@ -226,11 +231,13 @@ label piss:
 
     nvl clear
 
+    $ renpy.music.set_volume(0.00, delay=0, channel='music')
     show speaker piss at portrait
     piss "Yeah bitch, that's right, come to momma."
 
     nvl clear
 
+    $ renpy.music.set_volume(1.00, delay=0, channel='music')
     show speaker itske edge at portrait
     f_t "Carefully, I place a kiss on its surface. I pull back slightly and let the droplets rest on my lips, acquiring a taste for it."
 
@@ -246,11 +253,13 @@ label piss:
 
     nvl clear
 
+    $ renpy.music.set_volume(0.00, delay=0, channel='music')
     show speaker piss at portrait
     piss "Can't get enough of me can you, you gross slut."
 
     nvl clear
 
+    $ renpy.music.set_volume(1.00, delay=1, channel='music')
     show bg piss climax with Dissolve(1.0)
     show speaker itske blehhh at portrait
     f_t "I flick the trembling surface with my tongue and catch a full taste."
@@ -260,6 +269,8 @@ label piss:
     f_t "My dick twitches and my attention falters together with my balance."
 
     nvl clear
+
+    stop music
     scene black
     show speaker itske yelling at portrait
     f "Wah!!!"

@@ -1,22 +1,22 @@
-2025-07-08 18:55:57 UTC
+2025-07-10 19:59:24 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.7.25031702
 
 Early init took 0.09s
-Loading error handling took 0.05s
-Loading script took 0.26s
+Loading error handling took 0.03s
+Loading script took 0.51s
 Loading save slot metadata took 0.07s
-Loading persistent took 0.01s
-Running init code took 0.10s
-Loading analysis data took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.07s
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.06s
+Initial gc took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -30,8 +30,168 @@ Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
-Running _start took 1.69s
-Interface start took 0.35s
+Running _start took 1.53s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 178.04s
+Loading error handling took 0.04s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 755.54s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 803.82s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.33s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -48,9 +208,537 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 165.70s
-Loading error handling took 0.04s
+Early init took 894.60s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1038.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1147.27s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1191.46s
+Loading error handling took 0.02s
 Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1249.29s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1619.16s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1648.38s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1681.93s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1757.75s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1761.84s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1791.46s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1868.13s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1885.47s
+Loading error handling took 0.02s
+Loading script took 0.23s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -92,7 +780,712 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 400.31s
+Early init took 1913.44s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1986.83s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2337.44s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2373.15s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2392.10s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2444.69s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2456.27s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2510.47s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5429.94s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5700.36s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5811.17s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 6020.32s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 8902.19s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 8962.53s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 9795.74s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 9935.01s
 Loading error handling took 0.02s
 Loading script took 0.22s
 Loading save slot metadata took 0.06s
@@ -131,14 +1524,16 @@ Vendor: "b'ATI Technologies Inc.'"
 Renderer: b'AMD Radeon RX 5700 XT'
 Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
 Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 414.47s
+Early init took 9957.26s
 Loading error handling took 0.02s
-Loading script took 0.21s
+Loading script took 0.22s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -163,7 +1558,7 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Interface start took 0.33s
 
@@ -180,9 +1575,9 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 417.96s
+Early init took 10047.50s
 Loading error handling took 0.02s
-Loading script took 0.21s
+Loading script took 0.24s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -207,7 +1602,7 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Interface start took 0.34s
 
@@ -224,143 +1619,9 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 444.13s
+Early init took 10068.07s
 Loading error handling took 0.02s
 Loading script took 0.21s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 534.61s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.36s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 818.29s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.37s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1202.41s
-Loading error handling took 0.02s
-Loading script took 0.22s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -385,9 +1646,9 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.01s
 Running _start took 0.00s
-Interface start took 0.35s
+Interface start took 0.33s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -401,10 +1662,20 @@ Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1224.15s
+Early init took 10184.71s
 Loading error handling took 0.02s
-Loading script took 0.21s
+Loading script took 0.20s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -416,7 +1687,7 @@ Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backup
 Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.08s
+Initial gc took 0.07s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -441,17 +1712,15 @@ Vendor: "b'ATI Technologies Inc.'"
 Renderer: b'AMD Radeon RX 5700 XT'
 Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
 Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1235.41s
+Early init took 10200.79s
 Loading error handling took 0.02s
-Loading script took 0.21s
+Loading script took 0.20s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.09s
+Running init code took 0.08s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.05s
@@ -460,7 +1729,49 @@ Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backup
 Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.08s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10436.38s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -485,15 +1796,312 @@ Vendor: "b'ATI Technologies Inc.'"
 Renderer: b'AMD Radeon RX 5700 XT'
 Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
 Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10478.73s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.38s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 1266.62s
+Early init took 10602.38s
 Loading error handling took 0.02s
 Loading script took 0.21s
 Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10641.59s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10671.06s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/4_pissToilet.rpy", line 203: play requires a file
+    play music
+              ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10675.74s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10730.98s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10775.87s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.38s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10791.74s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
 Running init code took 0.08s
 Loading analysis data took 0.02s
@@ -517,7 +2125,7 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.36s
 
@@ -534,15 +2142,15 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 2419.58s
+Early init took 10847.20s
 Loading error handling took 0.02s
 Loading script took 0.21s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
 Loading analysis data took 0.02s
-Analyze and compile ATL took 0.02s
-Reloading save slot metadata took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
 Dump and make backups took 0.06s
@@ -577,17 +2185,379 @@ Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10870.72s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12304.06s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12367.09s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12378.09s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12431.60s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12474.94s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.03s
 Analyze screens took 0.00s
-Prepare screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
 Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 2642.05s
+Early init took 12516.39s
 Loading error handling took 0.02s
-Loading script took 0.22s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.41s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12609.03s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12636.64s
+Loading error handling took 0.02s
+Loading script took 0.20s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -629,315 +2599,7 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 2643.92s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2686.38s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.37s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2698.72s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2714.03s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.38s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2732.39s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.36s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2765.82s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2922.66s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.02s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3119.16s
+Early init took 12665.78s
 Loading error handling took 0.02s
 Loading script took 0.20s
 Loading save slot metadata took 0.06s
@@ -966,7 +2628,7 @@ Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.37s
+Interface start took 0.35s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -976,12 +2638,599 @@ Vendor: "b'ATI Technologies Inc.'"
 Renderer: b'AMD Radeon RX 5700 XT'
 Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
 Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3125.56s
+Early init took 12726.71s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12753.03s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12861.65s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.40s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12941.34s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12979.67s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13039.39s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13068.71s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13090.49s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13119.81s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13209.28s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 13223.82s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14696.50s
 Loading error handling took 0.02s
 Loading script took 0.19s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15004.71s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 5700 XT'
+Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
+Display Info: None
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15062.66s
+Loading error handling took 0.02s
+Loading script took 0.21s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -1008,387 +3257,6 @@ Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.35s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1409, 1057) drawable=(1409, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3153.34s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3164.29s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3181.23s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3210.58s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3224.59s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3256.77s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-
-File "game/11_chud.rpy", line 91: expected end of line
-    play sound "glasscrack.mp3" 1.0
-                                ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3268.95s
-Loading error handling took 0.02s
-Loading script took 0.20s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3280.16s
-Loading error handling took 0.02s
-Loading script took 0.20s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3338.56s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
 Interface start took 0.36s
 
 Initializing gl2 renderer:
@@ -1404,184 +3272,9 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3383.14s
+Early init took 15070.53s
 Loading error handling took 0.02s
-Loading script took 0.20s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3535.24s
-Loading error handling took 0.02s
-Loading script took 0.20s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.35s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3743.44s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.35s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3770.54s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3792.37s
-Loading error handling took 0.02s
-Loading script took 0.22s
+Loading script took 0.21s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
 Running init code took 0.08s
@@ -1606,51 +3299,7 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3806.58s
-Loading error handling took 0.02s
-Loading script took 0.22s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Interface start took 0.34s
 
@@ -1667,315 +3316,7 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3831.60s
-Loading error handling took 0.02s
-Loading script took 0.22s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3900.19s
-Loading error handling took 0.02s
-Loading script took 0.22s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4084.78s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.35s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4146.95s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4179.39s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.35s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4251.52s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4309.73s
-Loading error handling took 0.02s
-Loading script took 0.22s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4339.24s
+Early init took 15124.02s
 Loading error handling took 0.02s
 Loading script took 0.21s
 Loading save slot metadata took 0.06s
@@ -2004,7 +3345,7 @@ Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.34s
+Interface start took 0.33s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -2014,54 +3355,6 @@ Vendor: "b'ATI Technologies Inc.'"
 Renderer: b'AMD Radeon RX 5700 XT'
 Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
 Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4360.90s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Alexandria\\AppData\\Roaming/RenPy/backups\\Strawberry_Flavoured SATA_Cables':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.35s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 5700 XT'
-Version: b'4.6.0 Compatibility Profile Context 25.3.1.250220'
-Display Info: None
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1024, 768) physical=(1920, 1057) drawable=(1920, 1057)
@@ -2077,3 +3370,5 @@ Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
+Screen sizes: virtual=(1024, 768) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096

@@ -5,13 +5,16 @@ label interview1:
     play music "music/hydrangeaBreath.mp3"
     scene bg office
     
-    show speaker itske tank at portrait
+    show speaker itske tank awkward at portrait
     f_t "Her office is nice, albeit a bit cramped, and full of -stuff-."
+    show speaker itske tank pouting at portrait
     f_t "Pictures from work parties, toys, little trinkets..."
+    show speaker itske tank disgust at portrait
     f_t "A Groot Funko Pop? Yeugh..."
 
     nvl clear
 
+    show speaker itske pouting at portrait
     f_t "I'm not sure if it's specifically her office or an office shared by multiple managers, but it definitely -feels- hers with how comfortable she is, reclining in her office chair like that..."
     show speaker itske stressed at portrait
     f_t "This rickety folding chair she pulled out for me makes me so small compared to herself, I have to look up at her."
@@ -54,6 +57,8 @@ label interview1:
     f_t "Okay, ignore the deadnaming, just DON'T say 'money'. It didn't work yesterday and this job pays too little for that to be a believable reason anyways."
     
     f_t "Remember your onlyfans arc, remember the slaughterhouse gig, do NOT fuck this up."
+
+    nvl clear
 
     show speaker itske tank thinking at portrait
 

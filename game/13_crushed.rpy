@@ -26,6 +26,7 @@ label crushed:
     show speaker itske annoyed at portrait
     f_t "Ministry of defence... Over my dead body..."
 
+    play music "music/piper.mp3" fadein 3.0
     show speaker piper grin at portrait
     p "Who are you kidding? No one's going to hire you. I'm pretty sure you already applied at one of those."
 
@@ -81,7 +82,7 @@ label crushed:
     p "Why would you want to do that to yourself all over again?"
 
     show speaker itske pouting at portrait
-    f_t "Straight through the heart. She's right, I don't want to... I -can't- ever be like that again."
+    f_t "She's right, I don't want to... I -can't- ever be like that again."
     f_t "Something about it breaks your brain, this chronic fear of invasion in all of its forms."
     show speaker itske heartbroken at portrait
     f_t "Who knows what it'll do to me next?"
@@ -100,6 +101,8 @@ label crushed:
     show speaker piper exp_warped1 body_warped1 at portrait
     p "A blissful one at that."
 
+    stop music fadeout 5.0
+    queue music "music/sad.mp3" fadein 5.0
     show speaker itske scared at portrait
     f "... I'm scared."
     f_t "Piper sighs, steam escapes between her teeth."
@@ -108,7 +111,7 @@ label crushed:
 
     show speaker piper exp_warped1 body_warped1 at portrait
     p "When aren't you scared? You've said it before yourself, to yourself, countless times:"
-    p "you W{w=.5}A{w=.5}N{w=.5}T{w=1.0} me."
+    p "you W{w=.5}A{w=.5}N{w=.5}T me."
 
     show speaker itske heartbroken at portrait
     f "C-can I just get a regular hug? Please?"
@@ -178,7 +181,7 @@ label crushed:
     p "Loud."
     p "Incorrect."
     p "BUZZER!"
-    p "You know the real reason, because I also know why."
+    p "You know why."
 
     show speaker itske crying at portrait
     f "... W-wa-{nw}"
@@ -195,7 +198,7 @@ label crushed:
     nvl clear
 
     show speaker piper exp_warped1 body_warped1 at portrait
-    p "Ab-so-lute-ly fuck-all."
+    p "Ab-{w=.2}so-{w=.2}lute-{w=.2}ly fuck-all."
     p "You wanna know what sealed the deal on Cammy?"
 
     show speaker itske crying at portrait
@@ -203,13 +206,14 @@ label crushed:
 
     nvl clear
 
-    show speaker piper exp_warped2 body_warped2 at portrait
+    show speaker piper exp_warped1 body_warped1 at portrait
     p "For an entire year, you neglected and forgot"
+    show bg backyard intense with mdiss
+    show speaker piper exp_warped2 body_warped2 at portrait
     p "EVERYTHING."
 
     nvl clear
 
-    show bg backyard intense with Dissolve(2.0)
     show speaker piper exp_warped2 body_warped2 at portrait
     p "Her birthday."
     p "Your anniversary."
@@ -329,8 +333,8 @@ label crushed:
     
     show speaker piper exp_warped2 body_warped2 at portrait
     p "..."
-    show speaker piper neutral body_warped2 at portrait
-    p "Is trash ready...?"
+    show speaker piper itske body_warped2 at portrait
+    f_t "Is trash ready...?"
 
     show speaker itske crying trash at portrait
     f "T-trash is... is ready..."
@@ -338,6 +342,7 @@ label crushed:
     nvl clear
 
     show bg black
+    stop music
     show speaker piper exp_warped3 body_warped3 at portrait
     p "Good girl."
 
@@ -345,6 +350,7 @@ label crushed:
     
     
     show bg crush set1
+    play music "music/crushing.mp3" fadein 30.0
     show speaker itske crush1 at portrait
     f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
@@ -427,6 +433,7 @@ label crushed:
     f_t "The fault lines of my skull creak and struggle to remain in place."
     f_t "Until finally."
     
+    stop music
     show bg black
     show piper_loveshot2_r:
         blend "add"

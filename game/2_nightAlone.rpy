@@ -163,6 +163,8 @@ label alone:
     f_t "turn off the living room lights.."
     show bg hallway with dissolve
     f_t "turn off the hallway lights..."
+    stop music fadeout 5.0
+    queue music "music/scared.mp3" fadein 5.0
     show bg hallway scary
     show speaker itske stressed
     f_t "The dark has now taken hold of me, my eyes slowly acclimate to it but an uneasy feeling fills my throat like bile."
@@ -187,7 +189,7 @@ label alone:
     f_t "Is that a moving shadow under the door?"
 
     nvl clear
-
+    stop music fadeout 2.0
     show speaker itske pouting
     f "What if I..."
 
@@ -232,6 +234,7 @@ label alone:
     f "Whoops."
     show speaker itske pouting
     f "..."
+    play music "music/horny2.mp3" fadein 5.0
     show speaker itske flustered
     f "Actually..."
 
@@ -283,6 +286,8 @@ label alone:
     f "Ahng... Fuck, that feels good... I needed this..."
 
     f_t "I catch a nice rhythm, but my thoughts begin to wander."
+    stop music fadeout 3.0
+    queue music "music/scared.mp3" fadein 3.0
     show speaker itske nervous
     f_t "Was that a thud behind me? Above me?"
     show speaker itske pouting
@@ -293,9 +298,11 @@ label alone:
     show speaker itske scared
     f "W-wehh..."
 
+    stop music
     show speaker itske pouting
     f_t "What if... Jenn was behind me and watching?"
 
+    play music "music/horny2.mp3" fadein 2.0
     show speaker itske edge
     f "A-ah... Awesome..."
 
@@ -311,6 +318,8 @@ label alone:
 
     nvl clear
 
+    stop music fadeout 5.0
+    queue music "music/scared.mp3" fadein 5.0
     show speaker itske heartbroken
     f_t "I'm alone in this house, I don't know any of my neighbours; if anything happened I'd be totally alone..."
     show speaker itske upset
@@ -323,6 +332,7 @@ label alone:
     show speaker itske thinking
     f_t "The Tumblr post also said something about addressing the fears directly, maybe if I try that..."
 
+    stop music
     show speaker itske yelling
     f "C-come on...! If a-anyone is behind me just f-fuck me already and get it over with!!!"
 
@@ -333,6 +343,7 @@ label alone:
     show speaker itske annoyed
     f_t "..."
 
+    play music "music/horny2.mp3" fadein 5.0
     show speaker itske smug
     f_t "I take the resounding, embarrassing quiet as an answer."
 
@@ -374,6 +385,7 @@ label alone:
 
     nvl clear
 
+    stop music fadeout 3.0
     show speaker itske pouting
     f_t "The sad, scary thoughts seem to have left me, I can't really think about anything anymore."
     show speaker itske smug
