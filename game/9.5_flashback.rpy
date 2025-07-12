@@ -180,7 +180,10 @@ label flashback:
     f_t "It takes ages, multiple colours are being used this time."
     f_t "Whichever intricate design she's drawing out now starts to span the entirety of my back."
     show speaker itske drawn edge at portrait
-    f_t "I can feel the different markers; soft brush tips drawing fluid motions, hard, jagged chisel tips putting down strong lines, the classic round tip, taking its pleasant grainy surface for a leisurely stroll along my spine."
+    f_t "I can feel the different markers staining my skin."
+    f_t "Soft brush tips drawing fluid motions."
+    f_t "Hard, jagged chisel tips putting down strong thick lines."
+    f_t "Round tips, taking their pleasant grainy surfaces for a leisurely stroll along my spine."
     show speaker itske drawn exerted at portrait
     f_t "It tickles, tingles, my cock pushes itself off against the mattress."
     show speaker itske drawn flustered at portrait

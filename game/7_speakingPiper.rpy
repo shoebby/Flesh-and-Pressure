@@ -275,7 +275,7 @@ label speaking:
     nvl clear
 
     stop music fadeout 2.0
-    show bg backyard -intense
+    show bg backyard -intense with dissolve
     show speaker itske scared at portrait
     f_t "In an instant her pressure relents."
     f_t "As the world comes back into focus Piper's nowhere to be seen, except for the machine which she embodies."

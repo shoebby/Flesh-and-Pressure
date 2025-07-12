@@ -4,7 +4,7 @@ label entanglement:
     pause
 
     scene black
-    show bg counter
+    show bg counter resentment
     play music "music/angry.mp3"
     show speaker mae neutral at portrait
     m "Itske! How're you? You've been sick for a while right? You had everyone worried!"

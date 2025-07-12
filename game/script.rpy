@@ -1991,11 +1991,24 @@ layeredimage bg bricks:
 layeredimage bg piss:
     group main:
         attribute start default:
+            at bgpos
             PissMontage()
         attribute buildup:
+            at bgpos
             PissWave("piss_3", False, 2.0)
         attribute climax:
+            at bgpos
             PissWave("piss_7", True, 10.0)
+    group scanlines:
+        attribute scanlines default:
+            at scanlines_slight
+            "pulse_scanlines"
+
+layeredimage titledrop:
+    group main:
+        attribute start default:
+            at bgpos
+            Speaker("titlescreen_1","titlescreen_2","titlescreen_3")
 
 image crush1:
     choice:

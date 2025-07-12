@@ -187,6 +187,7 @@ label depressed:
     f_t "The only genuine connection I've had in recent memory was with a fucking trash compactor."
 
     nvl clear
+    stop sound2
     scene lock_ch9
     play music lock_lick1 noloop
     scene lock_ch9_txt1 with Dissolve(1.0)

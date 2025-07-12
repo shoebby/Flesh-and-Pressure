@@ -19,7 +19,7 @@ label start:
     pause
 
     nvl clear
-    queue sound "pressing.mp3" loop volume 0.1
+    play sound2 "pressing.mp3" loop volume 0.1
     f_t "She accommodates a bulky wheelie bin without issue, and I help her deal with it."
     f_t "I turn her switch with a satisfying click..."
     f_t "I press and hold down her button..."
@@ -34,62 +34,62 @@ label start:
     f_t "This dance repeats itself, usually around 8pm, before people start to complain about noise, and until all of the day's trash has been dealt with."
     nvl clear
     show bg loveshot2 with Dissolve(2.0)
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "The crunching, cracking, and popping trash bags..."
     show speaker itske flustered at portrait with dissolve
     f "..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "Familiar sounds, nights spent with heavy-handed people."
     show speaker itske nervous at portrait
     f "W-what if..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "I get close to her body and push my groin up against her, feeling her machinal purr resonate through me."
     show speaker itske exerted at portrait
     f "So warm..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "It's a good task, my coworkers are thankful for my effort, I can never tell them how much she makes me feel."
     show speaker itske flustered at portrait
     f "I n-need this..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "I imagine myself inside of this trash bin. Her disc looming over me, stuck, helpless, morbidly curious."
     show speaker itske exerted at portrait
     f "P-please..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "An unknown pair of hands would take hold of her, and she'd start moving towards me; horror and lust sloshing around in my mind."
     show speaker itske edge at portrait
     f "Hgnn..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "I would feel her cold metal touch press down on my spine, slowly taking away my breath."
     show speaker itske exerted at portrait
     f "Haahh... F-fuck..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "My bones would strain, bend, creak, but inevitably prove unable to resist her."
     show speaker itske nervous at portrait
     f "Goddd... Why is this so hot..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     play audio "bones_ribscrush.mp3" volume 0.5
     show speaker itske edge at portrait
     f_t "Ribs would crack and splinter, driving themselves into my lungs, my heart, perforating my skin from the inside."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "I feel warm and cold, so much is happening while she just keeps moving. The pain would be unbearable if it wasn't for the adrenaline."
     show speaker itske flustered at portrait
     f "I haven't felt this good in so long..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     show speaker itske exerted at portrait
     f_t "My body is broken, blood gushes from my mouth and nose, the pressure on my skull is rising."
     f "Hfff... I'm... Getting close..."
     nvl clear
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     show speaker itske edge at portrait
     f_t "It hurts so much and feels so good."
     f_t "All she needs is a small extra push."
@@ -97,22 +97,21 @@ label start:
     play audio "bones_skullcrush.mp3" volume 0.5
     hide piper
     nvl clear
-    stop sound
+    stop sound2
     stop music
+    show bg black
     show speaker itske bust at portrait
     pause
-    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
+    f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release.{w=.5}{nw}"
     f_t "I want her to crush me."
-    stop sound2
     show speaker itske exerted at portrait
     f "Oh god my fucking pants-{nw}"
 
     nvl clear
     hide speaker
-    play music "music/titletrack.mp3"
-
-label titlescreen:
-    scene _titlescreen
+    play music "music/titletrack.mp3" fadein 11.0
+    scene black
+    show titledrop with mdiss
     $ renpy.pause(11.0, hard=True)
     stop music
     jump interview1

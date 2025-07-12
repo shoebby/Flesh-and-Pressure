@@ -71,12 +71,15 @@ label straggot:
     show speaker itske pouting at portrait
     f_t "I didn't realize but this is somehow now contending with the strip bar gig for longest held job."
     show speaker itske smug at portrait
-    f_t "And I had a sweet gimmick there! I have no gimmick here at all! Except for my trash-compacting I guess."
+    f_t "And I had a sweet gimmick there!"
+    f_t "I have no gimmick here at all!"
+    show speaker itske pouting at portrait
+    f_t "Except for my trash-compacting I guess."
 
     nvl clear
 
-    show speaker itske pouting at portrait
-    f_t "Why haven't they fired me yet?"
+    show speaker itske disgust at portrait
+    f_t "Actually... Why haven't they fired me yet?"
     show speaker itske thinking at portrait
     f_t "Has anything happened that would be fireable so far?"
     f_t "No... I guess not, but it's not like that was a requirement in the past."
@@ -109,7 +112,7 @@ label straggot:
 
     show speaker itske smug at portrait
     f_t "My sagely nodding cues him into the fact that I am also a disgusting weeb."
-    f_t "I even have my arms crossed, it's like the full picture."
+    f_t "I even have my arms crossed, it's like the full picture of that Pikachu reaction gif."
 
     nvl clear
 

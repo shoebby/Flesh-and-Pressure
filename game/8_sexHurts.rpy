@@ -188,6 +188,7 @@ label sex2:
 
     nvl clear
     
+    stop music
     show speaker itske naked shock at portrait
     play audio doorbell
     pause
@@ -220,7 +221,7 @@ label sex2:
     f "Hff... H-hey... You look..."
 
     nvl clear
-
+    play music "music/silly.mp3" fadein 4.0
     show speaker itske tank confused at portrait
     f_t "Oh my god."
     show speaker itske tank edge at portrait

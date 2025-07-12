@@ -351,7 +351,7 @@ label crushed:
     
     show bg crush set1
     play music "music/crushing.mp3" fadein 30.0
-    show speaker itske crush1 at portrait
+    show speaker itske crush1 trash at portrait
     f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     f_t "Her arms scream as they wrap and close around me, my own limbs tightly pressed to my chest."
@@ -377,7 +377,7 @@ label crushed:
 
     f_t "I can still feel the pressure increase, it hurts so good when, finally, my ribs begin to give out one by one."
     show bg crush set2
-    show speaker itske crush2 at portrait
+    show speaker itske crush2 trash at portrait
     f_t "A crack here, a pop there. With every sound the others grow weaker as their workload quickly becomes unbearable, until they all might as well be powder."
     f_t "Shards of bone drive themselves into my lungs, liver, heart. I start hacking up blood."
     f_t "By this point I am already as good as dead, choking on my own viscera as my consciousness struggles to remain, so that I may experience her cruelty in full."
@@ -394,7 +394,7 @@ label crushed:
     f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     show bg crush set3
-    show speaker itske crush3 at portrait
+    show speaker itske crush3 trash at portrait
     f_t "Drifting in and out of consciousness, it's a miracle I can still think, feel, enjoy."
     f_t "The skull is strong, it tries to hold its own against her onslaught."
     f_t "The pressure builds up, it hurts, an incredible headache crackles through my brain fluid."
@@ -406,7 +406,7 @@ label crushed:
     f_t "My cheek bones give out and drive themselves further into my eye sockets. The growing pressure pushes behind my eyes."
     
     show bg crush set4
-    show speaker itske crush4 at portrait
+    show speaker itske crush4 trash at portrait
     f_t "The pain has long since blinded me, and when they pop from their sockets I do not feel or sense a thing beyond the wet slap with which they hit my face."
 
     nvl clear
@@ -414,7 +414,7 @@ label crushed:
     f_t "Press.{w=.5} Pull.{w=.5} Compress.{w=.5} Whine.{w=.5} Push.{w=.5} Release."
 
     show bg crush set5
-    show speaker itske crush5 at portrait
+    show speaker itske crush5 trash at portrait
     f_t "My jaw splits, with a clean snap I get the mandibles of an insect, housed by loose shifting flesh."
     f_t "Teeth sit loosely, I lick a few of them out from their sockets, chittering in my mouth like beetles."
 
@@ -441,7 +441,7 @@ label crushed:
         blend "add"
     show machinery_r:
         blend "add"
-    show speaker itske crush6 at portrait
+    show speaker itske crush6 trash at portrait
     f_t "They too, buckle to her cruel pressure."
 
     jump credits

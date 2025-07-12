@@ -35,6 +35,8 @@ label date:
     show speaker itske heartbroken at portrait
     f "Scary..."
 
+    nvl clear
+
     show speaker date awkward at portrait
     d_t "This girl is a mess. No deal breakers yet though... She's pretty cute and good at texting, so maybe she just needs a bit to open up?"
 
@@ -122,41 +124,41 @@ label date:
     stop music
     show speaker date smiling at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
     show speaker date neutral at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
     play sound golf_hit2
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Bounce."
     show speaker date worried at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     show speaker date yikes at portrait
     play sound golf_hit2
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Slightly closer."
     play sound golf_hit2
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Slightly closer."
     play sound golf_hit2
     queue sound golf_hole
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Sunk."
     show speaker date awkward at portrait
     d_t "Oh my god."
@@ -209,7 +211,7 @@ label date:
     d_t "There's rules in minigolf?"
 
     show speaker date smiling at portrait
-    d "Mhh it's fine, really, this doesn't seem fu-"
+    d "Mhh it's fine, really, this doesn't seem fu-{nw}"
 
     stop music
     show speaker itske scared at portrait
@@ -225,32 +227,32 @@ label date:
 
     show speaker date worried at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
     play sound golf_hit2
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit."
     play sound golf_hit2
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Bounce."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit2
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Bounce."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit2
     queue sound golf_hole
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Sunk."
     show speaker date yikes at portrait
     d_t "Is girldick really worth this torture?"
@@ -382,16 +384,16 @@ label date:
 
     show speaker date worried at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
 
     show speaker itske enraged at portrait
@@ -401,16 +403,16 @@ label date:
 
     show speaker date worried at portrait
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
 
     show speaker itske heartbroken at portrait
@@ -420,16 +422,16 @@ label date:
 
     show speaker date awkward at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_hit1
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Hit. Out of bounds."
 
     show speaker itske crying at portrait
@@ -439,16 +441,16 @@ label date:
 
     show speaker date awkward at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
 
     show speaker itske bawling at portrait
@@ -458,16 +460,16 @@ label date:
 
     show speaker date yikes at portrait
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
     play sound golf_miss
-    pause
+    $ renpy.pause(0.75, hard=True)
     d_t "Swing. Miss."
 
     show speaker itske bawling at portrait
